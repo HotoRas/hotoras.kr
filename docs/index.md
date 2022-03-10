@@ -47,12 +47,12 @@ I live in Korea(South, of course) and a student.<br>
 Lately I'm working on porting some Forge mods(to use in **my** minecraft server lol)
 
 Here's the list:
-- [Armourer's Workshop(Original: 1.7.10 & 1.12.2, by RiskyKen)](https://github.com/JeonDohyeon/Armourers-Workshop-1.16)
+- (Removed)
 > If you want to help me about this, feel free to make a PR of it.
 
 ## Contacts
 
-Email: [jdh59681@naver.com](mailto://jdh59681@naver.com) or [jdh59681@gmail.com](mailto://jdh59681@gmail.com)(Inactive)<br>
+Email: [jdh59681@naver.com](mailto:jdh59681@naver.com) or [jdh59681@gmail.com](mailto:jdh59681@gmail.com)(Inactive)<br>
 Twitter: [@jdh5968](https://twitter.com/jdh5968)
 
 ## Main homepage
