@@ -1,0 +1,168 @@
+/*	CSS Reset Components  */
+		html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video{
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+			display: block;
+		}
+		body{
+			line-height: 1;
+		}
+		ol, ul{
+			list-style: none;
+		}
+		blockquote, q{
+			quotes: none;
+		}
+		blockquote:before, blockquote:after, q:before, q:after{
+			content: '';
+			content: none;
+		}
+		table{
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+/*		Document Style */
+		
+		body{
+			font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+			font-feature-settings: "liga", "clig", "calt", "dlig", "ccmp", "frac", "ccmp", "ss05";
+			/* liga, clig: 일반 합자 */
+			/* calt: 문맥 대체(3x9 등) */
+			/* frac/sups/subs: 분수/위첨자/아래첨자 */
+			/* ccmp: 합성 문자 */
+			/* ss05: 한국어에 맞춘 말줄임표 */
+			/* salt, ss06: 향상된 가독성(1469Il 등) */
+			/* tnum: 고정폭 숫자 */
+			/* zero: 슬래시 0 */
+			/* ss08: 직선 스타일 3 */
+			/* ss02: 열린 스타일 4 */
+			/* ss01: 곧은 스타일 6, 9 */
+			font-size: 17px;
+			text-align: center;
+		}
+		p, li{
+			line-height: 120%;
+		}
+		p, ul{
+			margin-top: 10px;
+		}
+		a{
+			color: dodgerblue;
+			text-decoration: underline;
+		}
+		a:hover{
+			text-decoration: none;
+		}
+		a:active{
+			color: darkblue;
+		}
+		b{
+			font-weight: bold;
+		}
+		
+		.bgVideo{
+			position: absolute;
+			z-index: 1;
+			height: 100vh;
+			width: 100vw;
+			margin: 0;
+			margin: 0;
+		}
+		.bgVideo video{
+/*			filter: brightness(30%);*/
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+		.mainContAbove, .mainCont{
+			position: absolute;
+			z-index: 2;
+			width: 100vw;
+		}/*
+		.mainContAbove{
+			margin-top: 540px;
+			height: 400px;
+			background: linear-gradient(to bottom, #ffffff00, white);
+			display: block;
+		}*/
+		.mainCont{
+			background-color: white;
+			display: block;
+			margin-top: 240px; // .mainContAbove 파트 쓰면 그때 940px로 revert
+			padding-top: 100px;
+		}/*
+		.titleSvg{
+			position: absolute;
+			z-index: 3;
+			margin-top: 350px;
+/*			margin: 300px auto 0 auto;* /
+/*			display: inline-block;* /
+			text-align: center;
+			width: 100%;
+		}
+		.titleSvg svg{
+			width: 500px;
+			display: inline-block;
+			filter: drop-shadow(0px 7px 15px #00000087);
+		}
+		@media screen and (max-width: 500px){
+			.mainContAbove{
+				margin-top: 350px;
+				height: 250px;
+			}
+			.mainCont{
+				display: block;
+				margin-top: 600px;
+			}
+			
+			p{
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+			.titleSvg{
+				margin-top: 250px;
+				width: 100%;
+			}
+			.titleSvg img{
+				width: 80%;
+			}
+		}*/
+		
+		h2{
+			font-weight: 800;
+			font-size: 25px;
+			margin-top: 60px;
+			margin-bottom: 30px;
+/*			text-decoration: underline;*/
+		}
+		.small{
+			font-size: 14px;
+			color: silver;
+		}
+		.strike{
+			color: silver;
+			text-decoration: line-through;
+		}
+		.silver{
+			color: silver;
+		}
+		
+		#behindAccClick{
+			cursor: pointer;
+			text-decoration: underline;
+		}
+		#behindAccClick:hover{
+			text-decoration: none;
+		}
+		#behindAccClick:active{
+			color: silver;
+		}
