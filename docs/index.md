@@ -43,7 +43,7 @@ Check the [README](https://github.com/JeonDohyeon/JeonDohyeon/blob/main/README.m
 
 ## Personal Information
 
-I live in Korea(South, of course) and a student.<!--<br>
+I live in Korea(South, of course) and a student.<!--<br> -->
 <!--
 Lately I'm working on porting some Forge mods(to use in **my** minecraft server lol)
 
