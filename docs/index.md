@@ -39,16 +39,22 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 -->
 # Dohyeon's GitHub Pages
 
-Check the [README](https://github.io/JeonDohyeon/JeonDohyeon/blob/main/README.md) for the further information.
+Check the [README](https://github.com/JeonDohyeon/JeonDohyeon/blob/main/README.md) for the further information.
 
 ## Personal Information
 
-I live in Korea(South, of course) and a student.<br>
+I live in Korea(South, of course) and a student.<!--<br>
 Lately I'm working on porting some Forge mods(to use in **my** minecraft server lol)
 
 Here's the list:
 - (Removed)
-> If you want to help me about this, feel free to make a PR of it.
+> If you want to help me about this, feel free to make a PR of it.-->
+Lately I'm working on some codes I gonna use.
+
+Here's the list:
+- [The Unity port of Puyo Puyo-like Game](https://github.com/JeonDohyeon/puyo_puyo_unity)
+- Misc: [My forked repositories](https://github.com/JeonDohyeon/Forked-Repos-List)
+> If you want to help me about these(the github-published code), please feel free to make a PR on them.
 
 ## Contacts
 
