@@ -13,9 +13,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body{
 	line-height: 1;
 }
-h3 {
-	
-}
 ol, ul{
 	list-style: none;
 }
@@ -139,32 +136,38 @@ b{
 	}
 }*/
 		
-		h2{
-			font-weight: 800;
-			font-size: 25px;
-			margin-top: 60px;
-			margin-bottom: 30px;
-/*			text-decoration: underline;*/
-		}
-		.small{
-			font-size: 14px;
-			color: silver;
-		}
-		.strike{
-			color: silver;
-			text-decoration: line-through;
-		}
-		.silver{
-			color: silver;
-		}
-		
-		#behindAccClick{
-			cursor: pointer;
-			text-decoration: underline;
-		}
-		#behindAccClick:hover{
-			text-decoration: none;
-		}
-		#behindAccClick:active{
-			color: silver;
-		}
+h2{
+	font-weight: 800;
+	font-size: 25px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+/*	text-decoration: underline;*/
+}
+h3 {
+	font-weight: 700;
+	font-size: 1.2em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.small{
+	font-size: 14px;
+	color: silver;
+}
+.strike{
+	color: silver;
+	text-decoration: line-through;
+}
+.silver{
+	color: silver;
+}
+
+#behindAccClick{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#behindAccClick:hover{
+	text-decoration: none;
+}
+#behindAccClick:active{
+	color: silver;
+}
