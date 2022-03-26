@@ -51,6 +51,12 @@ Here's the list:
 - Misc: [My forked repositories](https://github.com/JeonDohyeon/Forked-Repos-List)
 > If you want to help me about these(the github-published code), please feel free to make a PR on them.
 
+## Joined Projects
+
+Here's the list of the projects:
+- Gooruem Online Minecraft Server [Under Development]
+- BoraTV Minecraft Project [Paused]
+
 ## Contacts
 
 Email: [jdh59681@naver.com](mailto:jdh59681@naver.com) or [jdh59681@gmail.com](mailto:jdh59681@gmail.com)(Inactive)<br>
