@@ -5,7 +5,9 @@
 
 ## Contacts
 
-Email: [jdh59681@naver.com](mailto://jdh59681@naver.com)
+Email: <jdh59681@naver.com>
+
+Twitter: [@jdh5968](https://twitter.com/jdh5968)
 
 <!--
 **JeonDohyeon/JeonDohyeon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
