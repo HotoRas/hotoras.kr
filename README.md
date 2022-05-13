@@ -2,10 +2,8 @@
 
 ![TopLanguage](https://github-readme-stats.vercel.app/api/top-langs/?username=JeonDohyeon&langs_count=8&layout=compact&theme=radical")
 
-Lately on work with [monun](https://github.com/monun)'s [nosewrong code bunch](https://github.com/BoraTV/psychics)   
-and it sucks because I cannot find how to *use* his code
-
-Ah, the 2nd link is *my* repo, not *his*.
+Lately on work with some secret projects   
+and it's related to Minecraft :D
 
 ## Contacts
 
