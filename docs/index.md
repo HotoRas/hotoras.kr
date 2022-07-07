@@ -25,4 +25,4 @@ Twitter: [@jdh5968](https://twitter.com/jdh5968)
 
 ## Main homepage
 
-[Homepage served by Google](http://jdh5968.pe.kr)
+[Homepage served by Google](https://sites.google.com/view/jdh5968-homepage)
