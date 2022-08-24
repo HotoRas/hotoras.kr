@@ -15,8 +15,7 @@ Here's the list:
 ## Joined Projects
 
 Here's the list of the projects:
-- Gooruem Online Minecraft Server [Under Development]
-- BoraTV Minecraft Project [Paused]
+- Reve Town Minecraft Server
 
 ## Contacts
 
