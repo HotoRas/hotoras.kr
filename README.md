@@ -7,11 +7,13 @@ This won't say I'm fluent on C#: Most of them is **forked** and what I typed is 
 Q: Why would you do that?  
 A: Because I wanna do that lol
 
+This won't be frequently updated since of Nov 16 2022. Please check the deployed site instead.
+
 ### GitHub
 - [x] Create repository with nothing
 - [x] Create GitHub Organization for personal use
 - [x] Open GitHub Sponsor
-- [ ] Sponsor who I follow
+- [x] Sponsor who I follow
 - [x] Blow up repositories that *HAS* cold-archived
 - [x] Use Git LFS and Use the limit in 5 commits
 - [x] Commit nothing but styled
