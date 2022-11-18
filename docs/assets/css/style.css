@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
-* {
-  font-variant: san-serif;
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif; // override to san-serif
+}
+
+#main-content {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, san-serif; // override to san-serif
 }
