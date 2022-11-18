@@ -1,0 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+* {
+  font-variant: san-serif;
+}
