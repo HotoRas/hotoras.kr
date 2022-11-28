@@ -9,8 +9,6 @@
 
 ## 기타
 - [plaaosert/credits_public](https://github.com/JeonDohyeon/credits_public)
-- [OpenCGSS/DereTore](https://github.com/JeonDohyeon/DereTore) |
-디버깅용..?
 - [puyonexus/puyovs](https://github.com/JeonDohyeon/puyovs) |
 한국어 번역하고... 음... 뭔가가 뭔가임
 - [gdl-blue/imitated-seed-2](https://github.com/JeonDohyeon/imitated-seed/tree/flight) |
