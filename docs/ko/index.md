@@ -34,8 +34,3 @@
 Misskey (탈중앙형 SNS): [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon) (회원가입 허락해주신 [@paring@pikokr.dev](https://pikokr.dev/@paring) ([github@pikokr](https://github.com/pikokr)) 님께 감사드립니다)
 
 생방송: ~~[YouTube@dohyeon_yt](https://youtube.com/@dohyeon_yt)~~ [AfreecaTV@jdh5968](https://bj.afreecatv.com/jdh5968)
-
-## 메인 홈페이지
-
-원래 Google 홈페이지 연결되어 있어야 하는데 (영문엔 연결되어 있음)...  
-관리를 너무 안 한지라 얘가 메인이 될 지경입니다...
