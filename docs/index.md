@@ -9,6 +9,8 @@ I live in Korea(South, of course) and a student.
 [My forked repositories](./forklookup/) | [Check my repos](https://github.com/JeonDohyeon?tab=repositories)
 > If you want to help me about these(the github-published code), please feel free to make a PR on them.
 
+Check my daily life on my [Twitter](https://twitter.com/jdh5968) or [Misskey](https://pikokr.dev/@dohyeon).
+
 ## Sponsor
 
 I've opened my GitHub sponsors profile. If you want, you can shout it out here: https://github.com/sponsors/JeonDohyeon.
@@ -18,7 +20,6 @@ If you want to check who I'm sponsoring, you can just head to [here](https://git
 
 ## Joined Projects
 
-Here's the list of the projects:
 - None.
 
 ## Browse
