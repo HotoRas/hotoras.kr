@@ -33,6 +33,6 @@ Contact anywhere you feel comfort
 
 Twitter: [@jdh5968](https://twitter.com/jdh5968)
 
-Misskey: \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon) (thx [@paring@pikokr.dev](https://pikokr.dev/@paring) ([github@pikokr](https://github.com/pikokr)) for allowing me to register) (Mainly typed in korean so you might require a translator)
+Misskey: \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon) (thx [@paring@pikokr.dev](https://pikokr.dev/@paring) ([github@pikokr](https://github.com/pikokr)) for allowing me to register at the early stages) : Mainly typed in korean so you might require a translator
 
 Watch stream: [YouTube@dohyeon_yt](https://youtube.com/@dohyeon_yt) ~~[AfreecaTV@jdh5968](https://bj.afreecatv.com/jdh5968)~~

@@ -33,6 +33,6 @@
 
 트위터: [@jdh5968](https://twitter.com/jdh5968)
 
-Misskey (탈중앙형 SNS): \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon) (회원가입 허락해주신 [@paring@pikokr.dev](https://pikokr.dev/@paring) ([github@pikokr](https://github.com/pikokr)) 님께 감사드립니다)
+Misskey (탈중앙형 SNS): \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon) (초창기때 회원가입 허락해주신 [@paring@pikokr.dev](https://pikokr.dev/@paring) ([github@pikokr](https://github.com/pikokr)) 님께 감사드립니다)
 
 생방송: ~~[YouTube@dohyeon_yt](https://youtube.com/@dohyeon_yt)~~ [AfreecaTV@jdh5968](https://bj.afreecatv.com/jdh5968)
