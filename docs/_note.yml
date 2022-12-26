@@ -1,0 +1,12 @@
+main:
+  en:
+    index: live
+    dumbthings: stop updating
+    forklookup: live
+    voca: live
+  ko:
+    index: live
+    dumbthings: live
+    forklookup: live
+    voca: live
+  sitemap: live

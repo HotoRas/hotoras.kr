@@ -4,8 +4,6 @@
 [HOME](../)
 
 ## Misc_EN
-[Dumb things](../dumbthings/)
-
 [Check out my forks](../forklookup/)
 
 [voca](../voca/)

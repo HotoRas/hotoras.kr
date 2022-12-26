@@ -14,7 +14,7 @@ Check my daily life on my [Twitter](https://twitter.com/jdh5968) or [Misskey](ht
 ## Sponsor
 
 I've opened my GitHub sponsors profile. If you want, you can shout it out here: https://github.com/sponsors/JeonDohyeon.
-> Minimum is $1.
+> Minimum is $1. Visa, Diner's, Masterd, etc.'d be required in some regions.
 
 If you want to check who I'm sponsoring, you can just head to [here](https://github.com/JeonDohyeon?tab=sponsoring).
 
@@ -33,6 +33,8 @@ Contact anywhere you feel comfort
 
 Twitter: [@jdh5968](https://twitter.com/jdh5968)
 
-Misskey: \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon) (thx [@paring@pikokr.dev](https://pikokr.dev/@paring) ([github@pikokr](https://github.com/pikokr)) for allowing me to register at the early stages) : Mainly typed in korean so you might require a translator
+Misskey: \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon)
+
+Element: [@dohyeon:matrix.org](https://matrix.to/#/@dohyeon:matrix.org)
 
 Watch stream: [YouTube@dohyeon_yt](https://youtube.com/@dohyeon_yt) ~~[AfreecaTV@jdh5968](https://bj.afreecatv.com/jdh5968)~~
