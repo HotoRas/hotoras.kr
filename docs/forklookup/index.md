@@ -1,21 +1,21 @@
-# My Forked Repos List
-My forked repositories list here because it does not update automaticly.
+# 포크한 레포 목록
+깃헙에서 포크 레포 목록을 제공을 안해서..
 
-## Puyo Puyo thing
-Repositories all removed.
+## 뿌요 관련
+레포 모두 폭파했습니다.
 
-## Minecraft thing
+## 마인크래프트 관련
 - [ArclightPowered/Arclight-Patcher](https://github.com/JeonDohyeon/arclightpatcher-worldedit) (Public archive)
 - [IzzelAliz/Arclight](https://github.com/JeonDohyeon/arclight) |
-to localize some things
+한국어 번역 중인 게 좀 있어서
 
-## Misskey thing
+## 미스키 관련
 - [pikokr/misskey](https://github.com/JeonDohyeon/misskey_pikokr) |
-Just a fork
+테스트 포크
 
-## Misc
+## 기타
 - [plaaosert/credits_public](https://github.com/JeonDohyeon/credits_public)
 - [puyonexus/puyovs](https://github.com/JeonDohyeon/puyovs) |
-for Language file contribution and... more?
+한국어 번역하고... 음... 뭔가가 뭔가임
 - [gdl-blue/imitated-seed-2](https://github.com/JeonDohyeon/imitated-seed/tree/flight_old) |
-for some namuwiki-like text editor (?)
+나무위키식 텍스트 에디터(?)용

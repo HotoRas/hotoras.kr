@@ -1,40 +1,40 @@
-# Dohyeon's GitHub Pages
+# 전도현의 GitHub 홈페이지
 
-[한국어로 보기](./ko/)
+[Back to Engligh site](..)
 
-## Personal Information
+## 소개
 
-I live in Korea(South, of course) and a student.
+한국 사람이고요 학생입니다
 
-[My forked repositories](./forklookup/) | [Check my repos](https://github.com/JeonDohyeon?tab=repositories)
-> If you want to help me about these(the github-published code), please feel free to make a PR on them.
+[포크한 레포 목록](./forklookup/) | [레포 목록 보기](https://github.com/JeonDohyeon?tab=repositories)
+> 도움을 주고 싶으시다면, 마음놓고 풀리퀘 올려주세요.
 
-Check my daily life on my [Twitter](https://twitter.com/jdh5968) or [Misskey](https://pikokr.dev/@dohyeon).
+일상 보고 싶으시면 [트위터](https://twitter.com/jdh5968) 아니면 [미스키](https://pikokr.dev/@dohyeon)로 놀러오세용
 
-## Sponsor
+## 스폰서
 
-I've opened my GitHub sponsors profile. If you want, you can shout it out here: https://github.com/sponsors/JeonDohyeon.
-> Minimum is $1. Visa, Diner's, Masterd, etc.'d be required in some regions.
+깃헙 스폰서 프로필 만들었어요! 원하시면 [여기](https://github.com/sponsors/JeonDohyeon)에서 확인해보세요.
+> 최소는 $1입니다. 해외 결제가 가능한 카드가 있어야 합니다.
 
-If you want to check who I'm sponsoring, you can just head to [here](https://github.com/JeonDohyeon?tab=sponsoring).
+제가 누구 스폰서 하고 있는지 보고 싶으시면 그냥 [여기](https://github.com/JeonDohyeon?tab=sponsoring)로 가서 보시면 됩니다.
 
-## Joined Projects
+## 참여 중인 프로젝트
 
-- None.
+- 응 없어
 
-## Browse
+## 둘러보기
 
-Please check out the [sitemap](./sitemap)
+[사이트맵](../sitemap/)을 확인해주세요.
 
-## Contacts
+## 연락처
 
-Email: <jdh59681@naver.com> or <jdh59681@gmail.com>  
-Contact anywhere you feel comfort
+이메일: <jdh59681@naver.com> 또는 <jdh59681@gmail.com>  
+원하는 거 하나 골라서 해주세요
 
-Twitter: [@jdh5968](https://twitter.com/jdh5968)
+트위터: [@jdh5968](https://twitter.com/jdh5968)
 
-Misskey: \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon)
+Misskey (탈중앙형 SNS): \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon)
 
-Element: [@dohyeon:matrix.org](https://matrix.to/#/@dohyeon:matrix.org)
+Element (탈중앙형 채팅): [@dohyeon:matrix.org](https://matrix.to/#/@dohyeon:matrix.org)
 
-Watch stream: [YouTube@dohyeon_yt](https://youtube.com/@dohyeon_yt) ~~[AfreecaTV@jdh5968](https://bj.afreecatv.com/jdh5968)~~
+생방송: ~~[YouTube@dohyeon_yt](https://youtube.com/@dohyeon_yt)~~ [AfreecaTV@jdh5968](https://bj.afreecatv.com/jdh5968)
