@@ -1,12 +1,11 @@
 # 전도현의 GitHub 홈페이지
 
-[Back to Engligh site](..)
-
 ## 소개
 
 한국 사람이고요 학생입니다
 
 [포크한 레포 목록](./forklookup/) | [레포 목록 보기](https://github.com/JeonDohyeon?tab=repositories)
+
 > 도움을 주고 싶으시다면, 마음놓고 풀리퀘 올려주세요.
 
 일상 보고 싶으시면 [트위터](https://twitter.com/jdh5968) 아니면 [미스키](https://pikokr.dev/@dohyeon)로 놀러오세용
@@ -14,6 +13,7 @@
 ## 스폰서
 
 깃헙 스폰서 프로필 만들었어요! 원하시면 [여기](https://github.com/sponsors/JeonDohyeon)에서 확인해보세요.
+
 > 최소는 $1입니다. 해외 결제가 가능한 카드가 있어야 합니다.
 
 제가 누구 스폰서 하고 있는지 보고 싶으시면 그냥 [여기](https://github.com/JeonDohyeon?tab=sponsoring)로 가서 보시면 됩니다.
