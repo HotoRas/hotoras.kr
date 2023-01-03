@@ -4,4 +4,4 @@
 This won't say I'm fluent on specific languages:  
 Most of them is **forked** and what I typed is too little compared to them.
 
-Check out details on [here](https://home.jdh5968.pe.kr).
+Check out details on [here (korean)](https://home.jdh5968.pe.kr).
