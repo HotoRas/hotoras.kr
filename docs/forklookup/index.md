@@ -12,11 +12,16 @@
 한국어 번역 중인 게 좀 있어서 존치중
 
 ## 미스키 관련
-- [pikokr/misskey](https://github.com/pikokr/misskey) |
-Collaborator 등록 -> 원본 레포로 변경
+- [misskey-dev/misskey-hub](https://github.com/JeonDohyeon/misskey-hub) |
+한국어 번역을 위한 무언가
 
 ## 기타
 - [plaaosert/credits_public](https://github.com/JeonDohyeon/credits_public) |
 녹화하려고 살짝 위 버전으로 포팅함
 - [gdl-blue/imitated-seed-2](https://github.com/JeonDohyeon/imitated-seed/tree/flight_old) |
 나무위키식 텍스트 에디터(?)용 (안씀)
+  - [LiteHell/theseed-skin-vector](https://github.com/JeonDohyeon/theseed-skin-vector) | Vector 스킨
+  - [LiteHell/theseed-skin-buma](https://github.com/JeonDohyeon/theseed-skin-buma) | Buma 스킨
+  - [namu-theseed/theseed-skin-liberty](https://github.com/JeonDohyeon/theseed-skin-liberty) | Liberty 스킨
+- [smh0505/GoldenKeyMK3](https://github.com/JeonDohyeon/GoldenKeyMK3) |
+김편집 리듬마블 황금열쇠 툴

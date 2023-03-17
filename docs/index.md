@@ -2,13 +2,13 @@
 
 ## 소개
 
-한국 사람이고요 학생입니다
+2023년 기준 대학교 새내기입니다. ~~그런데 게임을 더 많이 하는~~
 
 [포크한 레포 목록](./forklookup/) | [레포 목록 보기](https://github.com/JeonDohyeon?tab=repositories)
 
 > 도움을 주고 싶으시다면, 마음놓고 풀리퀘 올려주세요.
 
-일상 보고 싶으시면 [트위터](https://twitter.com/jdh5968) 아니면 [미스키](https://pikokr.dev/@dohyeon)로 놀러오세용
+일상 보고 싶으시면 [트위터](https://twitter.com/__dohyeon) 아니면 [미스키](https://pikokr.dev/@dohyeon)로 놀러오세용
 
 ## 스폰서
 
@@ -24,17 +24,17 @@
 
 ## 둘러보기
 
-[사이트맵](../sitemap/)을 확인해주세요.
+[사이트맵](./sitemap/)을 확인해주세요.
 
 ## 연락처
 
 이메일: <jdh59681@naver.com> 또는 <jdh59681@gmail.com>  
 원하는 거 하나 골라서 해주세요
 
-트위터: [@jdh5968](https://twitter.com/jdh5968)
+트위터: [@jdh5968](https://twitter.com/__dohyeon)
 
-Misskey (탈중앙형 SNS): \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon)
+Misskey (탈중앙형 SNS): \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon) | [@dohyeon@stella.place](https://stella.place/@dohyeon)
 
 Element (탈중앙형 채팅): [@dohyeon:matrix.org](https://matrix.to/#/@dohyeon:matrix.org)
 
-생방송: ~~[YouTube@dohyeon_yt](https://youtube.com/@dohyeon_yt)~~ [AfreecaTV@jdh5968](https://bj.afreecatv.com/jdh5968)
+생방송: [YouTube@dohyeon_yt](https://youtube.com/@dohyeon_yt)
