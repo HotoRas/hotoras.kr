@@ -8,10 +8,16 @@
 
 일상 보고 싶으시면 [트위터](https://twitter.com/dohyeon_mai)로 놀러오세용
 
+## 일정
+[Calendar](./calendar/)
+
 ## 스폰서
 깃헙 스폰서 프로필 만들었어요! 원하시면 [여기](https://github.com/sponsors/JeonDohyeon)에서 확인해보세요.
 
 > 최소는 $1입니다. 해외 결제가 가능한 카드가 있어야 합니다.
+
+## 기부
+[Toss](https://toss.me/dohyeon03)
 
 ## 참여 중인 프로젝트
 2023년 4월 3일 현재, 참여 중인 프로젝트가 없습니다.
