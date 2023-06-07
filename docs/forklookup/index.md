@@ -23,5 +23,6 @@
   - [LiteHell/theseed-skin-vector](https://github.com/JeonDohyeon/theseed-skin-vector) | Vector 스킨
   - [LiteHell/theseed-skin-buma](https://github.com/JeonDohyeon/theseed-skin-buma) | Buma 스킨
   - [namu-theseed/theseed-skin-liberty](https://github.com/JeonDohyeon/theseed-skin-liberty) | Liberty 스킨
+- [openNAMU/openNAMU](https://github.com/JeonDohyeon/openNAMU) | 오픈나무 나무마크 위키위키 프로젝트
 - [smh0505/GoldenKeyMK3](https://github.com/JeonDohyeon/GoldenKeyMK3) |
 김편집 리듬마블 황금열쇠 툴

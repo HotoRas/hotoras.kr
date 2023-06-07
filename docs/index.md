@@ -1,4 +1,4 @@
-# 전도현의 GitHub 홈페이지
+# 호토 라즈(전도현)의 GitHub 홈페이지
 ## 소개
 2023년 기준 대학교 새내기입니다. ~~그런데 게임을 더 많이 하는~~
 
@@ -20,7 +20,7 @@
 [Toss](https://toss.me/dohyeon03)
 
 ## 참여 중인 프로젝트
-2023년 4월 3일 현재, 참여 중인 프로젝트가 없습니다.
+[목록](./projects/)
 
 ## 둘러보기
 [사이트맵](./sitemap/)을 확인해주세요.
@@ -35,8 +35,4 @@ Misskey (탈중앙형 SNS): \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohy
 
 Element (탈중앙형 채팅): [@dohyeon:matrix.org](https://matrix.to/#/@dohyeon:matrix.org)
 
-생방송: [YouTube@dohyeon_stream](https://youtube.com/@dohyeon_stream)
-
-YouTube 동영상:
-- 편집영상 / 컷영상: [YouTube@dohyeon_yt](https://youtube.com/@dohyeon_yt)
-- SEGA 게임 관련: [YouTube@dohyeon_mai](https://youtube.com/@dohyeon_mai)
+YouTube 채널: [YouTube@dohyeon_mai](https://youtube.com/@dohyeon_mai)
