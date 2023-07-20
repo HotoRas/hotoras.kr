@@ -1,4 +1,4 @@
-# 호토 라즈(전도현)의 GitHub 홈페이지
+# 호토 라즈의 GitHub 홈페이지
 ## 소개
 2023년 기준 대학교 새내기입니다. ~~그런데 게임을 더 많이 하는~~
 
@@ -26,13 +26,12 @@
 [사이트맵](./sitemap/)을 확인해주세요.
 
 ## 연락처
-이메일: <jdh59681@naver.com> 또는 <jdh59681@gmail.com>  
-원하는 거 하나 골라서 해주세요
+이메일: <jdh59681@gmail.com>
 
-트위터: [@dohyeon_mai](https://twitter.com/dohyeon_mai)
+트위터: [@hoto_ras](https://twitter.com/hoto_ras)
 
-Misskey (탈중앙형 SNS): \#MOD [@dohyeon@pikokr.dev](https://pikokr.dev/@dohyeon) | [@dohyeon@stella.place](https://stella.place/@dohyeon)
+Misskey (탈중앙형 SNS): [@dohyeon@stella.place](https://stella.place/@dohyeon)
 
 Element (탈중앙형 채팅): [@dohyeon:matrix.org](https://matrix.to/#/@dohyeon:matrix.org)
 
-YouTube 채널: [YouTube@dohyeon_mai](https://youtube.com/@dohyeon_mai)
+YouTube 채널: [YouTube@hoto_ras](https://youtube.com/@hoto_ras)
