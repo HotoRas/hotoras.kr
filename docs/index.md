@@ -26,7 +26,7 @@
 [사이트맵](./sitemap/)을 확인해주세요.
 
 ## 연락처
-이메일: <jdh59681@gmail.com>
+이메일: <jdh59681@gmail.com> | <hotoras03@gmail.com> (언제 쓰지 이거...)
 
 트위터: [@hoto_ras](https://twitter.com/hoto_ras)
 
