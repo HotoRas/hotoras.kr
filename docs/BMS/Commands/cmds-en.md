@@ -1,5 +1,3 @@
- BMS command memo 
-
 # [BMS command memo (draft)](https://hitkey.nekokan.dyndns.info/ "BMS command memo (EN)")
 
 * latest update: 2014-07-11
