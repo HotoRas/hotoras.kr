@@ -13,9 +13,7 @@
     * Twitter (now X): [@hoto_ras](https://x.com/hoto_ras "Twitter account")
     * ActivityPub: [@dohyeon@stella.place](https://stella.place/@dohyeon "ActivityPub account on Stella") [^apub]
 
-[^apub]: You can follow me from any of the social server you're in, if it supports ActivityPub protocol.
-
-  Example: Mastodon, Misskey, Cherry-Pick (Misskey-Powered), Threads (sorta)
+[^apub]: You can follow me from any of the social server you're in, if it supports ActivityPub protocol.<br>Example: Mastodon, Misskey, Cherry-Pick (Misskey-Powered), Threads (sorta)
 
 * references:
 
@@ -649,8 +647,7 @@ historical circumstances:
 | 1998-10-20: TIX released **BMS Creator** v0.02.02. ([update history](http://www.doits.jp/mediamaximum/contents/bm98/onlinemanual/version.html "6.2.1 改版履歴")) ... We were able to be released from the text-editor at last. |
 | 1998-11-26: Urao Yane exhibited [BMS Format Specification](http://bm98.yaneu.com/bm98/bmsformat.html "BM98Data_format_specification"). |
 
-[^bm981]: Document which Urao Yane himself wrote about these circumstances: [The manuscript published at GameLabo (books sold on April 16, 1999)](http://bm98.yaneu.com/bm98/gamelab9904.txt "The manuscript published at GameLabo (books sold on April 16, 1999)")  
-Since various reasons caused confusion, Urao Yane stopped the release of BM98 eternally in 1999: “[About the state of BM98 future activity](http://bm98.yaneu.com/bm98/bm98after.html "今後のＢＭ９８活動のあり方について")”
+[^bm981]: Document which Urao Yane himself wrote about these circumstances: [The manuscript published at GameLabo (books sold on April 16, 1999)](http://bm98.yaneu.com/bm98/gamelab9904.txt "The manuscript published at GameLabo (books sold on April 16, 1999)")<br>Since various reasons caused confusion, Urao Yane stopped the release of BM98 eternally in 1999: “[About the state of BM98 future activity](http://bm98.yaneu.com/bm98/bm98after.html "今後のＢＭ９８活動のあり方について")”
 
 |     |     |
 | --- | --- |
@@ -894,12 +891,7 @@ However, BME is less unsatisfactory than BMS. Because the above-mentioned comman
 
 supplement by a quotation person [^bmesup1]
 
-[^bmesup1]: The conclusion of a previous column is: “The act which forces sharp distinction of BMS and BME is no longer meaningful.”  
-I agree with his opinion. It is because the extended command is already natural.  
-And it is because implementation which does not support an extended command is no longer used.  
-Furthermore, BMSC did not support `#RANDOM` which is a fundamental command.  
-“Strict BME” does not have the perfect upward compatibility to BMS. I judged that the adherence to the origin and strictness was meaningless.  
-By the way, I am not opposed to using BME properly as a pronoun of 7KEYS. Although it is not strict, it is more useful than “strict BME”.
+[^bmesup1]: The conclusion of a previous column is: “The act which forces sharp distinction of BMS and BME is no longer meaningful.”<br>I agree with his opinion. It is because the extended command is already natural.<br>And it is because implementation which does not support an extended command is no longer used.<br>Furthermore, BMSC did not support `#RANDOM` which is a fundamental command.<br>“Strict BME” does not have the perfect upward compatibility to BMS. I judged that the adherence to the origin and strictness was meaningless.<br>By the way, I am not opposed to using BME properly as a pronoun of 7KEYS. Although it is not strict, it is more useful than “strict BME”.
 
 origin: BMSC
 
