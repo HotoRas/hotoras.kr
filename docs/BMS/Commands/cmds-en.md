@@ -1,7 +1,6 @@
  BMS command memo 
 
-[BMS command memo (draft)](https://hitkey.nekokan.dyndns.info/ "BMS command memo (EN)")
-===============================================================================================
+# [BMS command memo (draft)](https://hitkey.nekokan.dyndns.info/ "BMS command memo (EN)")
 
 * latest update: 2014-07-11
 * written by hitkey
@@ -12,7 +11,14 @@
 * moved to markdown my hotoras
   * web: [https://home.hotoras.kr](https://home.hotoras.kr "Homepage (KO)")
   * mail: hotoras03\[at\]gmail.com
-    
+  * sns:
+    * Twitter (now X): [@hoto_ras](https://x.com/hoto_ras "Twitter account")
+    * ActivityPub: [@dohyeon@stella.place](https://stella.place/@dohyeon "ActivityPub account on Stella") [^apub]
+
+[^apub]: You can follow me from any of the social server you're in, if it supports ActivityPub protocol.
+
+  Example: Mastodon, Misskey, Cherry-Pick (Misskey-Powered), Threads (sorta)
+
 * references:
     
     |     |     |
@@ -114,8 +120,7 @@
 
 * * *
 
-[TOC](#TOC)
--------------------
+## [TOC](#TOC)
 
 * [BMS apps](#BMS-APPS)
 * [Memo about BMS Format Specification](#MEMO-ABOUT-BMS-FORMAT-SPECIFICATION)
@@ -277,8 +282,7 @@
 
 * * *
 
-[BMS apps:](#BMS-APPS)
-------------------------------
+## [BMS apps:](#BMS-APPS)
 
 The abbreviation which this document uses for convenience is as follows. (It may differ from a formal abbreviation. )
 
@@ -365,8 +369,7 @@ latest collection: 2014-07-11
 
 * * *
 
-[Memo about BMS Format Specification](#MEMO-ABOUT-BMS-FORMAT-SPECIFICATION)
------------------------------------------------------------------------------------
+## [Memo about BMS Format Specification](#MEMO-ABOUT-BMS-FORMAT-SPECIFICATION)
 
 ### [About the minimum requirements which specification indicates:](#ABOUT-THE-MINIMUM-REQUIREMENTS-WHICH-SPECIFICATION-INDICATES)
 
@@ -581,8 +584,7 @@ latest collection: 2014-07-11
 
 * * *
 
-[About filename extensions of musical score file of BMS Format](#ABOUT-FILENAME-EXTENSIONS-OF-MUSICAL-SCORE-FILE-OF-BMS-FORMAT)
----------------------------------------------------------------------------------------------------------------------------------------
+## [About filename extensions of musical score file of BMS Format](#ABOUT-FILENAME-EXTENSIONS-OF-MUSICAL-SCORE-FILE-OF-BMS-FORMAT)
 
 ### [Outline:](#OUTLINE)
 
@@ -658,8 +660,9 @@ historical circumstances:
 | 1998-10-20: TIX released **BMS Creator** v0.02.02. ([update history](http://www.doits.jp/mediamaximum/contents/bm98/onlinemanual/version.html "6.2.1 改版履歴")) ... We were able to be released from the text-editor at last. |
 | 1998-11-26: Urao Yane exhibited [BMS Format Specification](http://bm98.yaneu.com/bm98/bmsformat.html "BM98Data_format_specification"). |
 
-[^bm981]: Document which Urao Yane himself wrote about these circumstances: [The manuscript published at GameLabo (books sold on April 16, 1999)](http://bm98.yaneu.com/bm98/gamelab9904.txt "The manuscript published at GameLabo (books sold on April 16, 1999)")  
-Since various reasons caused confusion, Urao Yane stopped the release of BM98 eternally in 1999: “[About the state of BM98 future activity](http://bm98.yaneu.com/bm98/bm98after.html "今後のＢＭ９８活動のあり方について")”
+[^bm981]: Document which Urao Yane himself wrote about these circumstances: [The manuscript published at GameLabo (books sold on April 16, 1999)](http://bm98.yaneu.com/bm98/gamelab9904.txt "The manuscript published at GameLabo (books sold on April 16, 1999)")
+
+  Since various reasons caused confusion, Urao Yane stopped the release of BM98 eternally in 1999: “[About the state of BM98 future activity](http://bm98.yaneu.com/bm98/bm98after.html "今後のＢＭ９８活動のあり方について")”
 
 |     |     |
 | --- | --- |
@@ -936,8 +939,7 @@ However, BME is less unsatisfactory than BMS. Because the above-mentioned comman
 
 supplement by a quotation person[^bmesup1]
 
-[^bmesup1]:
-  The conclusion of a previous column is: “The act which forces sharp distinction of BMS and BME is no longer meaningful.”
+[^bmesup1]: The conclusion of a previous column is: “The act which forces sharp distinction of BMS and BME is no longer meaningful.”
 
   I agree with his opinion. It is because the extended command is already natural.
 
@@ -988,8 +990,7 @@ EZ2DJ had five keys (x2), one turntable (x2), two effector-buttons (x2), one foo
 
 about Long-Note[^bmlsup1]
 
-[^bmlsup1]:
-  On BMS scene of Japan, generally the Long-Note is abbreviated as LN. This document follows that custom.
+[^bmlsup1]: On BMS scene of Japan, generally the Long-Note is abbreviated as LN. This document follows that custom.
 
   LN is a note which needs to hold an input state for a definite period of time which was specified. For example, press and hold the key.
 
@@ -1213,8 +1214,7 @@ headerIn order to maintain compatibility, specifying `#PLAYER 3` to PMS is reco
 
 * * *
 
-[Trends in use of commands](#TRENDS-IN-USE-OF-COMMANDS)
----------------------------------------------------------------
+## [Trends in use of commands](#TRENDS-IN-USE-OF-COMMANDS)
 
 ### [major extended command:](#MAJOR-EXTENDED-COMMAND)
 
@@ -1271,8 +1271,7 @@ headerIn order to maintain compatibility, specifying `#PLAYER 3` to PMS is reco
 
 * * *
 
-[&lt;HEADER&gt;](#HEADER)
----------------------------------
+## [&lt;HEADER&gt;](#HEADER)
 
 ### `[#PLAYER [1-4]](#PLAYER)`
 
@@ -4215,8 +4214,7 @@ Or about the incompatibility of `#BGA`.
 
 * * *
 
-[&lt;CONTROL FLOW&gt;](#CONTROL-FLOW)
----------------------------------------------
+## [&lt;CONTROL FLOW&gt;](#CONTROL-FLOW)
 
 ### `[#RANDOM n](#RANDOM)`
 
@@ -4805,8 +4803,7 @@ origin:IIDXvsupport:
 
 * * *
 
-[&lt;CHANNEL&gt;](#CHANNEL)
------------------------------------
+## [&lt;CHANNEL&gt;](#CHANNEL)
 
 ### [Channel Mapping Table](#CHANNEL-MAPPING-TABLE)
 
