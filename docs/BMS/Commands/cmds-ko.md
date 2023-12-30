@@ -354,7 +354,7 @@ BMS 파서는 다음과 같은 문장을 읽어야 할 수도 있다.
 | `#stop22 ` | 인수가 비어 있는 명령 |
 | `#stop33` | 구분자가 누락된 명령 |
 | `#if	4` | 구분자가 Tab 문자 |
-| `#bpm 2.147484e+0.9` | 부동소수점 |
+| `#bpm 2.147484e+09` | 부동소수점 |
 | `#bpm99 12.375f` | IIDXv와 HDX 등에의 옵션 플래그 |
 | `#WAV60 ura_63.wav` | 실제 파일명: `ura_63..wav` |
 | `#bga01	fz 512  256  768  384  0   64  big.bmp` | 둘 이상의 탭 문자 또는 공백 문자를 사용 |
@@ -381,6 +381,7 @@ BMS 파서는 다음과 같은 문장을 읽어야 할 수도 있다.
 | pomu2 | 키음이 계속 난다면, 차분을 종료하지 않는다.<br>다만 999 이후에도 키음을 계속 내려 하면, 강제 종료된다. |
 | otama | 최대 수치를 1024로 정의하고 있다. 그런데 `#1024xx`를 쓰면 버그가 난다. |
 | Myo2 | `[ニコニコ動画] 組曲`가 중간에 강제 종료된다. 마디와 관계없는 오류로 보인다. |
+| 현대 구동기 | 01-ZZ 전부를 지원. |
 
 ## BMS의 파일 확장자에 대하여
 - 일반적인 파일 확장자는 다음과 같다.
@@ -392,11 +393,11 @@ BMS 파서는 다음과 같은 문장을 읽어야 할 수도 있다.
 - 최근에 이들 파일 확장자는 하위 호환성을 위해 존재한다.
   - 채널의 정의 없이 차분을 가져오려면 이 확장자를 지켜야 한다.
 - 최근 프로그램들은 이들을 모두 지원해, 이를 구분할 필요성은 작다. 일반적으로 모두 BMS 확장자로 사용한다.
-  - 9keys는 PMS 확장자를 사용해야 한다. 이렇게 하지 않으면 fgt++와 fgt#에서는 BMS-DP (10KEYS)로 표시되며, LR2에서는 BME-SP 타입만을 BME-SP (7KEYS)로 인식한다.
+  - PMS 9keys는 PMS 확장자를 사용해야 한다.
+  이렇게 하지 않으면 fgt++와 fgt#에서는 BMS-DP (10KEYS)로 표시되며, LR2에서는 BME-SP 타입만을 BME-SP (7KEYS)로 인식한다.
   - BMSON은 BMS와 호환되지 않으므로 BMSON 확장자를 그대로 이용해야 한다.
 - 하지만, 이들 확장자는 파일 탐색기에서 BMS의 타입을 알기 편리하다.
-  - 5K는 BMS, 7K는 BME, LN은 BML, 9K는 PMS
-
+  - 5K는 BMS, 7K는 BME, LN은 BML, 9K는 PMS  
   BMS에 대해 알고 있다면, 이런 명칭을 이해하기 쉽다. 모른다면 잘못 알아들을 수도 있겠지만.
 - BMS를 기반으로 다른 포맷도 생겨났다. 이들 포맷은 현재 대부분 사장되었으나, 일부 포맷은 여전히 개발되고 있다.
   - **DTX**: DTXMania에서 사용하는 Gitadora DrumMania 포맷
@@ -451,6 +452,8 @@ BMS는 5건 **beatmania**를 구현하기 위한 움직임으로부터 시작했
 
 ## 헤더 영역
 ### #PLAYER
+![표준](./resources/standard_ko.png)
+
 플레이 방식을 지정한다.
 
 | 명령 | 요약 | 별칭 | 설명 |
@@ -461,6 +464,8 @@ BMS는 5건 **beatmania**를 구현하기 위한 움직임으로부터 시작했
 | `#PLAYER 4` | 1P v 2P | BP | 배틀 플레이. 지원하는 구동기가 없다. |
 
 본 명령어는 현재 하위 호환을 위해 남겨져 있으며, 현대 구동기는 파싱 결과를 기반으로 플레이 방식을 추정하고 있다.
+
+![PMS](./resources/pms_ko.png) PMS 형식의 경우, 호환성을 위해 `#PLAYER 3`를 설정하는 것을 권장하고 있다.
 
 ### #RANK
 판정 난이도를 지정한다.
@@ -475,9 +480,13 @@ BMS는 5건 **beatmania**를 구현하기 위한 움직임으로부터 시작했
 구동기에 따라 판정 폭은 상이하며, 일부 경우 이를 부분적으로 지원하거나 전혀 지원하지 않는 경우도 있다.
 
 #### #RANK 4
+![비표준](./resources/nonstd_ko.png)
+
 VERY EASY 판정 난이도를 가리킨다. 지원하지 않는 경우 `#RANK 2`로 처리하는 게 일반적.
 
 #### 상대적 #RANK
+![비표준](./resources/nonstd_ko.png)
+
 일부 구동기는 상대적인 판정 난이도를 지원한다. 즉, `6`이나 `-1`과 같은 수치를 지정할 수 있다.
 
 Angolmois 2.0 alpha 2의 경우, 공식에 따라 6 미만의 어느 수도 판정 난이도로 지정될 수 있다.
@@ -485,12 +494,18 @@ Angolmois 2.0 alpha 2의 경우, 공식에 따라 6 미만의 어느 수도 판�
 TechnicalGroobe에서는 `#DEFEXRANK n`을 판정 난이도로 이용하지만, 자체 변환 공식을 이용해 `#RANK`를 지원하고 있다. 이 공식에 따르면 -2를 초과하는 어느 값도 `#RANK`의 값이 될 수 있다.
 
 ### #DEFEXRANK
+![비표준](./resources/nonstd_ko.png)
+
 `#RANK`보다 더 상세하게 지정할 수 있도록 정의된 `#RANK`의 변종이다. 일반적으로 `#RANK 2` = `#DEFEXRANK 100`으로 정의하고, 그 증감 폭은 구동기마다 다르다.
 
 ### #EXRANK
+![비표준](./resources/nonstd_ko.png)
+
 `#xxxA0` 채널에 정의할 일시적 난이도를 지정한다. 수치는 `#DEFEXRANK`의 것을 사용한다.
 
 ### #TOTAL
+![표준](./resources/standard_ko.png)
+
 게이지의 증감 폭을 지정한다.
 
 `#TOTAL n`에서의 n은, 총 노트 수와의 계산을 통해 증감량을 지정하게 된다.
@@ -510,12 +525,168 @@ DJMAX 구작, O2Jam Online 등은 다른 값으로 추정된다.
 - Grade: 단위인정 모드를 위해 조정된 특수 게이지이다. EX 게이지 또한 존재한다.
 
 ### #VOLWAV
+![표준](./resources/standard_ko.png)
+
 `#VOLWAV n`: 100을 기준으로 키음의 전체적인 볼륨을 지정한다.
 
 ### #STAGEFILE
+![표준](./resources/standard_ko.png)
+
+BMS가 로딩 중일 때 표시될 스플래시 파일을 지정한다.
+- 포함하지 않는 경우, 구동기에서 지정하는 기본 로딩 화면이 표시된다.
+- 호환성을 위해, 640x480px 규격을 권장한다.
+
+### #BANNER
+![PMS](./resources/pms_ko.png)
+
+300x80px 규격으로 표시될 배너 이미지를 지정한다.
+
+### #BACKBMP
+![비표준](./resources/nonstd_ko.png)
+
+처음 정의 상에서는, 플레이 화면 뒤에 표시되는 배경 이미지를 지정한다.
+
+스킨에서 이를 표시할 수 있도록 설정돼 있는 구동기에서는 이를 다른 방식으로 활용할 수도 있다.
+
+### #CHARFILE
+![PMS](./resources/pms_ko.png)
+
+pop'n music의 캐릭터 파일 형식으로, 플레이 화면 우측에 표시될 캐릭터를 지정한다.
+- 예시: https://youtu.be/14skmXXCjOQ
+- 샘플: https://pmcc.nekokan.dyndns.info/pmcc2/download.html
+- 공식 가이드: https://web.archive.org/web/*/http://m-nokomi.cool.ne.jp/newpage/mu2/Make2.htm
+- 비공식 가이드: https://web.archive.org/web/20140103231405/http://storyof.namidaame.com/yy_pce.htm
+- 캐릭터 파일 뷰어: PMChr-V.zip: https://sakukoba.ninja-x.jp/ponila/
+
+### #PLAYLEVEL
+![표준](./resources/standard_ko.png)
+
+채보의 구체적인 난이도를 지정한다.
+- beatmania 기반 구동기는 ★★★★☆☆☆과 같이 별로 표시된다.
+- beatmaniaIIDX 기반 구동기는 12단계로 표시된다. 대부분의 구동기는 이 방식을 채택하고 있다.
+- DrumMania는 99단계를 채택했다.
+  - 현재 GitaDora는 0.00~9.99의 1000단계를 채택하고 있다.
+
+일반적으로 정수가 지정되며, 누락되는 경우 대부분 3을 표시한다.
+
+#### #PLAYLEVEL 0
+![비표준](./resources/nonstd_ko.png)
+
+난이도를 0으로 지정하는 경우, 특수 난이도로 취급된다.
+- BM98에서는 ?를 표시한다.
+- 다른 경우에도, 특수한 문자가 표시되는 경우가 있다.
+
+#### #PLAYLEVEL (문자열)
+![비표준](./resources/nonstd_ko.png)
+
+일부 구동기에서는, 문자열이 난이도로 지정되는 경우가 있다.
+- 소수를 통해 세부 난이도를 지정하는 경우도 종종 있다.
+
+### #DIFFICULTY
+![표준](./resources/standard_ko.png)
+
+채보의 대략적인 난이도를 지정한다.
+
+| 구분 | 표시 예시 1 | 표시 예시 2 |
+| --- | --- | --- |
+| `#DIFFICULTY 1` | BEGINNER | EASY |
+| `#DIFFICULTY 2` | STANDARD | NORMAL |
+| `#DIFFICULTY 3` | HYPER | HARD |
+| `#DIFFICULTY 4` | ANOTHER | MAXIMUM |
+| `#DIFFICULTY 5` | 發狂 | SUPER-CRAZY |
+
+다른 방식을 이용하는 경우는 아래에서 설명한다.
+
+#### 파일 이름으로 지정 (비표준)
+
+파일의 특정 꼬리말에 따라 난이도를 자동으로 지정한다.
+- `pmsname-n.pms` -> NORMAL (`#DIFFICULTY 2`)
+- `pmsname-h.pms` -> HYPER (`#DIFFICULTY 3`)
+- `pmsname-ex.pms` -> EXTRA (`#DIFFICULTY 4`)
+- `pmsname-p.pms` -> PLUS (`#DIFFICULTY 5`)
+
+#### 부제목으로 지정 (미사용)
+
+### #TITLE
+![표준](./resources/standard_ko.png)
+
+채보의 제목을 지정한다.
+- 없는 경우 대부분의 구동기에서 실행이 거부되므로, 별도로 지정하는 것을 권장한다.
+- 일부 구동기는 10000 바이트 이상을 이용할 수 있으나,
+대부분 500자 이내를 이용하며 실제 표시되는 글자 수는 훨씬 적다.
+- 대부분의 구동기는 가장 앞뒤 공백을 잘라낸다.
+- 원칙적으로는 ASCII(ANSI)만 지원하나,
+LR2 이후 세대 구동기는 UTF16-LE(BOM) 형식을 기본으로 이용한다.
+
+#### 특정 문자열로 부제목 설정 (비표준)
+특정 문자열로 묶은 경우 그 부분 이하를 부제목으로 지정한다.
+
+현재 자주 사용되지 않는 방법이며, 대부분의 경우 이 방법으로 부제목을 지정하지 않는다.
+
+### #SUBTITLE
+![BME](./resources/bme_ko.png)
+
+`#TITLE`로 부제목을 일정하게 지정하지 못하는 경우가 발생하자 적용된 방법으로, 부제목을 지정할 수 있다.
+- 누락되는 경우 위의 특정 문자열 방식을 이용하거나 빈 글로 표시된다.
+
+![비표준](./resources/nonstd_ko.png) 일부 구동기는 `#SUBTITLE` 명령을 중복해 사용할 수 있도록 하고 있다.
+
+### #ARTIST
+![표준](./resources/standard_ko.png)
+
+일반적으로 작곡가 명의를 지정한다.
+
+### #SUBARTIST
+![BME](./resources/bme_ko.png)
+
+BGA 제작자, 채보 제작자 등 여타 도움을 준 사람들을 적는 부분이다.
+
+비어 있는 경우 `#ARTIST`만을 표시하며, 있는 경우 별도의 줄에 표시한다.
+
+### #MAKER
+![비표준](./resources/nonstd_ko.png)
+
+메타 데이터. 채보 제작자를 별도로 표시한다.
+
+### #GENRE
+![표준](./resources/standard_ko.png)
+
+장르를 지정한다. 없는 경우, 빈 값이 지정된다.
+
+#### #GENLE
+![비표준](./resources/nonstd_ko.png)
+
+오타 대응용.
+
+#### #GENRE 내 특정 문자열로 부제목 지정
+![비표준](./resources/nonstd_ko.png)
+
+특정 문자열이 발견되는 경우, 그 문자열을 부제목으로 지정한다.
+
+### #COMMENT
+![비표준](./resources/nonstd_ko.png)
+
+`#COMMENT "주석"`
+
+### #TEXT
+![비표준](./resources/nonstd_ko.png) ![BME](./resources/bme_ko.png) ![PMS](./resources/pms_ko.png)
+
+`#TEXT[00-ZZ] "텍스트"`
+
+### #SONG
+![비표준](./resources/nonstd_ko.png)
+
+현재 사용되지 않는다.
+
+### landmine
+![비표준](./resources/nonstd_ko.png) ![BME](./resources/bme_ko.png)
+
+`#WAV00`에 지정된 음성을 이용, 지뢰 노트를 지정한다.
+- 채널: `D1~D9` (1P), `E1~E9` (2P측 DP)
+
 여기부터 다시 시작
 
-https://hitkey.nekokan.dyndns.info/cmds.htm#STAGEFILE
+https://hitkey.nekokan.dyndns.info/cmds.htm#LANDMINE
 
 ## 돌아가기
 [돌아가기](./)
