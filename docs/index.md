@@ -1,6 +1,6 @@
 # 호토 라즈의 GitHub 홈페이지
 ## 소개
-2023년 기준 대학교 새내기입니다. ~~그런데 게임을 더 많이 하는~~
+2024년 기준 대학교 1학년까지 다니고 군대 간 호토 라즈입니다. ~~마이마이 하고 싶다~~
 
 [포크한 레포 목록](./forklookup/) | [레포 목록 보기](https://github.com/HotoRas?tab=repositories)
 
@@ -30,12 +30,12 @@
 [사이트맵](./sitemap/)을 확인해주세요.
 
 ## 연락처
-이메일: <jdh59681@gmail.com> | <hotoras03@gmail.com> (언제 쓰지 이거...)
+이메일: <hotoras03@gmail.com>
 
 Misskey (탈중앙형 SNS): [@dohyeon@stella.place](https://stella.place/@dohyeon),
-[@ras@hoto.moe](https://hoto.moe/@ras)
+[@ras@hoto.moe](https://hoto.moe/@ras) [@ras@i.peacht.art](https://i.peacht.art/@ras)
 
-트위터: [@hoto_ras](https://twitter.com/hoto_ras)
+트위터: [@hoto_ras](https://twitter.com/hoto_ras) (사용량 적음)
 
 Element (탈중앙형 채팅): [@dohyeon:matrix.org](https://matrix.to/#/@dohyeon:matrix.org)
 
