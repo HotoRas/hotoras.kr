@@ -32,8 +32,8 @@
 ## 연락처
 이메일: <hotoras03@gmail.com>
 
-Misskey (탈중앙형 SNS): [@dohyeon@stella.place](https://stella.place/@dohyeon),
-[@ras@hoto.moe](https://hoto.moe/@ras) [@ras@i.peacht.art](https://i.peacht.art/@ras)
+Misskey (탈중앙형 SNS): [@ras@i.peacht.art](https://i.peacht.art/@ras),
+[@ras@hoto.moe](https://hoto.moe/@ras)
 
 트위터: [@hoto_ras](https://twitter.com/hoto_ras) (사용량 적음)
 
