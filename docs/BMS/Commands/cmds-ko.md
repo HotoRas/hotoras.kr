@@ -1,13 +1,13 @@
 # BMS 명령어 메모 (임시)
 
 - 마지막 업데이트: 2014-07-11
-  - 한글화: 2023-11-25
+  - 한글화: 2024-05-04
 - 작성: hitkey [홈페이지](https://hitkey.nekokan.dyndns.info/)
   - 이메일: hitkey0801\[at\]hotmail.com
-- 옮김: 保登楽月（ほと　ラス） [홈페이지](https://home.hotoras.kr "홈페이지 (한국어)") [트위터(X)](https://x.com/hoto_ras "X 계정") [ActivityPub](https://stella.place/@dohyeon "@dohyeon@stella.place") [^apub]
+- 옮김: 保登楽月（ほと　ラス） [홈페이지](https://home.hotoras.kr "홈페이지 (한국어)") [트위터(X)](https://x.com/hoto_ras "X 계정") [ActivityPub](https://i.peacht.art/@ras "@ras@i.peacht.art") [^apub]
   - 이메일: hotoras03\[at\]gmail.com
 
-[^apub]: 서버 프로그램이 마스토돈, 미스키, 체리픽(미스키 계열), 메타 스레드 [^threads] 등 ActivityPub 프로토콜을 통해 소통하는 경우, `@dohyeon@stella.place` 쪽으로 팔로우가 가능합니다. 같은 서버일 필요가 없습니다.
+[^apub]: 서버 프로그램이 마스토돈, 미스키, 체리픽(미스키 계열), 메타 스레드 [^threads] 등 ActivityPub 프로토콜을 통해 소통하는 경우, `@ras@i.peacht.art` 쪽으로 팔로우가 가능합니다. 같은 서버일 필요가 없습니다.
 
 [^threads]: 작성 시점 기준, 실험적 기능으로 팔로우가 불가
 
@@ -684,9 +684,192 @@ BGA 제작자, 채보 제작자 등 여타 도움을 준 사람들을 적는 부
 `#WAV00`에 지정된 음성을 이용, 지뢰 노트를 지정한다.
 - 채널: `D1~D9` (1P), `E1~E9` (2P측 DP)
 
-여기부터 다시 시작
+형식: `#xxxCH:zz`
+- `xxx`: 마디 위치
+- `CH`: 채널
+- `zz`: 깎을 체력의 양 (%, base36)
 
-https://hitkey.nekokan.dyndns.info/cmds.htm#LANDMINE
+### #PATH_WAV
+![비표준](./resources/nonstd_ko.png)
+
+테스트용으로 사용하기 위해 외부 디렉토리의 음성만을 끌어올 때 사용한다.
+실제 릴리스 시에는 포함하지 않게 주의하자.
+
+형식: `#PATH_WAV path...`
+
+### #BPM
+![표준](./resources/standard_ko.png)
+
+음악의 BPM을 지정한다. 기본값은 스펙상 `130`이지만 다른 값을 이용하는 구동기도 있다.
+
+형식: `#BPM bpm`
+- `bpm`: 10진수 BPM. 초기 BPM을 지정한다.
+
+형식: `#BPMzz bpm`
+- `zz`: 숫자 (base36)
+- `bpm`: 10진수 BPM. `#xxx08` 채널로 지정하는 경우 실수 BPM도 가능하다.
+
+#### BPM 변경
+초기 방식: `03` 채널에 `01`부터 `FF`까지 지정된 BPM으로 변경한다. `#xxx03:HH`와 같이 지정하며 HH는 16진수.
+
+개선 방식: `08` 채널에 `#xxx08:zz`의 형식으로 `01`부터 `ZZ`까지 36진수 범위에서 설정할 수 있다.
+
+### #STOP
+![BME](./resources/bme_ko.png)
+
+`n`/192**박**동안 스크롤을 멈춘다.
+
+채널: `09`
+
+```bms
+#BPM 120
+#STOP05 192
+#00109:05
+; 001 마디 시작부분에서 1박, 즉 (192/192/120*60)초동안 멈춘다.
+```
+
+형식: `#STOPzz count`
+- `zz`: 숫자 (base36)
+- `count`: 쉴 박의 수
+  - 음수를 입력하는 경우 대부분의 구동기가 무시하니 이 점은 유의해서 사용 바람.
+
+### #STP
+![비표준](./resources/nonstd_ko.png)
+
+beatmaniaDX 타입의 STP 시퀸스를 지정한다.
+
+형식: `#STP xxx.yyy zzzz`
+- `xxx`: 마디
+- `yyy`: 마디 안 위치 (1000분박)
+- `zzzz`: 멈출 시간 (ms)
+
+### #LNTYPE
+![BME](./resources/bme_ko.png)
+
+`1`로 설정 시 롱노트를 RDM식 롱노트로 지정한다. `2`는 현재 사장된 사양.
+
+채널: `51`~`69`
+
+예제:
+```bms
+#LNTYPE 1
+#00151:00220000
+#06451:000000000033
+; 마디 1의 2/4번째 박부터 마디 64의 5/6번째 박까지를 롱노트로 지정
+```
+
+LNTYPE 1의 경우, 1개에서 2개의 노트로 지정된다.
+
+### #LNOBJ
+위의 `#LNTYPE 1` 대신 `#LNOBJ ZZ`로 지정하고, `#WAVZZ`를 선언했다고 가정하자.
+
+```bms
+#WAVZZ
+#LNOBJ ZZ
+#00111:00220000
+#06411:0000000000ZZ
+; 위와 동작은 같다
+```
+
+채널: `11`~`29` (일반 노트 채널)
+
+선언: `#LNOBJ zz`
+- `zz`: 키음 채널 (base36)
+
+### #OCT/FP
+
+쓰지 말자.
+
+### #OPTION
+인게임 옵션을 바꾸는 명령인데.. 쓰지 말자. 최신 구동기에선 쓰이지 않는다. `#CHANGEOPTION`도 마찬가지.
+
+### #WAV
+사운드 파일을 지정한다.
+
+형식: `#WAVzz relPath...`
+- `zz`: 키음 채널 (base36)
+- `relPath`: BMS 파일이 있는 폴더 기준 상대경로
+
+파일 형식:
+- ![표준](./resources/standard_ko.png) 8/16/24-비트 PCM, 8000~48kHz
+- ![BME](./resources/bme_ko.png) `OGG`, `MP3`, `MIDI`?, `FLAC` 등
+
+### #WAVCMD
+`#WAVCMD commandId zz value`  
+..인데 안 쓰인다.
+
+이걸 쓰려면 파일 확장자를 `MBM`으로 바꾸자.
+
+### #EXWAV
+`#WAV`에 추가 설정을 더한 것. 안 쓰인다.
+
+### #BMP
+BGA를 지정한다.
+
+형식: `#BMPzz relPath...`
+- `zz`: BGA 전용 키음 채널 (base36)
+- `relPath`: BMS 파일이 있는 폴더 기준 상대경로
+
+파일 형식:
+- ![표준](./resources/standard_ko.png) 256x256px 이하의 `BMP` 파일
+- ![BME](./resources/bme_ko.png) `PNG`, `JPG`, `AVI`, `WebM`, `MP4`도 사용되는 추세. MP4나 WebM은 Mpeg4 또는 OGV 형식을 준수해야 잘 표시된다.
+
+#### #BGA
+요즘은 안 쓰인다.
+
+#### #VIDEOFILE
+영상 파일을 BGA에 넣을 때 사용. 사실 `#BMP`에서 다 파싱하기 때문에 얘도 필요 없다.
+
+## 컨트롤 영역
+### #RANDOM
+![표준](./resources/standard_ko.png)
+
+위에도 적어뒀지만...
+
+```bms
+#RANDOM 2
+#IF 1
+#00112:00220000
+#ENDIF
+#IF 2
+#00112:00003300
+#ENDIF
+#ENDRANDOM
+```
+
+과 같은 BMS가 있다고 하면,
+- `#RANDOM`의 결과가 `1`이면 1번 마디 12번 채널의 2/4박에 노트가 생성
+- `#RANDOM`의 결과가 `2`이면 1번 마디 12번 채널의 3/4박에 노트가 생성
+
+된다.
+
+네스팅도 가능은 한데 오류가 발생할 수 있으니 주의. 대부분 구동기 잘못이긴 하다.
+
+`#RANDOM`..`#ELSE`는 BMS 코드를 줄이는 길이지만 비표준.
+
+#### #SETRANDOM
+![BME](./resources/bme_ko.png)
+
+`#RANDOM` 대신 선언해, `#RANDOM`의 값을 해당 값으로 지정하는 방식이다.
+
+### #SWITCH
+![BME](./resources/bme_ko.png) ![비표준](./resources/nonstd_ko.png)
+
+```bms
+#SWITCH 64
+#CASE 1
+;note
+#SKIP
+#DEF
+;note
+#SKIP
+#ENDSW
+```
+
+얘도 구현은 돼있으면 좋다.
+
+### 주석
+`//`, `;`, `/* ~ */`이 가능하긴 한데, 일부 구동기에선 미지원.
 
 ## 돌아가기
 [돌아가기](./)
