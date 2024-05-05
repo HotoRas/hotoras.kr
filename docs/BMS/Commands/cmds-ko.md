@@ -41,6 +41,7 @@
 
 - 업데이트 기록
   - 2023-11-25: [원본 문서](./cmds-en.md)([출처](https://hitkey.nekokan.dyndns.info/cmds.htm "BMS command memo (draft) by hitkey"))를 Markdown으로 모두 옮기고, 본 문서의 번역 작성을 시작했습니다.
+  - 2024-05-04: 이 문서의 1차 번역 작성을 완료했습니다.
 
 ## 목차
 - [BMS 앱](#bms-앱)
@@ -57,81 +58,81 @@
 | The name and version | Abbr | Description |
 | --- | --- | --- |
 | Body (obsolete): |     |     |
-| BM98 & BM98 kikuchan version 330 revision 42 | BM98 | [https://hitkey.nekokan.dyndns.info/bm98.htm](https://hitkey.nekokan.dyndns.info/bm98.htm "BM98 Kikuchan Version 3.30 Revision #4.2") |
-| BM98 Kikuchan Version 3.32β Drink Edition | BM98de | [http://www.uranus.dti.ne.jp/~kikuchan/bm98/](http://www.uranus.dti.ne.jp/%7Ekikuchan/bm98/ "きくちゃんのページ 2nd - BM98") |
-| music game quest ver2.18 | MGQ | [https://web.archive.org/web/\*/http://www.geocities.co.jp/Playtown/4702/\*](<https://web.archive.org/web/*/http://www.geocities.co.jp/Playtown/4702/*> "Internet Archive Wayback Machine") |
-| Delight Delight Reduplication Ver.0.50 beta5 | DDR | [https://delight.airytail.co/download.html](https://delight.airytail.co/download.html "Download - Delight Delight Reduplication Support Page") |
-| rhythm-it 1.72a | RDM | [https://nvyu.net/rdm/download3.php](https://nvyu.net/rdm/download3.php "ruv-it! \| support page") |
-| Mixwaver 1.6 Final & MixWaver\]\[ 1.2 | MW  | [http://mixwaver.s18.xrea.com/html/dl_mw.html](http://mixwaver.s18.xrea.com/html/dl_mw.html "Download - MixWaver Official Support Page") |
-| BmDx Millennium Edition M6 ([old document](https://web.archive.org/web/*/http://www.interq.or.jp/ski/sakura/BmDxA.html "Internet Archive Wayback Machine")) | BmDx | [https://web.archive.org/web/*/http://www.interq.or.jp/ski/sakura/otoge/otoge_bmdx.html](<https://web.archive.org/web/*/http://www.interq.or.jp/ski/sakura/otoge/otoge_bmdx.html> "Internet Archive Wayback Machine") |
-| bemaniaDX Vision.3 APPEND Vision.4 Skin version 0.95 | bemaniaDX | [https://web.archive.org/web/20070518162219/http://bemaniadx.s3.xrea.com/download.html](https://web.archive.org/web/20070518162219/http://bemaniadx.s3.xrea.com/download.html "■ bemaniaDX Download Site ■") |
-| unofficial nazobmplay rev.798 | nazo | [https://manbow.nothing.sh/nazobmplay/download.html](https://manbow.nothing.sh/nazobmplay/download.html "nazoBMplay 非公式ダウンロードサイト") |
-| unofficial nazobmplay rev.798 + Glasopal 20080313 | nazoZZ | [https://hitkey.nekokan.dyndns.info/glasopal.html](https://hitkey.nekokan.dyndns.info/glasopal.html "Glasopal ミラーページ") |
-| BM2DXEmu a20 | DXEmu | [http://www.charatsoft.com/software/bm2dxemu/index.html](http://www.charatsoft.com/software/bm2dxemu/index.html "■CharatSoft.com » SOFTWARE » BM2DXEmu α") |
-| MacBeat 0.9.8.3 | Mac | http://harinezumi.s14.xrea.com/download/MacBeat0983.sit.bin |
-| Aqua'n Beats 1.0.3 | Aqua | [http://aquan-beats.matrix.jp/](http://aquan-beats.matrix.jp/ "Aqua'nBeats") |
-| nanasigroove ver.1.552 | nanasi | [http://d11x.sakura.ne.jp/asdf/?p=13](http://d11x.sakura.ne.jp/asdf/?p=13 "ナナシグルーヴ » A.S.D.F.") |
-| forgetalia++ (2009-04-15) | fgt++ | http://cerebralmuddystream.hp.infoseek.co.jp/forgetalia++/index.html (closed) |
+| BM98 & BM98 kikuchan version 330 revision 42 | BM98 | [BM98](https://hitkey.nekokan.dyndns.info/bm98.htm "BM98 Kikuchan Version 3.30 Revision #4.2") |
+| BM98 Kikuchan Version 3.32β Drink Edition | BM98de | [BM98de](http://www.uranus.dti.ne.jp/%7Ekikuchan/bm98/ "きくちゃんのページ 2nd - BM98") |
+| music game quest ver2.18 | MGQ | [MGQ (Wayback Machine)](<https://web.archive.org/web/*/http://www.geocities.co.jp/Playtown/4702/*> "Internet Archive Wayback Machine") |
+| Delight Delight Reduplication Ver.0.50 beta5 | DDR | [DDR](https://delight.airytail.co/download.html "Download - Delight Delight Reduplication Support Page") |
+| rhythm-it 1.72a | RDM | [RDM](https://nvyu.net/rdm/download3.php "ruv-it! \| support page") |
+| Mixwaver 1.6 Final & MixWaver\]\[ 1.2 | MW  | [MW](http://mixwaver.s18.xrea.com/html/dl_mw.html "Download - MixWaver Official Support Page") |
+| BmDx Millennium Edition M6 ([old document](https://web.archive.org/web/*/http://www.interq.or.jp/ski/sakura/BmDxA.html "Internet Archive Wayback Machine")) | BmDx | [BMDX (Wayback Machine)](<https://web.archive.org/web/*/http://www.interq.or.jp/ski/sakura/otoge/otoge_bmdx.html> "Internet Archive Wayback Machine") |
+| bemaniaDX Vision.3 APPEND Vision.4 Skin version 0.95 | bemaniaDX | [bemaniaDX](https://web.archive.org/web/20070518162219/http://bemaniadx.s3.xrea.com/download.html "■ bemaniaDX Download Site ■") |
+| unofficial nazobmplay rev.798 | nazo | [nazo](https://manbow.nothing.sh/nazobmplay/download.html "nazoBMplay 非公式ダウンロードサイト") |
+| unofficial nazobmplay rev.798 + Glasopal 20080313 | nazoZZ | [nazoZZ](https://hitkey.nekokan.dyndns.info/glasopal.html "Glasopal ミラーページ") |
+| BM2DXEmu a20 | DXEmu | [DXEmu](http://www.charatsoft.com/software/bm2dxemu/index.html "■CharatSoft.com » SOFTWARE » BM2DXEmu α") |
+| MacBeat 0.9.8.3 | Mac | [Mac](http://harinezumi.s14.xrea.com/download/MacBeat0983.sit.bin) |
+| Aqua'n Beats 1.0.3 | Aqua | [Aqua](http://aquan-beats.matrix.jp/ "Aqua'nBeats") |
+| nanasigroove ver.1.552 | nanasi | [nanasi](http://d11x.sakura.ne.jp/asdf/?p=13 "ナナシグルーヴ » A.S.D.F.") |
+| forgetalia++ (2009-04-15) | fgt++ | [fgt++](http://cerebralmuddystream.hp.infoseek.co.jp/forgetalia++/index.html) (closed) |
 | Body (current): |     |     |
-| LunaticRave2 100201 | LR2 | [https://web.archive.org/web/20110210225009/http://www.lr2.sakura.ne.jp/index2.html](https://web.archive.org/web/20110210225009/http://www.lr2.sakura.ne.jp/index2.html "縮小運営中") (for now, the de facto standard in Japan) |
-| ruv-it! 2.0 b5p7 test #7 (2012-03-19) | ruvit | [https://nvyu.net/rdm/](https://nvyu.net/rdm/ "ruv-it! \| support page") (for now, the de facto standard in South Korea) |
-| nanasigroove2 beta (Toy Musical 3 Ver.2.2) | nanasi2 | [http://d11x.sakura.ne.jp/asdf/](http://d11x.sakura.ne.jp/asdf/ "A.S.D.F") |
-| forgetalia# (2011-04-16) | fgt# | https://cerebralmuddystream.nekokan.dyndns.info/soft/forgetalia_sp.zip |
-| Feeling Pomu Second Ver 0.8001 | pomu2 | [https://pmcc.nekokan.dyndns.info/pmcc2/download.html](https://pmcc.nekokan.dyndns.info/pmcc2/download.html "Colorful Channel official website ++ download") |
-| charatbeatHDX VIOLET (v1.05) | HDX | [http://www.charatsoft.com/software/charatbeatHDX/index.html](http://www.charatsoft.com/software/charatbeatHDX/index.html "■CharatSoft.com » SOFTWARE » charatbeatHDX VAIOLET") |
-| Angolmois 2.0 e5cea53a2cbd | Angolmois | [https://mearie.org/projects/angolmois/](https://mearie.org/projects/angolmois/ "Angolmois \| mearie.org Projects") |
-| Angolmois Rust Edition (2014-04-08) | Angolmois | [https://github.com/lifthrasiir/angolmois-rust](https://github.com/lifthrasiir/angolmois-rust "lifthrasiir/angolmois-rust · GitHub") |
-| Sonorous 0.1.0-pre (2014-07-08) | Sonorous | [https://cosmic.mearie.org/f/sonorous/](https://cosmic.mearie.org/f/sonorous/ "Sonorous") |
+| LunaticRave2 100201 | LR2 | [LR2](https://web.archive.org/web/20110210225009/http://www.lr2.sakura.ne.jp/index2.html "縮小運営中") (for now, the de facto standard in Japan) |
+| ruv-it! 2.0 b5p7 test #7 (2012-03-19) | ruvit | [ruvit](https://nvyu.net/rdm/ "ruv-it! \| support page") (for now, the de facto standard in South Korea) |
+| nanasigroove2 beta (Toy Musical 3 Ver.2.2) | nanasi2 | [nanasi2](http://d11x.sakura.ne.jp/asdf/ "A.S.D.F") |
+| forgetalia# (2011-04-16) | fgt# | [fgt#](https://cerebralmuddystream.nekokan.dyndns.info/soft/forgetalia_sp.zip) |
+| Feeling Pomu Second Ver 0.8001 | pomu2 | [pomu2](https://pmcc.nekokan.dyndns.info/pmcc2/download.html "Colorful Channel official website ++ download") |
+| charatbeatHDX VIOLET (v1.05) | HDX | [HDX](http://www.charatsoft.com/software/charatbeatHDX/index.html "■CharatSoft.com » SOFTWARE » charatbeatHDX VAIOLET") |
+| Angolmois 2.0 e5cea53a2cbd | Angolmois | [Angolmois](https://mearie.org/projects/angolmois/ "Angolmois \| mearie.org Projects") |
+| Angolmois Rust Edition (2014-04-08) | Angolmois | [Angolmois-Rust](https://github.com/lifthrasiir/angolmois-rust "lifthrasiir/angolmois-rust · GitHub") |
+| Sonorous 0.1.0-pre (2014-07-08) | Sonorous | [Sonorous](https://cosmic.mearie.org/f/sonorous/ "Sonorous") |
 | Editor: |     |     |
-| BMS Creator 2.0b1 | BMSC | [http://tixlab.com/software/bmsc.shtml](http://tixlab.com/software/bmsc.shtml "BMS Creator") |
-| beditor 1.3.1 | beditor | [https://web.archive.org/web/*/http://macbeat.at.infoseek.co.jp/data/*](https://web.archive.org/web/*/http://macbeat.at.infoseek.co.jp/data/* "Internet Archive Wayback Machine") |
-| GDA Creator Professional Edition Ver.0.24 | GDAC2 | [https://www.asahi-net.or.jp/~nm4j-tyn/gdac2/](https://www.asahi-net.or.jp/%7Enm4j-tyn/gdac2/ "GDA Creator Professional Edition") |
-| GDAC2 lane-script for nanasigroove-extended-command | 774gsc | http://asdf.bms.ms/soft/nanasi/774gsc.zip (download is impossible now) |
-| BMx Sequence Editor 1.3.8 | BMSE | [http://ucn.tokonats.net/software/bmse/](http://ucn.tokonats.net/software/bmse/ "UCN-Soft - Software » BMSE") |
-| BMx Sequence Editor dttvb-1.3.8 (2011-11-16T18:36:00 ver.) | BMSE | [https://github.com/dtinth/UCN-BMSE](https://github.com/dtinth/UCN-BMSE "dtinth/UCN-BMSE · GitHub") (visualization of LN) |
-| iBMS BMS Creator 3.0.5 Delta | iBMSC | [https://web.archive.org/web/20140819164923/http://www.cs.mcgill.ca/~ryang6/iBMSC/](https://web.archive.org/web/20140819164923/http://www.cs.mcgill.ca/%7Eryang6/iBMSC/ "iBMSC - Home") |
-| DTXCreator 026 (July 7th, 2014) | DTXC | [https://en.osdn.jp/projects/dtxmania/releases/](https://en.osdn.jp/projects/dtxmania/releases/ "Download Files List - DTXMania - OSDN") |
+| BMS Creator 2.0b1 | BMSC | [BMSC](http://tixlab.com/software/bmsc.shtml "BMS Creator") |
+| beditor 1.3.1 | beditor | [beditor](https://web.archive.org/web/*/http://macbeat.at.infoseek.co.jp/data/* "Internet Archive Wayback Machine") |
+| GDA Creator Professional Edition Ver.0.24 | GDAC2 | [GDAC2](https://www.asahi-net.or.jp/%7Enm4j-tyn/gdac2/ "GDA Creator Professional Edition") |
+| GDAC2 lane-script for nanasigroove-extended-command | 774gsc | [774gsc](http://asdf.bms.ms/soft/nanasi/774gsc.zip) (download is impossible now) |
+| BMx Sequence Editor 1.3.8 | BMSE | [BMSE](http://ucn.tokonats.net/software/bmse/ "UCN-Soft - Software » BMSE") |
+| BMx Sequence Editor dttvb-1.3.8 (2011-11-16T18:36:00 ver.) | BMSE | [UCN-BMSE](https://github.com/dtinth/UCN-BMSE "dtinth/UCN-BMSE · GitHub") (visualization of LN) |
+| iBMS BMS Creator 3.0.5 Delta | iBMSC | [iBMSC](https://web.archive.org/web/20140819164923/http://www.cs.mcgill.ca/%7Eryang6/iBMSC/ "iBMSC - Home") |
+| DTXCreator 026 (July 7th, 2014) | DTXC | [DTXC](https://en.osdn.jp/projects/dtxmania/releases/ "Download Files List - DTXMania - OSDN") |
 | Viewer (obsolete): |     |     |
-| BMS Viewer 2.0 | BMSV | [https://web.archive.org/web/*/http://www.h3.dion.ne.jp/~cpp/download/bmview/index.html](https://web.archive.org/web/*/http://www.h3.dion.ne.jp/%7Ecpp/download/bmview/index.html "BMS Viewer - ていくいっと れいずぃ！") |
-| BME(BMS) Viewer 0.04 | BMEV | [http://www.din.or.jp/~k-uraki/game/tools.html](http://www.din.or.jp/%7Ek-uraki/game/tools.html "Game Support Tools - うらこく") |
-| nBMplay v0.26a | nBMplay | [https://www.nothing.sh/download/](https://www.nothing.sh/download/ "Index of /download - area[nothing]: Really Simple Site") |
-| in_bm 1.17 (WAview) | WAview | [https://web.archive.org/web/*/http://nickle.ath.cx/~softlab/in_bm/](https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/ "in_bm公開ページ") (plug-in of Winamp ([https://www.winamp.com/](https://www.winamp.com/ "Winamp Media Player - MP3, Video, and Music Player - Winamp")) |
-| o2play 2009-09-12 | o2play | [http://rlnoparo.ys168.com/](http://rlnoparo.ys168.com/ "rlnoparo.ys168.com") |
+| BMS Viewer 2.0 | BMSV | [BMSV](https://web.archive.org/web/*/http://www.h3.dion.ne.jp/%7Ecpp/download/bmview/index.html "BMS Viewer - ていくいっと れいずぃ！") |
+| BME(BMS) Viewer 0.04 | BMEV | [BMEV](http://www.din.or.jp/%7Ek-uraki/game/tools.html "Game Support Tools - うらこく") |
+| nBMplay v0.26a | nBMplay | [nBMplay](https://www.nothing.sh/download/ "Index of /download - area[nothing]: Really Simple Site") |
+| in_bm 1.17 (WAview) | WAview | [WAview](https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/ "in_bm公開ページ") (plug-in of Winamp ([WinAmp](https://www.winamp.com/ "Winamp Media Player - MP3, Video, and Music Player - Winamp")) |
+| o2play 2009-09-12 | o2play | [o2play](http://rlnoparo.ys168.com/ "rlnoparo.ys168.com") |
 | Viewer (current): |     |     |
-| uBMplay 1.5.2 | uBMplay | [http://ucn.tokonats.net/software/ubmplay/](http://ucn.tokonats.net/software/ubmplay/ "UCN-Soft - Software » uBMplay") |
-| PMSee-V v2.2.3 | PMSee-V | [https://sakukoba.ninja-x.jp/ponila/](https://sakukoba.ninja-x.jp/ponila/ "ポニラボ") |
-| BMIIDXView2010 v2.14 | IIDXv | [http://www.charatsoft.com/software/bmview/index.html](http://www.charatsoft.com/software/bmview/index.html "■CharatSoft.com » SOFTWARE » BMIIDXView2010") |
+| uBMplay 1.5.2 | uBMplay | [uBMplay](http://ucn.tokonats.net/software/ubmplay/ "UCN-Soft - Software » uBMplay") |
+| PMSee-V v2.2.3 | PMSee-V | [PMSee-V](https://sakukoba.ninja-x.jp/ponila/ "ポニラボ") |
+| BMIIDXView2010 v2.14 | IIDXv | [IIDXv](http://www.charatsoft.com/software/bmview/index.html "■CharatSoft.com » SOFTWARE » BMIIDXView2010") |
 | Others (obsolete): |     |     |
-| otama Ver.0.991 | otama | [https://www.asahi-net.or.jp/~VG5M-OBT/otama.html](https://www.asahi-net.or.jp/%7EVG5M-OBT/otama.html "otama") (bullet curtain) |
-| NINJA AGENT GALLI ver1.03 | GALLI | [https://web.archive.org/web/20160311123053/http://ninjaactionteam.sakura.ne.jp/sakuhin_bmsplayer.html](https://web.archive.org/web/20160311123053/http://ninjaactionteam.sakura.ne.jp/sakuhin_bmsplayer.html "忍者放送協会") (action game) |
-| BMS Printer Ver.0.01 Pre-Release | bmsPRN | [https://delight.airytail.co/download.html](https://delight.airytail.co/download.html "Download - Delight Delight Reduplication Support Page") |
-| bms2wav 0.07b / 0.07c | bms2wav | http://homepage2.nifty.com/ma~/ (download is impossible now) |
-| bme2wav BETA 13 | bme2wav | [http://childs.squares.net/program/bme2wav/index.html](http://childs.squares.net/program/bme2wav/index.html "BME2WAV - CHILD'S SQUARE") |
-| BmsToAvi 0.03c | bms2avi | [http://www32.tok2.com/home/digitalapeman/Tools/BmsToAvi/BmsToAvi.html](http://www32.tok2.com/home/digitalapeman/Tools/BmsToAvi/BmsToAvi.html "BmsToAvi") |
-| BGAEncoder 0.2a | BGAenc | [http://titans-server.ddo.jp/~murasin/](http://titans-server.ddo.jp/%7Emurasin/) (download is impossible now) |
-| in_bm 2.01 | in_bm2 | [https://web.archive.org/web/*/http://nickle.ath.cx/~softlab/in_bm/](<https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/> "in_bm公開ページ") (plug-in of [Winamp](https://www.winamp.com/ "Winamp Media Player - MP3, Video, and Music Player - Winamp")) |
-| BMS/BME/EMS plugin for KbMediaPlayer version 1.0r13 | bmse.kpi | KbMedia Player Version 2.63a contains this<br><br>[http://hwm5.gyao.ne.jp/kobarin/index.htm](http://hwm5.gyao.ne.jp/kobarin/index.htm "Kobarinのホームページ") |
+| otama Ver.0.991 | otama | [otana](https://www.asahi-net.or.jp/%7EVG5M-OBT/otama.html "otama") (bullet curtain) |
+| NINJA AGENT GALLI ver1.03 | GALLI | [GALLI](https://web.archive.org/web/20160311123053/http://ninjaactionteam.sakura.ne.jp/sakuhin_bmsplayer.html "忍者放送協会") (action game) |
+| BMS Printer Ver.0.01 Pre-Release | bmsPRN | [bmsPRN](https://delight.airytail.co/download.html "Download - Delight Delight Reduplication Support Page") |
+| bms2wav 0.07b / 0.07c | bms2wav | [bms2wav](http://homepage2.nifty.com/ma~/) (download is impossible now) |
+| bme2wav BETA 13 | bme2wav | [bme2wav](http://childs.squares.net/program/bme2wav/index.html "BME2WAV - CHILD'S SQUARE") |
+| BmsToAvi 0.03c | bms2avi | [bms2avi](http://www32.tok2.com/home/digitalapeman/Tools/BmsToAvi/BmsToAvi.html "BmsToAvi") |
+| BGAEncoder 0.2a | BGAenc | [BGAenc](http://titans-server.ddo.jp/%7Emurasin/) (download is impossible now) |
+| in_bm 2.01 | in_bm2 | [in_bm2](<https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/> "in_bm公開ページ") (plug-in of [Winamp](https://www.winamp.com/ "Winamp Media Player - MP3, Video, and Music Player - Winamp")) |
+| BMS/BME/EMS plugin for KbMediaPlayer version 1.0r13 | bmse.kpi | KbMedia Player Version 2.63a contains this<br><br>[KbMedia](http://hwm5.gyao.ne.jp/kobarin/index.htm "Kobarinのホームページ") |
 | Others (current): |     |     |
-| bmx2wav 1.3.3 | bmx2wav | [http://childs.squares.net/program/bmx2wav/index.html](http://childs.squares.net/program/bmx2wav/index.html "BMX2WAV - CHILD'S SQUARE") |
-| PMChr-V v4.0.2 | PMChr-V | [https://sakukoba.ninja-x.jp/ponila/](https://sakukoba.ninja-x.jp/ponila/ "ポニラボ") |
-| woslicerII (wav-file slicer) | woslicerII | [https://cerebralmuddystream.nekokan.dyndns.info/](https://cerebralmuddystream.nekokan.dyndns.info/ "脳性濁流") |
-| woslicerII (bug-fix version? 2012-09-14) | woslicerII | [https://twitter.com/wosderge/status/246852579550699522](https://twitter.com/wosderge/status/246852579550699522 "Twitter / wosderge:") |
-| woslicerIII ~(requires .NET Framework 4.5 (Windows Vista or later))~ | woslicerIII | [https://cerebralmuddystream.nekokan.dyndns.info/](https://cerebralmuddystream.nekokan.dyndns.info/ "脳性濁流") |
-| BMx Outliner (for now, `#RANDOM` / `#SWITCH` viewer) | outliner | [https://hitkey.nekokan.dyndns.info/bmxoutliner.htm](https://hitkey.nekokan.dyndns.info/bmxoutliner.htm "BMx Outliner") (web apps) |
-| Starry Music Beat ver1.03 | SMB | [https://itunes.apple.com/jp/app/starry-music-beat/id481749987?mt=8](https://itunes.apple.com/jp/app/starry-music-beat/id481749987?mt=8 "App Store - Starry Music Beat") (for iOS) |
-| BGAEncAdvance Ver0.034 | BGAEncAdv | [https://yaruki0.net/programs/bgaencadv.html](https://yaruki0.net/programs/bgaencadv.html "Nageyari Software > プログラム > BGAEncAdvance") |
-| bms diff tool | diff | [https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm](https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm "bms diff tool") (web apps) |
-| lr2\_pmsview\_helper | LR2PMS | [https://twitter.com/misty_ls04/status/473058415636279296](https://twitter.com/misty_ls04/status/473058415636279296 "【人柱求む】") |
+| bmx2wav 1.3.3 | bmx2wav | [bmx2wav](http://childs.squares.net/program/bmx2wav/index.html "BMX2WAV - CHILD'S SQUARE") |
+| PMChr-V v4.0.2 | PMChr-V | [PMChr-V](https://sakukoba.ninja-x.jp/ponila/ "ポニラボ") |
+| woslicerII (wav-file slicer) | woslicerII | [woslicerII](https://cerebralmuddystream.nekokan.dyndns.info/ "脳性濁流") |
+| woslicerII (bug-fix version? 2012-09-14) | woslicerII | [WOSlicerII-bugfix](https://twitter.com/wosderge/status/246852579550699522 "Twitter / wosderge:") |
+| woslicerIII ~(requires .NET Framework 4.5 (Windows Vista or later))~ | woslicerIII | [WOSlocerIII](https://cerebralmuddystream.nekokan.dyndns.info/ "脳性濁流") |
+| BMx Outliner (for now, `#RANDOM` / `#SWITCH` viewer) | outliner | [outliner](https://hitkey.nekokan.dyndns.info/bmxoutliner.htm "BMx Outliner") (web apps) |
+| Starry Music Beat ver1.03 | SMB | [SMB](https://itunes.apple.com/jp/app/starry-music-beat/id481749987?mt=8 "App Store - Starry Music Beat") (for iOS) |
+| BGAEncAdvance Ver0.034 | BGAEncAdv | [BGAEncAdv](https://yaruki0.net/programs/bgaencadv.html "Nageyari Software > プログラム > BGAEncAdvance") |
+| bms diff tool | diff | [diff](https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm "bms diff tool") (web apps) |
+| lr2\_pmsview\_helper | LR2PMS | [LR2PMS](https://twitter.com/misty_ls04/status/473058415636279296 "【人柱求む】") |
 | to be tested: |     |     |
-| o2mania 1.2.0 | o2mania | [http://www.o2mania.com/](http://www.o2mania.com/ "O2MANIA-DJMAX劲乐团单机版模拟器") |
+| o2mania 1.2.0 | o2mania | [o2mania](http://www.o2mania.com/ "O2MANIA-DJMAX劲乐团单机版模拟器") |
 | MyO2 2011-06-01 | MyO2 | (Since it seems that I received warning, I do not indicate URI.) |
-| D3beat ver1.1 ([jubeat](https://en.wikipedia.org/wiki/Jubeat "Jubeat - Wikipedia, the free encyclopedia") style / Windows7 or later) | D3beat | [http://www.nicovideo.jp/mylist/29296483](http://www.nicovideo.jp/mylist/29296483 "プログラミング ‐ ニコニコ動画(原宿)") |
-| Invisible Object to Landmine Object Converter | 3-4toD-E | [https://nekokan.dyndns.info/~otlovers/guidance/guidance_4b.html](https://nekokan.dyndns.info/%7Eotlovers/guidance/guidance_4b.html "Obj Tech Lovers \| Guidance chapter4-7") |
-| Sp2Dp ver_110622 | SP2DP | http://www.geocities.jp/o6o\_o9o\_o6o/soft/ (download is impossible now) |
-| BMSE ClipBoard Object Data Format to NoteDrop Converter | BM-ND | [http://bmse-notedrop.jgate.de/](http://bmse-notedrop.jgate.de/ "bmse-notedrop") (web apps) |
-| Be-Music Helper (beta 4′) ~(Windows Vista or later)~ | bmhelper | [https://excln.github.io/bmhelper.html](https://excln.github.io/bmhelper.html "Lazy Notes") |
-| Mid2BMS | Mid2BMS | [http://mid2bms.web.fc2.com/](http://mid2bms.web.fc2.com/ "Mid2BMS BMS Improved Development Environment") |
-| \[tentative name\] \[suspended\] TechnicalGroove | techGrv | [https://web.archive.org/web/*/https://dl.dropboxusercontent.com/u/19134729/otogeokiba.html](<https://web.archive.org/web/*/https://dl.dropboxusercontent.com/u/19134729/otogeokiba.html> "おとげせいさくちゅう") |
+| D3beat ver1.1 ([jubeat](https://en.wikipedia.org/wiki/Jubeat "Jubeat - Wikipedia, the free encyclopedia") style / Windows7 or later) | D3beat | [D3beat](http://www.nicovideo.jp/mylist/29296483 "プログラミング ‐ ニコニコ動画(原宿)") |
+| Invisible Object to Landmine Object Converter | 3-4toD-E | [3-4toD-E](https://nekokan.dyndns.info/%7Eotlovers/guidance/guidance_4b.html "Obj Tech Lovers \| Guidance chapter4-7") |
+| Sp2Dp ver_110622 | SP2DP | [SP2DP](http://www.geocities.jp/o6o\_o9o\_o6o/soft/) (download is impossible now) |
+| BMSE ClipBoard Object Data Format to NoteDrop Converter | BM-ND | [BM-ND](http://bmse-notedrop.jgate.de/ "bmse-notedrop") (web apps) |
+| Be-Music Helper (beta 4′) ~(Windows Vista or later)~ | bmhelper | [bmhelper](https://excln.github.io/bmhelper.html "Lazy Notes") |
+| Mid2BMS | Mid2BMS | [Mid2BMS](http://mid2bms.web.fc2.com/ "Mid2BMS BMS Improved Development Environment") |
+| \[tentative name\] \[suspended\] TechnicalGroove | techGrv | [techGrv](<https://web.archive.org/web/*/https://dl.dropboxusercontent.com/u/19134729/otogeokiba.html> "おとげせいさくちゅう") |
 
 마지막 정리: 2014-07-11
 
@@ -146,7 +147,7 @@ Lunatic Rave 2를 제외한 모든 현역 BMS 앱은 아래 사양표의 전부�
 | **Qwilight** | 2018년부터 개발 중인 국산 구동기.<br>컨트롤러라고 하면 떠올릴 수 있는 모든 장비를 지원하는 것이 특징.<br>여기에서 설명하는 BMS와 이의 변종들 함께 JSON 기반의 BMSON 포맷을 완벽 지원하며,<br>관련 에디터와 연동해 차분 오토플레이와 비주얼 수정도 가능하다.<br>이 문서에서 언급하는 로케일 문제도 신경 쓰지 않아도 된다.<br><br>온라인 랭킹 지원 |
 | Project OutFox | StepMania를 개량해 제작되고 있는 구동기.<br>BMS 파싱 기능을 바닥부터 새로 만들고 있어 기믹 채보와의 호환성이 좋지 않다.<br>StepMania 기반이라 플레이 도중 배속 변경이 불가하고,<br>노멀 게이지(Groove Gauge)도 지원되지 않는다. |
 
-마지막 정리: 2023-12-25
+마지막 정리: 2024-05-04
 
 ## BMS 포맷에 대한 메모
 ### 스펙상 최소 사양에 대하여
@@ -439,6 +440,7 @@ BMS는 5건 **beatmania**를 구현하기 위한 움직임으로부터 시작했
 | `#xxx51-89` | Long Note Obj. | BML: 51-59는 1P, 61-69는 2P에 대해 롱노트 오브젝트를 지정한다.<br>71-79, 81-89는 보이거나 점수로 치지 않는 롱노트 오브젝트를 지정한다.<br>`#LNTYPE 1`은 `00`이 없는 동안, `#LNTYPE 2`는 `00`이 있는 동안 롱노트가 지속된다. |
 
 ### 주요 확장 명령
+
 | 명령 | 설명 |
 | --- | --- |
 | `#BPMxx n` | 실수 BPM을 지정한다. BME `#xxx08`에서 사용. |
