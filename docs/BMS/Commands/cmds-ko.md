@@ -15,16 +15,16 @@
 
   |     |     |
   | --- | --- |
-  | about BMS: | [https://en.wikipedia.org/wiki/Be-Music_Source](https://en.wikipedia.org/wiki/Be-Music_Source "Be-Music Source - Wikipedia, the free encyclopedia") |
-  | This report referred to: | [https://web.archive.org/web/*/http://wiki.bms.ms/Bms:Spec](https://web.archive.org/web/*/http://wiki.bms.ms/Bms:Spec "Bms:Spec - wiki.bms.ms -") |
-  | BMS Format Specification: | [http://bm98.yaneu.com/bm98/bmsformat.html](http://bm98.yaneu.com/bm98/bmsformat.html "BM98Data_format_specification") (1998-11-26) |
-  | Basic specification of BML: | [https://nvyu.net/rdm/rby_ex.php](https://nvyu.net/rdm/rby_ex.php "ruv-it! \| support page") |
-  | BMS extensions proposed by Sonorous: | [https://cosmic.mearie.org/f/sonorous/bmsexts](https://cosmic.mearie.org/f/sonorous/bmsexts "BMS extensions proposed by Sonorous") (since 2013-07-10) (as reference data) |
-  | DTX file format specifications: | [http://dtxmania.net/wiki.cgi?page=qa\_dtx\_spec_e](http://dtxmania.net/wiki.cgi?page=qa_dtx_spec_e "qa_dtx_spec_e - DTXMania powered by YAMAHA Silent Session Drums") (as reference data) |
-  | Guide to understand BMS format: | [https://cosmic.mearie.org/2005/03/bmsguide/](https://cosmic.mearie.org/2005/03/bmsguide/ "TokigunStudio: Guide to understand BMS format") (2005-03-22) (as reference data) |
-  | Angolmois Internals: | [https://github.com/lifthrasiir/angolmois/blob/master/INTERNALS.md](https://github.com/lifthrasiir/angolmois/blob/master/INTERNALS.md "angolmois/INTERNALS.md at master · lifthrasiir/angolmois · GitHub") (2013-03-09) (as reference data) |
-  | about obsolete MGQ notation: | [https://web.archive.org/web/*/http://ivy.pr.co.kr/rdm/jp/extension.htm](https://web.archive.org/web/*/http://ivy.pr.co.kr/rdm/jp/extension.htm "Dear Feeling") (2001-06-21) (as reference data) |
-  | LR2 beta3 Skin csv specification revision 5: | [http://right-stick.sub.jp/lr2skinhelp.html](http://right-stick.sub.jp/lr2skinhelp.html "LR2SkinHELP 第五版") (2013-09-29) (as reference data) |
+  | about BMS: | [Wikipedia](https://en.wikipedia.org/wiki/Be-Music_Source "Be-Music Source - Wikipedia, the free encyclopedia") |
+  | This report referred to: | [BMS:Spec](https://web.archive.org/web/*/http://wiki.bms.ms/Bms:Spec "Bms:Spec - wiki.bms.ms -") |
+  | BMS Format Specification: | [BMS Format Spec](http://bm98.yaneu.com/bm98/bmsformat.html "BM98Data_format_specification") (1998-11-26) |
+  | Basic specification of BML: | [BML Spec](https://nvyu.net/rdm/rby_ex.php "ruv-it! \| support page") |
+  | BMS extensions proposed by Sonorous: | [Somorous-ext](https://cosmic.mearie.org/f/sonorous/bmsexts "BMS extensions proposed by Sonorous") (since 2013-07-10) (as reference data) |
+  | DTX file format specifications: | [dtxmania](http://dtxmania.net/wiki.cgi?page=qa_dtx_spec_e "qa_dtx_spec_e - DTXMania powered by YAMAHA Silent Session Drums") (as reference data) |
+  | Guide to understand BMS format: | [BMS guide](https://cosmic.mearie.org/2005/03/bmsguide/ "TokigunStudio: Guide to understand BMS format") (2005-03-22) (as reference data) |
+  | Angolmois Internals: | [angolmois](https://github.com/lifthrasiir/angolmois/blob/master/INTERNALS.md "angolmois/INTERNALS.md at master · lifthrasiir/angolmois · GitHub") (2013-03-09) (as reference data) |
+  | about obsolete MGQ notation: | [Obsolote MGQ](https://web.archive.org/web/*/http://ivy.pr.co.kr/rdm/jp/extension.htm "Dear Feeling") (2001-06-21) (as reference data) |
+  | LR2 beta3 Skin csv specification revision 5: | [LR2 Skin Help](http://right-stick.sub.jp/lr2skinhelp.html "LR2SkinHELP 第五版") (2013-09-29) (as reference data) |
 
 * 주의사항
   * BMS를 클릭 수천 번으로 제작할 수 있게 된 지금, 이 문서는 심한 `#RANDOM` 기믹을 사용할 게 아니라면 채보 제작자에게 필요하지 않습니다.
