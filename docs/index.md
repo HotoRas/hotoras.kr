@@ -6,7 +6,7 @@
 
 > 도움을 주고 싶으시다면, 마음놓고 풀리퀘 올려주세요.
 
-일상 보고 싶으시면 [여기](https://stella.place/@dohyeon) 또는 [여기](https://hoto.moe/@ras)로 놀러오세용
+일상 보고 싶으시면 [여기](https://i.peacht.art/@ras) 또는 [여기](https://hoto.moe/@ras)로 놀러오세용
 
 ## 스택
 [보러가기](./stacks/)
