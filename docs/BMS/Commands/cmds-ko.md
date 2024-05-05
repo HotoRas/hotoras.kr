@@ -557,11 +557,11 @@ BMS가 로딩 중일 때 표시될 스플래시 파일을 지정한다.
 ![PMS](./resources/pms_ko.png)
 
 pop'n music의 캐릭터 파일 형식으로, 플레이 화면 우측에 표시될 캐릭터를 지정한다.
-- 예시: https://youtu.be/14skmXXCjOQ
-- 샘플: https://pmcc.nekokan.dyndns.info/pmcc2/download.html
-- 공식 가이드: https://web.archive.org/web/*/http://m-nokomi.cool.ne.jp/newpage/mu2/Make2.htm
-- 비공식 가이드: https://web.archive.org/web/20140103231405/http://storyof.namidaame.com/yy_pce.htm
-- 캐릭터 파일 뷰어: PMChr-V.zip: https://sakukoba.ninja-x.jp/ponila/
+- 예시: [YouTube](https://youtu.be/14skmXXCjOQ)
+- 샘플: [다운로드](https://pmcc.nekokan.dyndns.info/pmcc2/download.html)
+- 공식 가이드: [가이드](https://web.archive.org/web/*/http://m-nokomi.cool.ne.jp/newpage/mu2/Make2.htm)
+- 비공식 가이드: [가이드](https://web.archive.org/web/20140103231405/http://storyof.namidaame.com/yy_pce.htm)
+- 캐릭터 파일 뷰어: PMChr-V.zip: [다운로드](https://sakukoba.ninja-x.jp/ponila/)
 
 ### #PLAYLEVEL
 ![표준](./resources/standard_ko.png)
