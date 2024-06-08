@@ -8,6 +8,9 @@
 [프로젝트 목록](../projects/)  
 [포크 보기](../forklookup/)
 
+### 레포지트리
+[설명하기](../about-repos/)
+
 ### BMS
 [BMS 명령어 모음](../BMS/Commands/)
 - [원본 일본어](../BMS/Commands/cmdsJP.html)
