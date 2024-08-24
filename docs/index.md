@@ -47,13 +47,16 @@ https://patreon.com/HotoRas
 
 연합우주 (탈중앙형 SNS 환경)
 - [@ras@nekoplanet.xyz](https://nekoplanet.xyz/@ras) `Misskey`
+- [@raspberry@nekoplanet.xyz](https://nekoplanet.xyz/@raspberry) `Misskey` `개발 계정`
 - [@ras@hoto.moe](https://hoto.moe/@ras) `Misskey` `리듬게임 계정`
 - [@ras@daydream.ink](https://daydream.ink/@ras) `Mastodon`
 - [@hoto_ras@stella.place](https://stella.place/@hoto_ras) `Misskey-Cherrypick` `현황 업데이트 계정`
 - [@hotoras@hoto.moe](https://hoto.moe/@hotoras) `Misskey` `뒷계정`
 - [@ras@planet.moe](https://planet.moe/@ras) `Mastodon` `거의 안 씀`
 
-트위터: [@hoto_ras](https://twitter.com/hoto_ras) (사용량 적음)
+트위터
+- [@hoto_ras](https://twitter.com/hoto_ras) (사용량 적음)
+- [@rasberry_mix](https://twitter.com/rasberry_mix) (사용량 더 적음)
 
 Element (탈중앙형 채팅): [@dohyeon:matrix.org](https://matrix.to/#/@dohyeon:matrix.org)
 

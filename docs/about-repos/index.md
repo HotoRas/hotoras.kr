@@ -155,8 +155,8 @@ Hello from Rust..?
 
 Forge/Neoforge-Fabric 기반 Minecraft 서버.
 
-## misskey-io-nekoplanet
-- forked from https://github.com/nekoplanet/misskey-io
+## misskey-neko
+- forked from https://github.com/nekoplanet/misskey
 
 고양이별 (정확힌 네코쟈라시)의 소스 코드 포크
 

@@ -4,12 +4,10 @@
   - 한글화: 2024-05-04
 - 작성: hitkey [홈페이지](https://hitkey.nekokan.dyndns.info/)
   - 이메일: hitkey0801\[at\]hotmail.com
-- 옮김: 保登楽月（ほと　ラス） [홈페이지](https://home.hotoras.kr "홈페이지 (한국어)") [트위터(X)](https://x.com/hoto_ras "X 계정") [ActivityPub](https://i.peacht.art/@ras "@ras@i.peacht.art") [^apub]
+- 옮김: 保登楽月（ほと　ラス） [홈페이지](https://home.hotoras.kr "홈페이지 (한국어)") [트위터(X)](https://x.com/hoto_ras "X 계정") [ActivityPub](https://nekoplanet.xyz/@ras "@ras@nekoplanet.xyz") [^apub]
   - 이메일: hotoras03\[at\]gmail.com
 
-[^apub]: 서버 프로그램이 마스토돈, 미스키, 체리픽(미스키 계열), 메타 스레드 [^threads] 등 ActivityPub 프로토콜을 통해 소통하는 경우, `@ras@i.peacht.art` 쪽으로 팔로우가 가능합니다. 같은 서버일 필요가 없습니다.
-
-[^threads]: 작성 시점 기준, 실험적 기능으로 팔로우가 불가
+[^apub]: 서버 프로그램이 마스토돈, 미스키, 체리픽(미스키 계열), 메타 스레드 등 ActivityPub 프로토콜을 통해 소통하는 경우, `@ras@nekoplanet.xyz` 쪽으로 팔로우가 가능합니다. 같은 서버일 필요가 없습니다.
 
 * 레퍼런스
 
@@ -28,7 +26,7 @@
 
 * 주의사항
   * BMS를 클릭 수천 번으로 제작할 수 있게 된 지금, 이 문서는 심한 `#RANDOM` 기믹을 사용할 게 아니라면 채보 제작자에게 필요하지 않습니다.
-    * `#RANDOM`을 이용한 S-RANDOM 구현 등의 심한 `#RANDOM` 기믹은 해당 부분, 혹은 `RANDOM`의 차분 파일을 참조해주세요.
+    * `#RANDOM`을 이용한 S-RANDOM 구현 등의 심한 `#RANDOM` 기믹은 해당 부분, 혹은 `RANDOM`의 차분 파일(by Sobrem)을 참조해주세요.
     * 이 문서는 BMS 구동기나 파서를 개발하는 분들을 위해 작성되었으나, 호기심에 이끌려 오신 분들과 같이 개발과는 관계가 없는 분들도 어렵지 않게 읽을 수 있도록 작성하려 노력했습니다.
   * 스펙 사항을 번역한 문서가 아닙니다. 단순한 메모입니다.
   * 온라인 번역기로 작성된 문서를 번역한 문서입니다.
@@ -74,8 +72,8 @@
 | nanasigroove ver.1.552 | nanasi | [nanasi](http://d11x.sakura.ne.jp/asdf/?p=13 "ナナシグルーヴ » A.S.D.F.") |
 | forgetalia++ (2009-04-15) | fgt++ | [fgt++](http://cerebralmuddystream.hp.infoseek.co.jp/forgetalia++/index.html) (closed) |
 | Body (current): |     |     |
-| LunaticRave2 100201 | LR2 | [LR2](https://web.archive.org/web/20110210225009/http://www.lr2.sakura.ne.jp/index2.html "縮小運営中") (for now, the de facto standard in Japan) |
-| ruv-it! 2.0 b5p7 test #7 (2012-03-19) | ruvit | [ruvit](https://nvyu.net/rdm/ "ruv-it! \| support page") (for now, the de facto standard in South Korea) |
+| LunaticRave2 100201 | LR2 | [LR2](https://web.archive.org/web/20110210225009/http://www.lr2.sakura.ne.jp/index2.html "縮小運営中") (현재 일본에서의 준표준) |
+| ruv-it! 2.0 b5p7 test #7 (2012-03-19) | ruvit | [ruvit](https://nvyu.net/rdm/ "ruv-it! \| support page") |
 | nanasigroove2 beta (Toy Musical 3 Ver.2.2) | nanasi2 | [nanasi2](http://d11x.sakura.ne.jp/asdf/ "A.S.D.F") |
 | forgetalia# (2011-04-16) | fgt# | [fgt#](https://cerebralmuddystream.nekokan.dyndns.info/soft/forgetalia_sp.zip) |
 | Feeling Pomu Second Ver 0.8001 | pomu2 | [pomu2](https://pmcc.nekokan.dyndns.info/pmcc2/download.html "Colorful Channel official website ++ download") |
@@ -87,7 +85,7 @@
 | BMS Creator 2.0b1 | BMSC | [BMSC](http://tixlab.com/software/bmsc.shtml "BMS Creator") |
 | beditor 1.3.1 | beditor | [beditor](https://web.archive.org/web/*/http://macbeat.at.infoseek.co.jp/data/* "Internet Archive Wayback Machine") |
 | GDA Creator Professional Edition Ver.0.24 | GDAC2 | [GDAC2](https://www.asahi-net.or.jp/%7Enm4j-tyn/gdac2/ "GDA Creator Professional Edition") |
-| GDAC2 lane-script for nanasigroove-extended-command | 774gsc | [774gsc](http://asdf.bms.ms/soft/nanasi/774gsc.zip) (download is impossible now) |
+| GDAC2 lane-script for nanasigroove-extended-command | 774gsc | [774gsc](http://asdf.bms.ms/soft/nanasi/774gsc.zip) (다운로드 불가) |
 | BMx Sequence Editor 1.3.8 | BMSE | [BMSE](http://ucn.tokonats.net/software/bmse/ "UCN-Soft - Software » BMSE") |
 | BMx Sequence Editor dttvb-1.3.8 (2011-11-16T18:36:00 ver.) | BMSE | [UCN-BMSE](https://github.com/dtinth/UCN-BMSE "dtinth/UCN-BMSE · GitHub") (visualization of LN) |
 | iBMS BMS Creator 3.0.5 Delta | iBMSC | [iBMSC](https://web.archive.org/web/20140819164923/http://www.cs.mcgill.ca/%7Eryang6/iBMSC/ "iBMSC - Home") |
@@ -96,7 +94,7 @@
 | BMS Viewer 2.0 | BMSV | [BMSV](https://web.archive.org/web/*/http://www.h3.dion.ne.jp/%7Ecpp/download/bmview/index.html "BMS Viewer - ていくいっと れいずぃ！") |
 | BME(BMS) Viewer 0.04 | BMEV | [BMEV](http://www.din.or.jp/%7Ek-uraki/game/tools.html "Game Support Tools - うらこく") |
 | nBMplay v0.26a | nBMplay | [nBMplay](https://www.nothing.sh/download/ "Index of /download - area[nothing]: Really Simple Site") |
-| in_bm 1.17 (WAview) | WAview | [WAview](https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/ "in_bm公開ページ") (plug-in of Winamp ([WinAmp](https://www.winamp.com/ "Winamp Media Player - MP3, Video, and Music Player - Winamp")) |
+| in_bm 1.17 (WAview) | WAview | [WAview](https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/ "in_bm公開ページ") ([WinAmp](https://www.winamp.com/ "Winamp Media Player - MP3, Video, and Music Player - Winamp")의 플러그인) |
 | o2play 2009-09-12 | o2play | [o2play](http://rlnoparo.ys168.com/ "rlnoparo.ys168.com") |
 | Viewer (current): |     |     |
 | uBMplay 1.5.2 | uBMplay | [uBMplay](http://ucn.tokonats.net/software/ubmplay/ "UCN-Soft - Software » uBMplay") |
@@ -106,11 +104,11 @@
 | otama Ver.0.991 | otama | [otana](https://www.asahi-net.or.jp/%7EVG5M-OBT/otama.html "otama") (bullet curtain) |
 | NINJA AGENT GALLI ver1.03 | GALLI | [GALLI](https://web.archive.org/web/20160311123053/http://ninjaactionteam.sakura.ne.jp/sakuhin_bmsplayer.html "忍者放送協会") (action game) |
 | BMS Printer Ver.0.01 Pre-Release | bmsPRN | [bmsPRN](https://delight.airytail.co/download.html "Download - Delight Delight Reduplication Support Page") |
-| bms2wav 0.07b / 0.07c | bms2wav | [bms2wav](http://homepage2.nifty.com/ma~/) (download is impossible now) |
+| bms2wav 0.07b / 0.07c | bms2wav | [bms2wav](http://homepage2.nifty.com/ma~/) (다운로드 불가) |
 | bme2wav BETA 13 | bme2wav | [bme2wav](http://childs.squares.net/program/bme2wav/index.html "BME2WAV - CHILD'S SQUARE") |
 | BmsToAvi 0.03c | bms2avi | [bms2avi](http://www32.tok2.com/home/digitalapeman/Tools/BmsToAvi/BmsToAvi.html "BmsToAvi") |
-| BGAEncoder 0.2a | BGAenc | [BGAenc](http://titans-server.ddo.jp/%7Emurasin/) (download is impossible now) |
-| in_bm 2.01 | in_bm2 | [in_bm2](<https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/> "in_bm公開ページ") (plug-in of [Winamp](https://www.winamp.com/ "Winamp Media Player - MP3, Video, and Music Player - Winamp")) |
+| BGAEncoder 0.2a | BGAenc | [BGAenc](http://titans-server.ddo.jp/%7Emurasin/) (다운로드 불가) |
+| in_bm 2.01 | in_bm2 | [in_bm2](<https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/> "in_bm公開ページ") ([Winamp](https://www.winamp.com/ "Winamp Media Player - MP3, Video, and Music Player - Winamp") 플러그인) |
 | BMS/BME/EMS plugin for KbMediaPlayer version 1.0r13 | bmse.kpi | KbMedia Player Version 2.63a contains this<br><br>[KbMedia](http://hwm5.gyao.ne.jp/kobarin/index.htm "Kobarinのホームページ") |
 | Others (current): |     |     |
 | bmx2wav 1.3.3 | bmx2wav | [bmx2wav](http://childs.squares.net/program/bmx2wav/index.html "BMX2WAV - CHILD'S SQUARE") |
@@ -118,18 +116,18 @@
 | woslicerII (wav-file slicer) | woslicerII | [woslicerII](https://cerebralmuddystream.nekokan.dyndns.info/ "脳性濁流") |
 | woslicerII (bug-fix version? 2012-09-14) | woslicerII | [WOSlicerII-bugfix](https://twitter.com/wosderge/status/246852579550699522 "Twitter / wosderge:") |
 | woslicerIII ~(requires .NET Framework 4.5 (Windows Vista or later))~ | woslicerIII | [WOSlocerIII](https://cerebralmuddystream.nekokan.dyndns.info/ "脳性濁流") |
-| BMx Outliner (for now, `#RANDOM` / `#SWITCH` viewer) | outliner | [outliner](https://hitkey.nekokan.dyndns.info/bmxoutliner.htm "BMx Outliner") (web apps) |
+| BMx Outliner (for now, `#RANDOM` / `#SWITCH` viewer) | outliner | [outliner](https://hitkey.nekokan.dyndns.info/bmxoutliner.htm "BMx Outliner") (웹 앱) |
 | Starry Music Beat ver1.03 | SMB | [SMB](https://itunes.apple.com/jp/app/starry-music-beat/id481749987?mt=8 "App Store - Starry Music Beat") (for iOS) |
 | BGAEncAdvance Ver0.034 | BGAEncAdv | [BGAEncAdv](https://yaruki0.net/programs/bgaencadv.html "Nageyari Software > プログラム > BGAEncAdvance") |
-| bms diff tool | diff | [diff](https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm "bms diff tool") (web apps) |
+| bms diff tool | diff | [diff](https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm "bms diff tool") (웹 앱) |
 | lr2\_pmsview\_helper | LR2PMS | [LR2PMS](https://twitter.com/misty_ls04/status/473058415636279296 "【人柱求む】") |
 | to be tested: |     |     |
 | o2mania 1.2.0 | o2mania | [o2mania](http://www.o2mania.com/ "O2MANIA-DJMAX劲乐团单机版模拟器") |
-| MyO2 2011-06-01 | MyO2 | (Since it seems that I received warning, I do not indicate URI.) |
+| MyO2 2011-06-01 | MyO2 | (저작권 문제로 링크 검열) |
 | D3beat ver1.1 ([jubeat](https://en.wikipedia.org/wiki/Jubeat "Jubeat - Wikipedia, the free encyclopedia") style / Windows7 or later) | D3beat | [D3beat](http://www.nicovideo.jp/mylist/29296483 "プログラミング ‐ ニコニコ動画(原宿)") |
 | Invisible Object to Landmine Object Converter | 3-4toD-E | [3-4toD-E](https://nekokan.dyndns.info/%7Eotlovers/guidance/guidance_4b.html "Obj Tech Lovers \| Guidance chapter4-7") |
-| Sp2Dp ver_110622 | SP2DP | [SP2DP](http://www.geocities.jp/o6o\_o9o\_o6o/soft/) (download is impossible now) |
-| BMSE ClipBoard Object Data Format to NoteDrop Converter | BM-ND | [BM-ND](http://bmse-notedrop.jgate.de/ "bmse-notedrop") (web apps) |
+| Sp2Dp ver_110622 | SP2DP | [SP2DP](http://www.geocities.jp/o6o\_o9o\_o6o/soft/) (다운로드 불가) |
+| BMSE ClipBoard Object Data Format to NoteDrop Converter | BM-ND | [BM-ND](http://bmse-notedrop.jgate.de/ "bmse-notedrop") (웹 앱) |
 | Be-Music Helper (beta 4′) ~(Windows Vista or later)~ | bmhelper | [bmhelper](https://excln.github.io/bmhelper.html "Lazy Notes") |
 | Mid2BMS | Mid2BMS | [Mid2BMS](http://mid2bms.web.fc2.com/ "Mid2BMS BMS Improved Development Environment") |
 | \[tentative name\] \[suspended\] TechnicalGroove | techGrv | [techGrv](<https://web.archive.org/web/*/https://dl.dropboxusercontent.com/u/19134729/otogeokiba.html> "おとげせいさくちゅう") |
@@ -141,13 +139,13 @@ Lunatic Rave 2를 제외한 모든 현역 BMS 앱은 아래 사양표의 전부�
 
 | 명칭 | 설명 |
 | --- | --- |
-| **beatoraja** | Lunatic Rave 2 이후에 출시된 구동기 중 가장 널리 사용되는 구동기.<br>스킨 문제, 유저층의 빈약함, 느린 업데이트 등으로 인해 평이 크게 좋지는 않았으나,<br>세월이 지나면서 기능도 어느 정도 확충되고 무료 스킨도 다수 추가되어<br>많은 유저들에게 선택받고 있다.<br>최근 플레이 유저 수는 LR2와 유사한 수준.<br><br>온라인 랭킹 지원 |
+| **beatoraja** | Lunatic Rave 2 이후에 출시된 구동기 중 가장 널리 사용되는 구동기.<br>스킨 문제, 유저층의 빈약함, 느린 업데이트 등으로 인해 평이 크게 좋지는 않았으나,<br>세월이 지나면서 기능도 어느 정도 확충되고 무료 스킨도 다수 추가되어<br>많은 유저들에게 선택받고 있다.<br>최근 플레이 유저 수는 LR2와 유사한 수준.<br><br>온라인 랭킹 지원, 크로스 플랫폼 지원 (Java 기반) |
 | bemuse | 태국에서 개발하고 있는 BMS 구동기.<br>웹 기반으로 키맵이 가능하며, 배속은 방향키 위, 아래로 조절한다.<br><br>온라인 랭킹 지원 |
-| **Lunatic Rave 2** | 2008년 이후로 개발이 중단되었으나 여전히 현역의 자리를<br>유지하고 있는 구동기. HD, FLAC 개조 등이 이루어졌으며,<br>오랜 세월 누적된 데이터와 IIDX와 가장 유사한 오토 저지,<br>판정 및 게이지 체계를 보유하고 있다.<br>일본에서는 여전히 1위의 자리를 유지하고 있다.<br><br>개조 여부에 상관 없이 온라인 랭킹 지원 |
-| **Qwilight** | 2018년부터 개발 중인 국산 구동기.<br>컨트롤러라고 하면 떠올릴 수 있는 모든 장비를 지원하는 것이 특징.<br>여기에서 설명하는 BMS와 이의 변종들 함께 JSON 기반의 BMSON 포맷을 완벽 지원하며,<br>관련 에디터와 연동해 차분 오토플레이와 비주얼 수정도 가능하다.<br>이 문서에서 언급하는 로케일 문제도 신경 쓰지 않아도 된다.<br><br>온라인 랭킹 지원 |
+| **Lunatic Rave 2** | 2008년 이후로 개발이 중단되었으나 여전히 현역의 자리를<br>유지하고 있는 구동기. HD, FLAC, 램 확장 개조 등이 이루어졌으며,<br>오랜 세월 누적된 데이터와 IIDX와 가장 유사한 오토 저지,<br>판정 및 게이지 체계를 보유하고 있다.<br>일본에서는 여전히 1위의 자리를 유지하고 있다.<br><br>개조 여부에 상관 없이 온라인 랭킹 지원, Windows 전용 |
+| **Qwilight** | 2018년부터 개발 중인 국산 구동기.<br>컨트롤러라고 하면 떠올릴 수 있는 모든 장비를 지원하는 것이 특징.<br>여기에서 설명하는 BMS와 이의 변종들 함께 JSON 기반의 BMSON 포맷을 완벽 지원하며,<br>관련 에디터와 연동해 차분 오토플레이와 비주얼 수정도 가능하다.<br>이 문서에서 언급하는 로케일 문제도 신경 쓰지 않아도 된다.<br><br>온라인 랭킹 지원, Windows 전용 (Unity 엔진) |
 | Project OutFox | StepMania를 개량해 제작되고 있는 구동기.<br>BMS 파싱 기능을 바닥부터 새로 만들고 있어 기믹 채보와의 호환성이 좋지 않다.<br>StepMania 기반이라 플레이 도중 배속 변경이 불가하고,<br>노멀 게이지(Groove Gauge)도 지원되지 않는다. |
 
-마지막 정리: 2024-05-04
+마지막 정리: 2024-08-24
 
 ## BMS 포맷에 대한 메모
 ### 스펙상 최소 사양에 대하여
@@ -468,6 +466,8 @@ BMS는 5건 **beatmania**를 구현하기 위한 움직임으로부터 시작했
 | `#PLAYER 3` | 1P + 2P | DP | 더블 플레이. |
 | `#PLAYER 4` | 1P v 2P | BP | 배틀 플레이. 지원하는 구동기가 없다. |
 
+regex: `/#PLAYER ([1-4])/g`
+
 본 명령어는 현재 하위 호환을 위해 남겨져 있으며, 현대 구동기는 파싱 결과를 기반으로 플레이 방식을 추정하고 있다.
 
 ![PMS](./resources/pms_ko.png) PMS 형식의 경우, 호환성을 위해 `#PLAYER 3`를 설정하는 것을 권장하고 있다.
@@ -482,6 +482,8 @@ BMS는 5건 **beatmania**를 구현하기 위한 움직임으로부터 시작했
 | `#RANK 2` | NORMAL | 18ms |
 | `#RANK 3` | EASY | 21ms |
 
+regex: `/#RANK ([0-3])/g`
+
 구동기에 따라 판정 폭은 상이하며, 일부 경우 이를 부분적으로 지원하거나 전혀 지원하지 않는 경우도 있다.
 
 #### #RANK 4
@@ -492,6 +494,8 @@ VERY EASY 판정 난이도를 가리킨다. 지원하지 않는 경우 `#RANK 2`
 #### 상대적 #RANK
 ![비표준](./resources/nonstd_ko.png)
 
+regex: `/#RANK (\-?[0-9]*(?:.[0-9]{1..3})?)/g`
+
 일부 구동기는 상대적인 판정 난이도를 지원한다. 즉, `6`이나 `-1`과 같은 수치를 지정할 수 있다.
 
 Angolmois 2.0 alpha 2의 경우, 공식에 따라 6 미만의 어느 수도 판정 난이도로 지정될 수 있다.
@@ -501,15 +505,21 @@ TechnicalGroobe에서는 `#DEFEXRANK n`을 판정 난이도로 이용하지만, 
 ### #DEFEXRANK
 ![비표준](./resources/nonstd_ko.png)
 
+regex: `/#DEFEXRANK ([0-9]*)/g`
+
 `#RANK`보다 더 상세하게 지정할 수 있도록 정의된 `#RANK`의 변종이다. 일반적으로 `#RANK 2` = `#DEFEXRANK 100`으로 정의하고, 그 증감 폭은 구동기마다 다르다.
 
 ### #EXRANK
 ![비표준](./resources/nonstd_ko.png)
 
+regex: `/#EXRANK ([0-9*])/g`
+
 `#xxxA0` 채널에 정의할 일시적 난이도를 지정한다. 수치는 `#DEFEXRANK`의 것을 사용한다.
 
 ### #TOTAL
 ![표준](./resources/standard_ko.png)
+
+regex: `/#TOTAL ([0-9]*)/g`
 
 게이지의 증감 폭을 지정한다.
 
@@ -532,10 +542,14 @@ DJMAX 구작, O2Jam Online 등은 다른 값으로 추정된다.
 ### #VOLWAV
 ![표준](./resources/standard_ko.png)
 
+regex: `/#VOLWAV ([1-9][0-9]{0..2})/g`
+
 `#VOLWAV n`: 100을 기준으로 키음의 전체적인 볼륨을 지정한다.
 
 ### #STAGEFILE
 ![표준](./resources/standard_ko.png)
+
+regex: ``/#STAGEFILE ((?:[\w-=+$`,;]*(?:\\|\/))?+[\w-=+$`,;]*.[\w-]*)/g``
 
 BMS가 로딩 중일 때 표시될 스플래시 파일을 지정한다.
 - 포함하지 않는 경우, 구동기에서 지정하는 기본 로딩 화면이 표시된다.
@@ -544,10 +558,14 @@ BMS가 로딩 중일 때 표시될 스플래시 파일을 지정한다.
 ### #BANNER
 ![PMS](./resources/pms_ko.png)
 
+regex: ``/#BANNER ((?:[\w-=+$`,;]*(?:\\|\/))?+[\w-=+$`,;]*.[\w-]*)/g``
+
 300x80px 규격으로 표시될 배너 이미지를 지정한다.
 
 ### #BACKBMP
 ![비표준](./resources/nonstd_ko.png)
+
+regex: ``/#BACKBMP ((?:[\w-=+$`,;]*(?:\\|\/))?+[\w-=+$`,;]*.[\w-]*)/g``
 
 처음 정의 상에서는, 플레이 화면 뒤에 표시되는 배경 이미지를 지정한다.
 
@@ -555,6 +573,8 @@ BMS가 로딩 중일 때 표시될 스플래시 파일을 지정한다.
 
 ### #CHARFILE
 ![PMS](./resources/pms_ko.png)
+
+regex: ``#CHARFILE ((?:[\w-=+$`,;]*(?:\\|\/))?+[\w-=+$`,;]*.[\w-]*)/g``
 
 pop'n music의 캐릭터 파일 형식으로, 플레이 화면 우측에 표시될 캐릭터를 지정한다.
 - 예시: [YouTube](https://youtu.be/14skmXXCjOQ)
@@ -565,6 +585,8 @@ pop'n music의 캐릭터 파일 형식으로, 플레이 화면 우측에 표시�
 
 ### #PLAYLEVEL
 ![표준](./resources/standard_ko.png)
+
+regex: `/#PLAYLEVEL ([0-9]+)/g`
 
 채보의 구체적인 난이도를 지정한다.
 - beatmania 기반 구동기는 ★★★★☆☆☆과 같이 별로 표시된다.
@@ -584,6 +606,8 @@ pop'n music의 캐릭터 파일 형식으로, 플레이 화면 우측에 표시�
 #### #PLAYLEVEL (문자열)
 ![비표준](./resources/nonstd_ko.png)
 
+regex: `/#PLAYLEVEL ([\S]+)/g`
+
 일부 구동기에서는, 문자열이 난이도로 지정되는 경우가 있다.
 - 소수를 통해 세부 난이도를 지정하는 경우도 종종 있다.
 
@@ -591,6 +615,8 @@ pop'n music의 캐릭터 파일 형식으로, 플레이 화면 우측에 표시�
 ![표준](./resources/standard_ko.png)
 
 채보의 대략적인 난이도를 지정한다.
+
+regex: `/#DIFFICULTY ([1-5])/g`
 
 | 구분 | 표시 예시 1 | 표시 예시 2 |
 | --- | --- | --- |
@@ -604,6 +630,8 @@ pop'n music의 캐릭터 파일 형식으로, 플레이 화면 우측에 표시�
 
 #### 파일 이름으로 지정 (비표준)
 
+regex: `/[\S]*?-(n|h|ex|p).(?:(?:b|p)ms|bme)/g`
+
 파일의 특정 꼬리말에 따라 난이도를 자동으로 지정한다.
 - `pmsname-n.pms` -> NORMAL (`#DIFFICULTY 2`)
 - `pmsname-h.pms` -> HYPER (`#DIFFICULTY 3`)
@@ -614,6 +642,8 @@ pop'n music의 캐릭터 파일 형식으로, 플레이 화면 우측에 표시�
 
 ### #TITLE
 ![표준](./resources/standard_ko.png)
+
+regex: `/#TITLE ([\S \t]*)/g`
 
 채보의 제목을 지정한다.
 - 없는 경우 대부분의 구동기에서 실행이 거부되므로, 별도로 지정하는 것을 권장한다.
@@ -631,6 +661,8 @@ LR2 이후 세대 구동기는 UTF16-LE(BOM) 형식을 기본으로 이용한다
 ### #SUBTITLE
 ![BME](./resources/bme_ko.png)
 
+regex: `/#SUBTITLE ([\S \t]*)/g`
+
 `#TITLE`로 부제목을 일정하게 지정하지 못하는 경우가 발생하자 적용된 방법으로, 부제목을 지정할 수 있다.
 - 누락되는 경우 위의 특정 문자열 방식을 이용하거나 빈 글로 표시된다.
 
@@ -639,10 +671,14 @@ LR2 이후 세대 구동기는 UTF16-LE(BOM) 형식을 기본으로 이용한다
 ### #ARTIST
 ![표준](./resources/standard_ko.png)
 
+regex: `/#ARTIST ([\S \t]*)/g`
+
 일반적으로 작곡가 명의를 지정한다.
 
 ### #SUBARTIST
 ![BME](./resources/bme_ko.png)
+
+regex: `/#SUBARTIST ([\S \t]*)/g`
 
 BGA 제작자, 채보 제작자 등 여타 도움을 준 사람들을 적는 부분이다.
 
@@ -651,10 +687,14 @@ BGA 제작자, 채보 제작자 등 여타 도움을 준 사람들을 적는 부
 ### #MAKER
 ![비표준](./resources/nonstd_ko.png)
 
+regex: `/#MAKER ([\S \t]*)/g`
+
 메타 데이터. 채보 제작자를 별도로 표시한다.
 
 ### #GENRE
 ![표준](./resources/standard_ko.png)
+
+regex: `/#GEN(?:R|L)E ([\S \t]*)/g`
 
 장르를 지정한다. 없는 경우, 빈 값이 지정된다.
 
@@ -694,6 +734,8 @@ BGA 제작자, 채보 제작자 등 여타 도움을 준 사람들을 적는 부
 - `CH`: 채널
 - `zz`: 깎을 체력의 양 (%, base36)
 
+regex: `/#([0-9A-Za-z]{3})([DE][1-9]):([0-9A-Za-z]{2})/g`
+
 ### #PATH_WAV
 ![비표준](./resources/nonstd_ko.png)
 
@@ -709,22 +751,27 @@ BGA 제작자, 채보 제작자 등 여타 도움을 준 사람들을 적는 부
 
 형식: `#BPM bpm`
 - `bpm`: 10진수 BPM. 초기 BPM을 지정한다.
+- regex: `/#BPM ([1-9][0-9]{..2})/g`
 
 형식: `#BPMzz bpm`
 - `zz`: 숫자 (base36)
 - `bpm`: 10진수 BPM. `#xxx08` 채널로 지정하는 경우 실수 BPM도 가능하다.
+- regex: `/#BPM([0-9A-Za-z]{2}) ([1-9][0-9]+(?:.[0-9]+))/g`
 
 #### BPM 변경
 초기 방식: `03` 채널에 `01`부터 `FF`까지 지정된 BPM으로 변경한다. `#xxx03:HH`와 같이 지정하며 HH는 16진수.
+- regex: `/#([0-9A-Fa-f]{3})03:([0-9A-Fa-f]{2})/g`
 
 개선 방식: `08` 채널에 `#xxx08:zz`의 형식으로 `01`부터 `ZZ`까지 36진수 범위에서 설정할 수 있다.
+- regex: `/#([0-9A-Za-z]{3})08:([0-9A-Fa-f]{2})/g`
 
 ### #STOP
 ![BME](./resources/bme_ko.png)
 
 `n`/192**박**동안 스크롤을 멈춘다.
-
-채널: `09`
+- 채널: `09`
+- 설정 regex: `/#STOP([0-9a-zA-Z]{2}) (\-?[0-9]+)/g`
+- 적용 regex: `/#([0-9A-Za-z]{3})09:([0-9A-Za-z]{2})/g`
 
 ```bms
 #BPM 120
@@ -747,11 +794,13 @@ beatmaniaDX 타입의 STP 시퀸스를 지정한다.
 - `xxx`: 마디
 - `yyy`: 마디 안 위치 (1000분박)
 - `zzzz`: 멈출 시간 (ms)
+- regex: `/#STP ([0-9]{3}).([0-9]{3}) ([0-9]{4})/g`
 
 ### #LNTYPE
 ![BME](./resources/bme_ko.png)
 
 `1`로 설정 시 롱노트를 RDM식 롱노트로 지정한다. `2`는 현재 사장된 사양.
+- regex: `/#LNTYPE (1|2)/g`
 
 채널: `51`~`69`
 
@@ -794,6 +843,7 @@ LNTYPE 1의 경우, 1개에서 2개의 노트로 지정된다.
 형식: `#WAVzz relPath...`
 - `zz`: 키음 채널 (base36)
 - `relPath`: BMS 파일이 있는 폴더 기준 상대경로
+- regex: ``/#WAV[0-9a-zA-Z]{2} ((?:[\w-=+$`,;]*(?:\\|\/))?+[\w-=+$`,;]*.[\w-]*)/g``
 
 파일 형식:
 - ![표준](./resources/standard_ko.png) 8/16/24-비트 PCM, 8000~48kHz
@@ -814,6 +864,7 @@ BGA를 지정한다.
 형식: `#BMPzz relPath...`
 - `zz`: BGA 전용 키음 채널 (base36)
 - `relPath`: BMS 파일이 있는 폴더 기준 상대경로
+- regex: ``/#BMP[0-9a-zA-Z]{2} ((?:[\w-=+$`,;]*(?:\\|\/))?+[\w-=+$`,;]*.[\w-]*)/g``
 
 파일 형식:
 - ![표준](./resources/standard_ko.png) 256x256px 이하의 `BMP` 파일
@@ -828,6 +879,10 @@ BGA를 지정한다.
 ## 컨트롤 영역
 ### #RANDOM
 ![표준](./resources/standard_ko.png)
+
+regex: `/#RANDOM ([0-9]+)\n([\S\s]*?)#ENDRANDOM/g`
+- 이 regex 그대로 적용하면 파싱 오류난다. 날먹할 생각 말고 RANDOM 블록 내부 하나하나 컴파일하자.
+- 제대로 된 애는 `/#RANDOM ([0-9]+)\n([\S\s]*?)?(?:#IF $(random(\1))\n([\S\s]*?)#ENDIF)\n([\S\s]*?)?#ENDRANDOM/g`쯤 되지 않을까? 물론 파싱 중에 random() 연산은 불가능하니 얘도 고장나겠지만.
 
 위에도 적어뒀지만...
 
@@ -856,9 +911,12 @@ BGA를 지정한다.
 ![BME](./resources/bme_ko.png)
 
 `#RANDOM` 대신 선언해, `#RANDOM`의 값을 해당 값으로 지정하는 방식이다.
+- regex: `/#SETRANDOM ([0-9]+)\n([\S\s]*?)#ENDRANDOM/g`
 
 ### #SWITCH
 ![BME](./resources/bme_ko.png) ![비표준](./resources/nonstd_ko.png)
+
+regex: RANDOM에서 RANDOM을 SWITCH로, ENDRANDOM을 ENDSW로, IF를 CASE로, ENDIF를 SKIP으로. CASE가 매칭이 안 되면 DEF..SKIP 블록을 파싱.
 
 ```bms
 #SWITCH 64
@@ -875,6 +933,7 @@ BGA를 지정한다.
 
 ### 주석
 `//`, `;`, `/* ~ */`이 가능하긴 한데, 일부 구동기에선 미지원.
+- regex: `/(?!(?:\/\/[\S \t]*)|(?:\/\*[\S\s]*?\*\/)|(?:;[\S \t]*))/g`
 
 ## 돌아가기
 [돌아가기](./)

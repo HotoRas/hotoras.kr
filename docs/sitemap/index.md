@@ -19,5 +19,4 @@
 - [번역본 한국어](../BMS/Commands/cmds-ko.md)
 
 ## 잡소리
-[이상한 짓거리](../dumbthings/)  
-[단어장](../voca/)
+[이상한 짓거리](../dumbthings/)
