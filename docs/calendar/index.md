@@ -5,4 +5,4 @@
 
 ## 외부 링크
 - [Twitter](https://twitter.com/hoto_ras)
-- [홈](../)
+- [홈](../index.md)

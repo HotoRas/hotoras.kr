@@ -2,14 +2,14 @@
 ## 소개
 2024년 기준 대학교 1학년까지 다니고 군대 간 호토 라즈입니다. ~~마이마이 하고 싶다~~
 
-[포크한 레포 목록](./forklookup/) | [레포 목록 보기](https://github.com/HotoRas?tab=repositories)
+[포크한 레포 목록](./forklookup/index.md) | [레포 목록 보기](https://github.com/HotoRas?tab=repositories)
 
 > 도움을 주고 싶으시다면, 마음놓고 풀리퀘 올려주세요.
 
 일상 보고 싶으시면 [여기](https://nekoplanet.xyz/@ras) 또는 [여기](https://hoto.moe/@ras)로 놀러오세용
 
 ## 스택
-[보러가기](./stacks/)
+[보러가기](./stacks/index.md)
 
 <!--
 ## 스폰서
@@ -37,10 +37,10 @@ https://patreon.com/HotoRas
 계좌번호는 도용 위험이 있어 개별 연락을 주시면 그때 알려드리고 있습니다.
 
 ## 참여 중인 프로젝트
-[목록](./projects/)
+[목록](./projects/index.md)
 
 ## 둘러보기
-[사이트맵](./sitemap/)을 확인해주세요.
+[사이트맵](./sitemap/index.md)을 확인해주세요.
 
 ## 연락처
 이메일: <hotoras03@gmail.com>

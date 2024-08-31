@@ -174,4 +174,4 @@ Forge/Neoforge-Fabric 기반 Minecraft 서버.
 - `LR2Dec/<private project>`: LR2 디컴파일 및 리빌드 시 문제가 없을 때 공개 예정. 아직 초기 단계고, 여기 올라와 있는 코드 자체를 쓸 수가 없다.
 
 ## 돌아가기
-[돌아가기](../)
+[돌아가기](../index.md)
