@@ -10,7 +10,7 @@ Check out details on [here (korean)](https://home.hotoras.kr).
 
 powered by nuxtjs powered by vuejs powered by nodejs
 
-original source code by [@hyun1008](https://github.com/hyun1008) and some nuxtjs examples
+original source code by [@jyhyun1008](https://github.com/jyhyun1008) and some nuxtjs examples
 
 ## 빌드 및 테스트
 
