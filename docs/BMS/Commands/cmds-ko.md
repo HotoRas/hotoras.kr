@@ -53,84 +53,153 @@
 편의를 위해, 이 문서에서는 아래와 같은 약어를 사용합니다.
 (범용적으로 사용되는 약어와 상이할 수 있습니다.)
 
-| The name and version | Abbr | Description |
-| --- | --- | --- |
-| Body (obsolete): |     |     |
-| BM98 & BM98 kikuchan version 330 revision 42 | BM98 | [BM98](https://hitkey.nekokan.dyndns.info/bm98.htm "BM98 Kikuchan Version 3.30 Revision #4.2") |
-| BM98 Kikuchan Version 3.32β Drink Edition | BM98de | [BM98de](http://www.uranus.dti.ne.jp/%7Ekikuchan/bm98/ "きくちゃんのページ 2nd - BM98") |
-| music game quest ver2.18 | MGQ | [MGQ (Wayback Machine)](<https://web.archive.org/web/*/http://www.geocities.co.jp/Playtown/4702/*> "Internet Archive Wayback Machine") |
-| Delight Delight Reduplication Ver.0.50 beta5 | DDR | [DDR](https://delight.airytail.co/download.html "Download - Delight Delight Reduplication Support Page") |
-| rhythm-it 1.72a | RDM | [RDM](https://nvyu.net/rdm/download3.php "ruv-it! \| support page") |
-| Mixwaver 1.6 Final & MixWaver\]\[ 1.2 | MW  | [MW](http://mixwaver.s18.xrea.com/html/dl_mw.html "Download - MixWaver Official Support Page") |
-| BmDx Millennium Edition M6 ([old document](https://web.archive.org/web/*/http://www.interq.or.jp/ski/sakura/BmDxA.html "Internet Archive Wayback Machine")) | BmDx | [BMDX (Wayback Machine)](<https://web.archive.org/web/*/http://www.interq.or.jp/ski/sakura/otoge/otoge_bmdx.html> "Internet Archive Wayback Machine") |
-| bemaniaDX Vision.3 APPEND Vision.4 Skin version 0.95 | bemaniaDX | [bemaniaDX](https://web.archive.org/web/20070518162219/http://bemaniadx.s3.xrea.com/download.html "■ bemaniaDX Download Site ■") |
-| unofficial nazobmplay rev.798 | nazo | [nazo](https://manbow.nothing.sh/nazobmplay/download.html "nazoBMplay 非公式ダウンロードサイト") |
-| unofficial nazobmplay rev.798 + Glasopal 20080313 | nazoZZ | [nazoZZ](https://hitkey.nekokan.dyndns.info/glasopal.html "Glasopal ミラーページ") |
-| BM2DXEmu a20 | DXEmu | [DXEmu](http://www.charatsoft.com/software/bm2dxemu/index.html "■CharatSoft.com » SOFTWARE » BM2DXEmu α") |
-| MacBeat 0.9.8.3 | Mac | [Mac](http://harinezumi.s14.xrea.com/download/MacBeat0983.sit.bin) |
-| Aqua'n Beats 1.0.3 | Aqua | [Aqua](http://aquan-beats.matrix.jp/ "Aqua'nBeats") |
-| nanasigroove ver.1.552 | nanasi | [nanasi](http://d11x.sakura.ne.jp/asdf/?p=13 "ナナシグルーヴ » A.S.D.F.") |
-| forgetalia++ (2009-04-15) | fgt++ | [fgt++](http://cerebralmuddystream.hp.infoseek.co.jp/forgetalia++/index.html) (closed) |
-| Body (current): |     |     |
-| LunaticRave2 100201 | LR2 | [LR2](https://web.archive.org/web/20110210225009/http://www.lr2.sakura.ne.jp/index2.html "縮小運営中") (현재 일본에서의 준표준) |
-| ruv-it! 2.0 b5p7 test #7 (2012-03-19) | ruvit | [ruvit](https://nvyu.net/rdm/ "ruv-it! \| support page") |
-| nanasigroove2 beta (Toy Musical 3 Ver.2.2) | nanasi2 | [nanasi2](http://d11x.sakura.ne.jp/asdf/ "A.S.D.F") |
-| forgetalia# (2011-04-16) | fgt# | [fgt#](https://cerebralmuddystream.nekokan.dyndns.info/soft/forgetalia_sp.zip) |
-| Feeling Pomu Second Ver 0.8001 | pomu2 | [pomu2](https://pmcc.nekokan.dyndns.info/pmcc2/download.html "Colorful Channel official website ++ download") |
-| charatbeatHDX VIOLET (v1.05) | HDX | [HDX](http://www.charatsoft.com/software/charatbeatHDX/index.html "■CharatSoft.com » SOFTWARE » charatbeatHDX VAIOLET") |
-| Angolmois 2.0 e5cea53a2cbd | Angolmois | [Angolmois](https://mearie.org/projects/angolmois/ "Angolmois \| mearie.org Projects") |
-| Angolmois Rust Edition (2014-04-08) | Angolmois | [Angolmois-Rust](https://github.com/lifthrasiir/angolmois-rust "lifthrasiir/angolmois-rust · GitHub") |
-| Sonorous 0.1.0-pre (2014-07-08) | Sonorous | [Sonorous](https://cosmic.mearie.org/f/sonorous/ "Sonorous") |
-| Editor: |     |     |
-| BMS Creator 2.0b1 | BMSC | [BMSC](http://tixlab.com/software/bmsc.shtml "BMS Creator") |
-| beditor 1.3.1 | beditor | [beditor](https://web.archive.org/web/*/http://macbeat.at.infoseek.co.jp/data/* "Internet Archive Wayback Machine") |
-| GDA Creator Professional Edition Ver.0.24 | GDAC2 | [GDAC2](https://www.asahi-net.or.jp/%7Enm4j-tyn/gdac2/ "GDA Creator Professional Edition") |
-| GDAC2 lane-script for nanasigroove-extended-command | 774gsc | [774gsc](http://asdf.bms.ms/soft/nanasi/774gsc.zip) (다운로드 불가) |
-| BMx Sequence Editor 1.3.8 | BMSE | [BMSE](http://ucn.tokonats.net/software/bmse/ "UCN-Soft - Software » BMSE") |
-| BMx Sequence Editor dttvb-1.3.8 (2011-11-16T18:36:00 ver.) | BMSE | [UCN-BMSE](https://github.com/dtinth/UCN-BMSE "dtinth/UCN-BMSE · GitHub") (visualization of LN) |
-| iBMS BMS Creator 3.0.5 Delta | iBMSC | [iBMSC](https://web.archive.org/web/20140819164923/http://www.cs.mcgill.ca/%7Eryang6/iBMSC/ "iBMSC - Home") |
-| DTXCreator 026 (July 7th, 2014) | DTXC | [DTXC](https://en.osdn.jp/projects/dtxmania/releases/ "Download Files List - DTXMania - OSDN") |
-| Viewer (obsolete): |     |     |
-| BMS Viewer 2.0 | BMSV | [BMSV](https://web.archive.org/web/*/http://www.h3.dion.ne.jp/%7Ecpp/download/bmview/index.html "BMS Viewer - ていくいっと れいずぃ！") |
-| BME(BMS) Viewer 0.04 | BMEV | [BMEV](http://www.din.or.jp/%7Ek-uraki/game/tools.html "Game Support Tools - うらこく") |
-| nBMplay v0.26a | nBMplay | [nBMplay](https://www.nothing.sh/download/ "Index of /download - area[nothing]: Really Simple Site") |
-| in_bm 1.17 (WAview) | WAview | [WAview](https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/ "in_bm公開ページ") ([WinAmp](https://www.winamp.com/ "Winamp Media Player - MP3, Video, and Music Player - Winamp")의 플러그인) |
-| o2play 2009-09-12 | o2play | [o2play](http://rlnoparo.ys168.com/ "rlnoparo.ys168.com") |
-| Viewer (current): |     |     |
-| uBMplay 1.5.2 | uBMplay | [uBMplay](http://ucn.tokonats.net/software/ubmplay/ "UCN-Soft - Software » uBMplay") |
-| PMSee-V v2.2.3 | PMSee-V | [PMSee-V](https://sakukoba.ninja-x.jp/ponila/ "ポニラボ") |
-| BMIIDXView2010 v2.14 | IIDXv | [IIDXv](http://www.charatsoft.com/software/bmview/index.html "■CharatSoft.com » SOFTWARE » BMIIDXView2010") |
-| Others (obsolete): |     |     |
-| otama Ver.0.991 | otama | [otana](https://www.asahi-net.or.jp/%7EVG5M-OBT/otama.html "otama") (bullet curtain) |
-| NINJA AGENT GALLI ver1.03 | GALLI | [GALLI](https://web.archive.org/web/20160311123053/http://ninjaactionteam.sakura.ne.jp/sakuhin_bmsplayer.html "忍者放送協会") (action game) |
-| BMS Printer Ver.0.01 Pre-Release | bmsPRN | [bmsPRN](https://delight.airytail.co/download.html "Download - Delight Delight Reduplication Support Page") |
-| bms2wav 0.07b / 0.07c | bms2wav | [bms2wav](http://homepage2.nifty.com/ma~/) (다운로드 불가) |
-| bme2wav BETA 13 | bme2wav | [bme2wav](http://childs.squares.net/program/bme2wav/index.html "BME2WAV - CHILD'S SQUARE") |
-| BmsToAvi 0.03c | bms2avi | [bms2avi](http://www32.tok2.com/home/digitalapeman/Tools/BmsToAvi/BmsToAvi.html "BmsToAvi") |
-| BGAEncoder 0.2a | BGAenc | [BGAenc](http://titans-server.ddo.jp/%7Emurasin/) (다운로드 불가) |
-| in_bm 2.01 | in_bm2 | [in_bm2](<https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/> "in_bm公開ページ") ([Winamp](https://www.winamp.com/ "Winamp Media Player - MP3, Video, and Music Player - Winamp") 플러그인) |
-| BMS/BME/EMS plugin for KbMediaPlayer version 1.0r13 | bmse.kpi | KbMedia Player Version 2.63a contains this<br><br>[KbMedia](http://hwm5.gyao.ne.jp/kobarin/index.htm "Kobarinのホームページ") |
-| Others (current): |     |     |
-| bmx2wav 1.3.3 | bmx2wav | [bmx2wav](http://childs.squares.net/program/bmx2wav/index.html "BMX2WAV - CHILD'S SQUARE") |
-| PMChr-V v4.0.2 | PMChr-V | [PMChr-V](https://sakukoba.ninja-x.jp/ponila/ "ポニラボ") |
-| woslicerII (wav-file slicer) | woslicerII | [woslicerII](https://cerebralmuddystream.nekokan.dyndns.info/ "脳性濁流") |
-| woslicerII (bug-fix version? 2012-09-14) | woslicerII | [WOSlicerII-bugfix](https://twitter.com/wosderge/status/246852579550699522 "Twitter / wosderge:") |
-| woslicerIII ~(requires .NET Framework 4.5 (Windows Vista or later))~ | woslicerIII | [WOSlocerIII](https://cerebralmuddystream.nekokan.dyndns.info/ "脳性濁流") |
-| BMx Outliner (for now, `#RANDOM` / `#SWITCH` viewer) | outliner | [outliner](https://hitkey.nekokan.dyndns.info/bmxoutliner.htm "BMx Outliner") (웹 앱) |
-| Starry Music Beat ver1.03 | SMB | [SMB](https://itunes.apple.com/jp/app/starry-music-beat/id481749987?mt=8 "App Store - Starry Music Beat") (for iOS) |
-| BGAEncAdvance Ver0.034 | BGAEncAdv | [BGAEncAdv](https://yaruki0.net/programs/bgaencadv.html "Nageyari Software > プログラム > BGAEncAdvance") |
-| bms diff tool | diff | [diff](https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm "bms diff tool") (웹 앱) |
-| lr2\_pmsview\_helper | LR2PMS | [LR2PMS](https://twitter.com/misty_ls04/status/473058415636279296 "【人柱求む】") |
-| to be tested: |     |     |
-| o2mania 1.2.0 | o2mania | [o2mania](http://www.o2mania.com/ "O2MANIA-DJMAX劲乐团单机版模拟器") |
-| MyO2 2011-06-01 | MyO2 | (저작권 문제로 링크 검열) |
-| D3beat ver1.1 ([jubeat](https://en.wikipedia.org/wiki/Jubeat "Jubeat - Wikipedia, the free encyclopedia") style / Windows7 or later) | D3beat | [D3beat](http://www.nicovideo.jp/mylist/29296483 "プログラミング ‐ ニコニコ動画(原宿)") |
-| Invisible Object to Landmine Object Converter | 3-4toD-E | [3-4toD-E](https://nekokan.dyndns.info/%7Eotlovers/guidance/guidance_4b.html "Obj Tech Lovers \| Guidance chapter4-7") |
-| Sp2Dp ver_110622 | SP2DP | [SP2DP](http://www.geocities.jp/o6o\_o9o\_o6o/soft/) (다운로드 불가) |
-| BMSE ClipBoard Object Data Format to NoteDrop Converter | BM-ND | [BM-ND](http://bmse-notedrop.jgate.de/ "bmse-notedrop") (웹 앱) |
-| Be-Music Helper (beta 4′) ~(Windows Vista or later)~ | bmhelper | [bmhelper](https://excln.github.io/bmhelper.html "Lazy Notes") |
-| Mid2BMS | Mid2BMS | [Mid2BMS](http://mid2bms.web.fc2.com/ "Mid2BMS BMS Improved Development Environment") |
-| \[tentative name\] \[suspended\] TechnicalGroove | techGrv | [techGrv](<https://web.archive.org/web/*/https://dl.dropboxusercontent.com/u/19134729/otogeokiba.html> "おとげせいさくちゅう") |
+<table><thead><tr>
+<th>The name and version</th><th>Abbr</th><th>Description</th>
+</tr></thead>
+<tbody><tr><td colspan="2">Body (obsolete):</td></tr>
+<tr><td>BM98 &amp; BM98 kikuchan version 330 revision 42</td><td>BM98</td>
+<td><a href="https://hitkey.nekokan.dyndns.info/bm98.htm" title="BM98 Kikuchan Version 3.30 Revision #4.2">BM98</a></td></tr>
+<tr><td>BM98 Kikuchan Version 3.32β Drink Edition</td><td>BM98de</td>
+<td><a href="http://www.uranus.dti.ne.jp/%7Ekikuchan/bm98/" title="きくちゃんのページ 2nd - BM98">BM98de</a></td></tr>
+<tr><td>music game quest ver2.18</td><td>MGQ</td>
+<td><a href="https://web.archive.org/web/*/http://www.geocities.co.jp/Playtown/4702/*" title="Internet Archive Wayback Machine">MGQ (Wayback Machine)</a></td></tr>
+<tr><td>Delight Delight Reduplication Ver.0.50 beta5</td><td>DDR</td>
+<td><a href="https://delight.airytail.co/download.html" title="Download - Delight Delight Reduplication Support Page">DDR</a></td></tr>
+<tr><td>rhythm-it 1.72a</td><td>RDM</td>
+<td><a href="https://nvyu.net/rdm/download3.php" title="ruv-it! | support page">RDM</a></td></tr>
+<tr><td>Mixwaver 1.6 Final &amp; MixWaver][ 1.2</td><td>MW</td>
+<td><a href="http://mixwaver.s18.xrea.com/html/dl_mw.html" title="Download - MixWaver Official Support Page">MW</a></td></tr>
+<tr><td>BmDx Millennium Edition M6 (<a href="https://web.archive.org/web/*/http://www.interq.or.jp/ski/sakura/BmDxA.html" title="Internet Archive Wayback Machine">old document</a>)</td><td>BmDx</td>
+<td><a href="https://web.archive.org/web/*/http://www.interq.or.jp/ski/sakura/otoge/otoge_bmdx.html" title="Internet Archive Wayback Machine">BMDX (Wayback Machine)</a></td></tr>
+<tr><td>bemaniaDX Vision.3 APPEND Vision.4 Skin version 0.95</td><td>bemaniaDX</td>
+<td><a href="https://web.archive.org/web/20070518162219/http://bemaniadx.s3.xrea.com/download.html" title="■ bemaniaDX Download Site ■">bemaniaDX</a></td></tr>
+<tr><td>unofficial nazobmplay rev.798</td><td>nazo</td>
+<td><a href="https://manbow.nothing.sh/nazobmplay/download.html" title="nazoBMplay 非公式ダウンロードサイト">nazo</a></td></tr>
+<tr><td>unofficial nazobmplay rev.798 + Glasopal 20080313</td><td>nazoZZ</td>
+<td><a href="https://hitkey.nekokan.dyndns.info/glasopal.html" title="Glasopal ミラーページ">nazoZZ</a></td></tr>
+<tr><td>BM2DXEmu a20</td><td>DXEmu</td>
+<td><a href="http://www.charatsoft.com/software/bm2dxemu/index.html" title="■CharatSoft.com » SOFTWARE » BM2DXEmu α">DXEmu</a></td></tr>
+<tr><td>MacBeat 0.9.8.3</td><td>Mac</td>
+<td><a href="http://harinezumi.s14.xrea.com/download/MacBeat0983.sit.bin">Mac</a></td></tr>
+<tr><td>Aqua'n Beats 1.0.3</td><td>Aqua</td>
+<td><a href="http://aquan-beats.matrix.jp/" title="Aqua'nBeats">Aqua</a></td></tr>
+<tr><td>nanasigroove ver.1.552</td><td>nanasi</td>
+<td><a href="http://d11x.sakura.ne.jp/asdf/?p=13" title="ナナシグルーヴ » A.S.D.F.">nanasi</a></td></tr>
+<tr><td>forgetalia++ (2009-04-15)</td><td>fgt++</td>
+<td><a href="http://cerebralmuddystream.hp.infoseek.co.jp/forgetalia++/index.html">fgt++</a> (closed)</td></tr>
+<tr><td colspan="2">Body (current):</td></tr>
+<tr><td>LunaticRave2 100201</td><td>LR2</td>
+<td><a href="https://web.archive.org/web/20110210225009/http://www.lr2.sakura.ne.jp/index2.html" title="縮小運営中">LR2</a> (현재 일본에서의 준표준)</td></tr>
+<tr><td>ruv-it! 2.0 b5p7 test #7 (2012-03-19)</td><td>ruvit</td>
+<td><a href="https://nvyu.net/rdm/" title="ruv-it! | support page">ruvit</a></td></tr>
+<tr><td>nanasigroove2 beta (Toy Musical 3 Ver.2.2)</td><td>nanasi2</td>
+<td><a href="http://d11x.sakura.ne.jp/asdf/" title="A.S.D.F">nanasi2</a></td></tr>
+<tr><td>forgetalia# (2011-04-16)</td><td>fgt#</td>
+<td><a href="https://cerebralmuddystream.nekokan.dyndns.info/soft/forgetalia_sp.zip">fgt#</a></td></tr>
+<tr><td>Feeling Pomu Second Ver 0.8001</td><td>pomu2</td>
+<td><a href="https://pmcc.nekokan.dyndns.info/pmcc2/download.html" title="Colorful Channel official website ++ download">pomu2</a></td></tr>
+<tr><td>charatbeatHDX VIOLET (v1.05)</td><td>HDX</td>
+<td><a href="http://www.charatsoft.com/software/charatbeatHDX/index.html" title="■CharatSoft.com » SOFTWARE » charatbeatHDX VAIOLET">HDX</a></td></tr>
+<tr><td>Angolmois 2.0 e5cea53a2cbd</td><td>Angolmois</td>
+<td><a href="https://mearie.org/projects/angolmois/" title="Angolmois | mearie.org Projects">Angolmois</a></td></tr>
+<tr><td>Angolmois Rust Edition (2014-04-08)</td><td>Angolmois</td>
+<td><a href="https://github.com/lifthrasiir/angolmois-rust" title="lifthrasiir/angolmois-rust · GitHub">Angolmois-Rust</a></td></tr>
+<tr><td>Sonorous 0.1.0-pre (2014-07-08)</td><td>Sonorous</td>
+<td><a href="https://cosmic.mearie.org/f/sonorous/" title="Sonorous">Sonorous</a></td></tr>
+<tr><td colspan="2">Editor:</td></tr>
+<tr><td>BMS Creator 2.0b1</td><td>BMSC</td>
+<td><a href="http://tixlab.com/software/bmsc.shtml" title="BMS Creator">BMSC</a></td></tr>
+<tr><td>beditor 1.3.1</td><td>beditor</td>
+<td><a href="https://web.archive.org/web/*/http://macbeat.at.infoseek.co.jp/data/*" title="Internet Archive Wayback Machine">beditor</a></td></tr>
+<tr><td>GDA Creator Professional Edition Ver.0.24</td><td>GDAC2</td>
+<td><a href="https://www.asahi-net.or.jp/%7Enm4j-tyn/gdac2/" title="GDA Creator Professional Edition">GDAC2</a></td></tr>
+<tr><td>GDAC2 lane-script for nanasigroove-extended-command</td><td>774gsc</td>
+<td><a href="http://asdf.bms.ms/soft/nanasi/774gsc.zip">774gsc</a> (다운로드 불가)</td></tr>
+<tr><td>BMx Sequence Editor 1.3.8</td><td>BMSE</td>
+<td><a href="http://ucn.tokonats.net/software/bmse/" title="UCN-Soft - Software » BMSE">BMSE</a></td></tr>
+<tr><td>BMx Sequence Editor dttvb-1.3.8 (2011-11-16T18:36:00 ver.)</td><td>BMSE</td>
+<td><a href="https://github.com/dtinth/UCN-BMSE" title="dtinth/UCN-BMSE · GitHub">UCN-BMSE</a> (visualization of LN)</td></tr>
+<tr><td>iBMS BMS Creator 3.0.5 Delta</td><td>iBMSC</td>
+<td><a href="https://web.archive.org/web/20140819164923/http://www.cs.mcgill.ca/%7Eryang6/iBMSC/" title="iBMSC - Home">iBMSC</a></td></tr>
+<tr><td>DTXCreator 026 (July 7th, 2014)</td><td>DTXC</td>
+<td><a href="https://en.osdn.jp/projects/dtxmania/releases/" title="Download Files List - DTXMania - OSDN">DTXC</a></td></tr>
+<tr><td colspan="2">Viewer (obsolete):</td></tr>
+<tr><td>BMS Viewer 2.0</td><td>BMSV</td>
+<td><a href="https://web.archive.org/web/*/http://www.h3.dion.ne.jp/%7Ecpp/download/bmview/index.html" title="BMS Viewer - ていくいっと れいずぃ！">BMSV</a></td></tr>
+<tr><td>BME(BMS) Viewer 0.04</td><td>BMEV</td>
+<td><a href="http://www.din.or.jp/%7Ek-uraki/game/tools.html" title="Game Support Tools - うらこく">BMEV</a></td></tr>
+<tr><td>nBMplay v0.26a</td><td>nBMplay</td>
+<td><a href="https://www.nothing.sh/download/" title="Index of /download - area[nothing]: Really Simple Site">nBMplay</a></td></tr>
+<tr><td>in_bm 1.17 (WAview)</td><td>WAview</td>
+<td><a href="https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/" title="in_bm公開ページ">WAview</a> (<a href="https://www.winamp.com/" title="Winamp Media Player - MP3, Video, and Music Player - Winamp">WinAmp</a>의 플러그인)</td></tr>
+<tr><td>o2play 2009-09-12</td><td>o2play</td>
+<td><a href="http://rlnoparo.ys168.com/" title="rlnoparo.ys168.com">o2play</a></td></tr>
+<tr><td colspan="2">Viewer (current):</td></tr>
+<tr><td>uBMplay 1.5.2</td><td>uBMplay</td>
+<td><a href="http://ucn.tokonats.net/software/ubmplay/" title="UCN-Soft - Software » uBMplay">uBMplay</a></td></tr>
+<tr><td>PMSee-V v2.2.3</td><td>PMSee-V</td>
+<td><a href="https://sakukoba.ninja-x.jp/ponila/" title="ポニラボ">PMSee-V</a></td></tr>
+<tr><td>BMIIDXView2010 v2.14</td><td>IIDXv</td>
+<td><a href="http://www.charatsoft.com/software/bmview/index.html" title="■CharatSoft.com » SOFTWARE » BMIIDXView2010">IIDXv</a></td></tr>
+<tr><td colspan="2">Others (obsolete):</td></tr>
+<tr><td>otama Ver.0.991</td><td>otama</td>
+<td><a href="https://www.asahi-net.or.jp/%7EVG5M-OBT/otama.html" title="otama">otana</a> (bullet curtain)</td></tr>
+<tr><td>NINJA AGENT GALLI ver1.03</td><td>GALLI</td>
+<td><a href="https://web.archive.org/web/20160311123053/http://ninjaactionteam.sakura.ne.jp/sakuhin_bmsplayer.html" title="忍者放送協会">GALLI</a> (action game)</td></tr>
+<tr><td>BMS Printer Ver.0.01 Pre-Release</td><td>bmsPRN</td>
+<td><a href="https://delight.airytail.co/download.html" title="Download - Delight Delight Reduplication Support Page">bmsPRN</a></td></tr>
+<tr><td>bms2wav 0.07b / 0.07c</td><td>bms2wav</td>
+<td><a href="http://homepage2.nifty.com/ma~/">bms2wav</a> (다운로드 불가)</td></tr>
+<tr><td>bme2wav BETA 13</td><td>bme2wav</td>
+<td><a href="http://childs.squares.net/program/bme2wav/index.html" title="BME2WAV - CHILD'S SQUARE">bme2wav</a></td></tr>
+<tr><td>BmsToAvi 0.03c</td><td>bms2avi</td>
+<td><a href="http://www32.tok2.com/home/digitalapeman/Tools/BmsToAvi/BmsToAvi.html" title="BmsToAvi">bms2avi</a></td></tr>
+<tr><td>BGAEncoder 0.2a</td><td>BGAenc</td>
+<td><a href="http://titans-server.ddo.jp/%7Emurasin/">BGAenc</a> (다운로드 불가)</td></tr>
+<tr><td>in_bm 2.01</td><td>in_bm2</td>
+<td><a href="https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/" title="in_bm公開ページ">in_bm2</a> (<a href="https://www.winamp.com/" title="Winamp Media Player - MP3, Video, and Music Player - Winamp">Winamp</a> 플러그인)</td></tr>
+<tr><td>BMS/BME/EMS plugin for KbMediaPlayer version 1.0r13</td><td>bmse.kpi</td>
+<td>KbMedia Player Version 2.63a contains this<br><br><a href="http://hwm5.gyao.ne.jp/kobarin/index.htm" title="Kobarinのホームページ">KbMedia</a></td></tr>
+<tr><td colspan="2">Others (current):</td></tr>
+<tr><td>bmx2wav 1.3.3</td><td>bmx2wav</td>
+<td><a href="http://childs.squares.net/program/bmx2wav/index.html" title="BMX2WAV - CHILD'S SQUARE">bmx2wav</a></td></tr>
+<tr><td>PMChr-V v4.0.2</td><td>PMChr-V</td>
+<td><a href="https://sakukoba.ninja-x.jp/ponila/" title="ポニラボ">PMChr-V</a></td></tr>
+<tr><td>woslicerII (wav-file slicer)</td><td>woslicerII</td>
+<td><a href="https://cerebralmuddystream.nekokan.dyndns.info/" title="脳性濁流">woslicerII</a></td></tr>
+<tr><td>woslicerII (bug-fix version? 2012-09-14)</td><td>woslicerII</td>
+<td><a href="https://twitter.com/wosderge/status/246852579550699522" title="Twitter / wosderge:">WOSlicerII-bugfix</a></td></tr>
+<tr><td>woslicerIII <del>(requires .NET Framework 4.5 (Windows Vista or later))</del></td><td>woslicerIII</td>
+<td><a href="https://cerebralmuddystream.nekokan.dyndns.info/" title="脳性濁流">WOSlocerIII</a></td></tr>
+<tr><td>BMx Outliner (for now, <code>#RANDOM</code> / <code>#SWITCH</code> viewer)</td><td>outliner</td>
+<td><a href="https://hitkey.nekokan.dyndns.info/bmxoutliner.htm" title="BMx Outliner">outliner</a> (웹 앱)</td></tr>
+<tr><td>Starry Music Beat ver1.03</td><td>SMB</td>
+<td><a href="https://itunes.apple.com/jp/app/starry-music-beat/id481749987?mt=8" title="App Store - Starry Music Beat">SMB</a> (for iOS)</td></tr>
+<tr><td>BGAEncAdvance Ver0.034</td><td>BGAEncAdv</td>
+<td><a href="https://yaruki0.net/programs/bgaencadv.html" title="Nageyari Software > プログラム > BGAEncAdvance">BGAEncAdv</a></td></tr>
+<tr><td>bms diff tool</td><td>diff</td>
+<td><a href="https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm" title="bms diff tool">diff</a> (웹 앱)</td></tr>
+<tr><td>lr2_pmsview_helper</td><td>LR2PMS</td>
+<td><a href="https://twitter.com/misty_ls04/status/473058415636279296" title="【人柱求む】">LR2PMS</a></td></tr>
+<tr><td colspan="2">to be tested:</td></tr>
+<tr><td>o2mania 1.2.0</td><td>o2mania</td>
+<td><a href="http://www.o2mania.com/" title="O2MANIA-DJMAX劲乐团单机版模拟器">o2mania</a></td></tr>
+<tr><td>MyO2 2011-06-01</td><td>MyO2</td><td>(저작권 문제로 링크 검열)</td></tr>
+<tr><td>D3beat ver1.1 (<a href="https://en.wikipedia.org/wiki/Jubeat" title="Jubeat - Wikipedia, the free encyclopedia">jubeat</a> style / Windows7 or later)</td><td>D3beat</td>
+<td><a href="http://www.nicovideo.jp/mylist/29296483" title="プログラミング ‐ ニコニコ動画(原宿)">D3beat</a></td></tr>
+<tr><td>Invisible Object to Landmine Object Converter</td><td>3-4toD-E</td>
+<td><a href="https://nekokan.dyndns.info/%7Eotlovers/guidance/guidance_4b.html" title="Obj Tech Lovers | Guidance chapter4-7">3-4toD-E</a></td></tr>
+<tr><td>Sp2Dp ver_110622</td><td>SP2DP</td>
+<td><a href="http://www.geocities.jp/o6o_o9o_o6o/soft/">SP2DP</a> (다운로드 불가)</td></tr>
+<tr><td>BMSE ClipBoard Object Data Format to NoteDrop Converter</td><td>BM-ND</td>
+<td><a href="http://bmse-notedrop.jgate.de/" title="bmse-notedrop">BM-ND</a> (웹 앱)</td></tr>
+<tr><td>Be-Music Helper (beta 4′) <del>(Windows Vista or later)</del></td><td>bmhelper</td>
+<td><a href="https://excln.github.io/bmhelper.html" title="Lazy Notes">bmhelper</a></td></tr>
+<tr><td>Mid2BMS</td><td>Mid2BMS</td>
+<td><a href="http://mid2bms.web.fc2.com/" title="Mid2BMS BMS Improved Development Environment">Mid2BMS</a></td></tr>
+<tr><td>[tentative name] [suspended] TechnicalGroove</td><td>techGrv</td>
+<td><a href="https://web.archive.org/web/*/https://dl.dropboxusercontent.com/u/19134729/otogeokiba.html" title="おとげせいさくちゅう">techGrv</a></td></tr>
+</tbody></table>
 
 마지막 정리: 2014-07-11
 
