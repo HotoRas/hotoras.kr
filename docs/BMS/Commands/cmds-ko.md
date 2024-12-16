@@ -56,7 +56,7 @@
 <table><thead><tr>
 <th>The name and version</th><th>Abbr</th><th>Description</th>
 </tr></thead>
-<tbody><tr><td colspan="2">Body (obsolete):</td></tr>
+<tbody><tr><td class="app-semititle" colspan="3">Body (obsolete):</td></tr>
 <tr><td>BM98 &amp; BM98 kikuchan version 330 revision 42</td><td>BM98</td>
 <td><a href="https://hitkey.nekokan.dyndns.info/bm98.htm" title="BM98 Kikuchan Version 3.30 Revision #4.2">BM98</a></td></tr>
 <tr><td>BM98 Kikuchan Version 3.32β Drink Edition</td><td>BM98de</td>
@@ -87,7 +87,7 @@
 <td><a href="http://d11x.sakura.ne.jp/asdf/?p=13" title="ナナシグルーヴ » A.S.D.F.">nanasi</a></td></tr>
 <tr><td>forgetalia++ (2009-04-15)</td><td>fgt++</td>
 <td><a href="http://cerebralmuddystream.hp.infoseek.co.jp/forgetalia++/index.html">fgt++</a> (closed)</td></tr>
-<tr><td colspan="2">Body (current):</td></tr>
+<tr><td class="app-semititle" colspan="3">Body (current):</td></tr>
 <tr><td>LunaticRave2 100201</td><td>LR2</td>
 <td><a href="https://web.archive.org/web/20110210225009/http://www.lr2.sakura.ne.jp/index2.html" title="縮小運営中">LR2</a> (현재 일본에서의 준표준)</td></tr>
 <tr><td>ruv-it! 2.0 b5p7 test #7 (2012-03-19)</td><td>ruvit</td>
@@ -106,7 +106,7 @@
 <td><a href="https://github.com/lifthrasiir/angolmois-rust" title="lifthrasiir/angolmois-rust · GitHub">Angolmois-Rust</a></td></tr>
 <tr><td>Sonorous 0.1.0-pre (2014-07-08)</td><td>Sonorous</td>
 <td><a href="https://cosmic.mearie.org/f/sonorous/" title="Sonorous">Sonorous</a></td></tr>
-<tr><td colspan="2">Editor:</td></tr>
+<tr><td class="app-semititle" colspan="3">Editor:</td></tr>
 <tr><td>BMS Creator 2.0b1</td><td>BMSC</td>
 <td><a href="http://tixlab.com/software/bmsc.shtml" title="BMS Creator">BMSC</a></td></tr>
 <tr><td>beditor 1.3.1</td><td>beditor</td>
@@ -123,7 +123,7 @@
 <td><a href="https://web.archive.org/web/20140819164923/http://www.cs.mcgill.ca/%7Eryang6/iBMSC/" title="iBMSC - Home">iBMSC</a></td></tr>
 <tr><td>DTXCreator 026 (July 7th, 2014)</td><td>DTXC</td>
 <td><a href="https://en.osdn.jp/projects/dtxmania/releases/" title="Download Files List - DTXMania - OSDN">DTXC</a></td></tr>
-<tr><td colspan="2">Viewer (obsolete):</td></tr>
+<tr><td class="app-semititle" colspan="3">Viewer (obsolete):</td></tr>
 <tr><td>BMS Viewer 2.0</td><td>BMSV</td>
 <td><a href="https://web.archive.org/web/*/http://www.h3.dion.ne.jp/%7Ecpp/download/bmview/index.html" title="BMS Viewer - ていくいっと れいずぃ！">BMSV</a></td></tr>
 <tr><td>BME(BMS) Viewer 0.04</td><td>BMEV</td>
@@ -134,14 +134,14 @@
 <td><a href="https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/" title="in_bm公開ページ">WAview</a> (<a href="https://www.winamp.com/" title="Winamp Media Player - MP3, Video, and Music Player - Winamp">WinAmp</a>의 플러그인)</td></tr>
 <tr><td>o2play 2009-09-12</td><td>o2play</td>
 <td><a href="http://rlnoparo.ys168.com/" title="rlnoparo.ys168.com">o2play</a></td></tr>
-<tr><td colspan="2">Viewer (current):</td></tr>
+<tr><td class="app-semititle" colspan="3">Viewer (current):</td></tr>
 <tr><td>uBMplay 1.5.2</td><td>uBMplay</td>
 <td><a href="http://ucn.tokonats.net/software/ubmplay/" title="UCN-Soft - Software » uBMplay">uBMplay</a></td></tr>
 <tr><td>PMSee-V v2.2.3</td><td>PMSee-V</td>
 <td><a href="https://sakukoba.ninja-x.jp/ponila/" title="ポニラボ">PMSee-V</a></td></tr>
 <tr><td>BMIIDXView2010 v2.14</td><td>IIDXv</td>
 <td><a href="http://www.charatsoft.com/software/bmview/index.html" title="■CharatSoft.com » SOFTWARE » BMIIDXView2010">IIDXv</a></td></tr>
-<tr><td colspan="2">Others (obsolete):</td></tr>
+<tr><td class="app-semititle" colspan="3">Others (obsolete):</td></tr>
 <tr><td>otama Ver.0.991</td><td>otama</td>
 <td><a href="https://www.asahi-net.or.jp/%7EVG5M-OBT/otama.html" title="otama">otana</a> (bullet curtain)</td></tr>
 <tr><td>NINJA AGENT GALLI ver1.03</td><td>GALLI</td>
@@ -160,7 +160,7 @@
 <td><a href="https://web.archive.org/web/*/http://nickle.ath.cx/%7Esoftlab/in_bm/" title="in_bm公開ページ">in_bm2</a> (<a href="https://www.winamp.com/" title="Winamp Media Player - MP3, Video, and Music Player - Winamp">Winamp</a> 플러그인)</td></tr>
 <tr><td>BMS/BME/EMS plugin for KbMediaPlayer version 1.0r13</td><td>bmse.kpi</td>
 <td>KbMedia Player Version 2.63a contains this<br><br><a href="http://hwm5.gyao.ne.jp/kobarin/index.htm" title="Kobarinのホームページ">KbMedia</a></td></tr>
-<tr><td colspan="2">Others (current):</td></tr>
+<tr><td class="app-semititle" colspan="3">Others (current):</td></tr>
 <tr><td>bmx2wav 1.3.3</td><td>bmx2wav</td>
 <td><a href="http://childs.squares.net/program/bmx2wav/index.html" title="BMX2WAV - CHILD'S SQUARE">bmx2wav</a></td></tr>
 <tr><td>PMChr-V v4.0.2</td><td>PMChr-V</td>
@@ -181,7 +181,7 @@
 <td><a href="https://stairway.sakura.ne.jp/smalltools/minibmsplay/diff.htm" title="bms diff tool">diff</a> (웹 앱)</td></tr>
 <tr><td>lr2_pmsview_helper</td><td>LR2PMS</td>
 <td><a href="https://twitter.com/misty_ls04/status/473058415636279296" title="【人柱求む】">LR2PMS</a></td></tr>
-<tr><td colspan="2">to be tested:</td></tr>
+<tr><td class="app-semititle" colspan="3">to be tested:</td></tr>
 <tr><td>o2mania 1.2.0</td><td>o2mania</td>
 <td><a href="http://www.o2mania.com/" title="O2MANIA-DJMAX劲乐团单机版模拟器">o2mania</a></td></tr>
 <tr><td>MyO2 2011-06-01</td><td>MyO2</td><td>(저작권 문제로 링크 검열)</td></tr>
