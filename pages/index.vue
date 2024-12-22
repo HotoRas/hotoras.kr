@@ -24,7 +24,7 @@ let categories = []
 try {
     content = await $fetch('https://raw.githubusercontent.com/HotoRas/HotoRas/main/docs/index.md')
 } catch (e) {
-    content = '<h2>failed to fetch homepage. visit origin <a href="https://home.hotoras.kr/" alt="homepage">here</a>.</h2>'
+    content = '<h2>failed to fetch homepage. visit origin <a href="https://www.hotoras.kr/" alt="homepage">here</a>.</h2>'
 }
 if (route.fullpath == '/docs') content = '<h2>refreshing...</h2>'
 

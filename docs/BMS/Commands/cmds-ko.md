@@ -4,7 +4,7 @@
   - 한글화: 2024-05-04
 - 작성: hitkey [홈페이지](https://hitkey.nekokan.dyndns.info/)
   - 이메일: hitkey0801\[at\]hotmail.com
-- 옮김: 保登楽月（ほと　ラス） [홈페이지](https://home.hotoras.kr "홈페이지 (한국어)") [트위터(X)](https://x.com/hoto_ras "X 계정") [ActivityPub](https://nekoplanet.xyz/@ras "@ras@nekoplanet.xyz") [^apub]
+- 옮김: 保登楽月（ほと　ラス） [홈페이지](https://www.hotoras.kr "홈페이지 (한국어)") [트위터(X)](https://x.com/hoto_ras "X 계정") [ActivityPub](https://nekoplanet.xyz/@ras "@ras@nekoplanet.xyz") [^apub]
   - 이메일: hotoras03\[at\]gmail.com
 
 [^apub]: 서버 프로그램이 마스토돈, 미스키, 체리픽(미스키 계열), 메타 스레드 등 ActivityPub 프로토콜을 통해 소통하는 경우, `@ras@nekoplanet.xyz` 쪽으로 팔로우가 가능합니다. 같은 서버일 필요가 없습니다.

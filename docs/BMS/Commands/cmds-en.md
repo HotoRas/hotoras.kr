@@ -7,7 +7,7 @@
   * mail: hitkey0801\[at\]hotmail.com
 
 * moved to markdown my hotoras
-  * web: [https://home.hotoras.kr](https://home.hotoras.kr "Homepage (KO)")
+  * web: [https://www.hotoras.kr](https://www.hotoras.kr "Homepage (KO)")
   * mail: hotoras03\[at\]gmail.com
   * sns:
     * Twitter (now X): [@hoto_ras](https://x.com/hoto_ras "Twitter account")

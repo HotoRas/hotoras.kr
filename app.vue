@@ -13,7 +13,7 @@
       <div id="top-menu">
         <div class="logo-menu">
           <div class="logo-item">
-            <a href="https://home.hotoras.kr">
+            <a href="https://www.hotoras.kr">
               <img src="/logo.png">
             </a>
           </div>
@@ -26,7 +26,7 @@
             </a>
           </div>
           <div class="menu-item">
-            <a href="https://home.hotoras.kr">
+            <a href="https://www.hotoras.kr">
               <i class="hgi-stroke hgi-doc-01"></i>
               <span class="fullname"> 홈페이지</span>
             </a>

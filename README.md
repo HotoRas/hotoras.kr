@@ -4,7 +4,7 @@
 This won't say I'm fluent on specific languages:  
 Most of them is **forked** and what I typed is too little compared to them.
 
-Check out details on [here (korean)](https://home.hotoras.kr).
+Check out details on [here (korean)](https://www.hotoras.kr).
 
 ## homepage built on nuxt 3
 
