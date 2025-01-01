@@ -20,25 +20,31 @@
         </div>
         <div class="mid-menu">
           <div class="menu-item">
-            <a href="https://blog.hotoras.kr">
+            <a href="https://blog.hotoras.kr" title="호토라즈의 블로그">
               <i class="hgi-stroke hgi-pencil"></i>
               <span class="fullname"> 블로그</span>
             </a>
           </div>
           <div class="menu-item">
-            <a href="https://www.hotoras.kr">
+            <a href="https://www.hotoras.kr" title="홈페이지">
               <i class="hgi-stroke hgi-doc-01"></i>
               <span class="fullname"> 홈페이지</span>
             </a>
           </div>
           <div class="menu-item">
-            <a href="https://nekoplanet.xyz/@ras">
+            <a href="https://archive.hotoras.kr" title="홈페이지 아카이브입니당!">
+              <i class="hgi-stroke hgi-archive-02"></i>
+              <span class="fullname"> 아카이브</span>
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="https://nekoplanet.xyz/@ras" title="연합우주: @ras@nekoplanet.xyz">
               <i class="hgi-stroke hgi-bubble-chat-user"></i>
               <span class="fullname"> 고양이별</span>
             </a>
           </div>
           <div class="menu-item">
-            <a href="https://github.com/HotoRas">
+            <a href="https://github.com/HotoRas" title="GitHub로 바로가기">
               <i class="hgi-stroke hgi-github"></i>
               <span class="fullname"> 깃허브</span>
             </a>
