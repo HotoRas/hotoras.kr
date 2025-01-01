@@ -22,7 +22,7 @@ let mdContent = []
 let categories = []
 
 try {
-    content = await $fetch('https://raw.githubusercontent.com/HotoRas/HotoRas/main/docs/index.md')
+    content = await $fetch('https://raw.githubusercontent.com/HotoRas/hotoras.kr/main/docs/index.md')
 } catch (e) {
     content = '<h2>failed to fetch homepage. visit origin <a href="https://www.hotoras.kr/" alt="homepage">here</a>.</h2>'
 }
@@ -35,7 +35,7 @@ if (route.fullpath == '/docs') {
 }
 
 async function getPost() {
-    const folderList = await $fetch('https://api.github.com/repos/HotoRas/HotoRas/git/trees/main?recursive=1')
+    const folderList = await $fetch('https://api.github.com/repos/HotoRas/hotoras.kr/git/trees/main?recursive=1')
     for (let folder of folderList.tree) {
         if (!folder) continue
         if (folder.path === 'docs') {
@@ -47,7 +47,7 @@ async function getPost() {
                         let cat = post.path.split('/')[0] + post.path.split('/')[1] === 'index.md' ? '' : `/${post.path.split('/')[1]}`
                         categories.push(cat)
 
-                        let content = await $fetch(`https://raw.githubusercontent.com/HotoRas/HotoRas/main/${post.path}`)
+                        let content = await $fetch(`https://raw.githubusercontent.com/HotoRas/hotoras.kr/main/${post.path}`)
                         mdContent.push(content)
                     }
                 } catch (e) {

@@ -12,10 +12,10 @@ import { marked } from 'marked';
 const route = useRoute()
 var content
 try {
-    content = await $fetch(`https://raw.githubusercontent.com/HotoRas/HotoRas/main/docs/${route.params.category}/${route.params.sub}/index.md`)
+    content = await $fetch(`https://raw.githubusercontent.com/HotoRas/hotoras.kr/main/docs/${route.params.category}/${route.params.sub}/index.md`)
 } catch (e) {
     try {
-        content = await $fetch(`https://raw.githubusercontent.com/HotoRas/HotoRas/main/docs/${route.params.category}/${route.params.sub.split('.md')[0]}.md`)
+        content = await $fetch(`https://raw.githubusercontent.com/HotoRas/hotoras.kr/main/docs/${route.params.category}/${route.params.sub.split('.md')[0]}.md`)
     } catch (e) {
         content = `failed to fetch ${route.params.category}${route.params.sub ? `/${route.params.sub}` : ''}`
     }
