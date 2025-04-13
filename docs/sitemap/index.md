@@ -24,3 +24,4 @@
 [이상한 짓거리](../dumbthings/)
 [아마추어무선](../ham-radio/)
 [정보처리기능사](../info-proc-nca/)
+[닌텐도 스위치에 대한 잡소리](../others/nintendoswitch.md)
