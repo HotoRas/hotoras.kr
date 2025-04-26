@@ -6,29 +6,17 @@
 
 > 도움을 주고 싶으시다면, 마음놓고 풀리퀘 올려주세요.
 
-일상 보고 싶으시면 [여기](https://nekoplanet.xyz/@ras) 또는 [여기](https://hoto.moe/@ras)로 놀러오세용
+일상 보고 싶으시면 [여기 "activitypub:@ras@serafuku.moe"](https://serafuku.moe/@ras) 또는 [여기 "activitypub:@ras@hoto.moe"](https://hoto.moe/@ras)로 놀러오세용
 
 ## 스택
 [보러가기](./stacks/)
 
-<!--
-## 스폰서
-깃헙 스폰서 프로필 만들었어요! 원하시면 [여기](https://github.com/sponsors/HotoRas)에서 확인해보세요.
 
-> 최소는 $1입니다. 해외 결제가 가능한 카드가 있어야 합니다.
-
-## 기부
-[Toss](https://toss.me/hotoras)
--->
 ## 스폰서 및 기부
 현재 군 복무중인 관계로 스폰서 및 기부는 소액에 한해 받고 있습니다.
 
 ### GitHub Sponsors
 https://github.com/sponsors/HotoRas
-
-### 카카오페이 송금하기 (모바일 접속 필요)
-https://qr.kakaopay.com/FKRYBqLI7
-- 실명으로 개설된 계정이라 제 이름이 노출됩니다
 
 ### Patreon
 https://patreon.com/HotoRas
@@ -46,8 +34,8 @@ https://patreon.com/HotoRas
 이메일: <hotoras03@gmail.com>
 
 연합우주 (탈중앙형 SNS 환경)
-- [@ras@nekoplanet.xyz](https://nekoplanet.xyz/@ras) `Misskey`
-- [@raspberry@nekoplanet.xyz](https://nekoplanet.xyz/@raspberry) `Misskey` `개발 계정`
+- [@ras@serafuku.moe](https://serafuku.moe/@ras) `Misskey`
+- [@ras@nekoplanet.xyz](https://nekoplanet.xyz/@ras) `Misskey` `기존 본계정`
 - [@ras@hoto.moe](https://hoto.moe/@ras) `Misskey` `리듬게임 계정`
 - [@ras@daydream.ink](https://daydream.ink/@ras) `Mastodon`
 - [@hoto_ras@stella.place](https://stella.place/@hoto_ras) `Misskey-Cherrypick` `현황 업데이트 계정`

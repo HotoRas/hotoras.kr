@@ -38,9 +38,9 @@
             </a>
           </div>
           <div class="menu-item">
-            <a href="https://nekoplanet.xyz/@ras" title="연합우주: @ras@nekoplanet.xyz">
+            <a href="https://serafuku.moe/@ras" title="연합우주: @ras@serafuku.moe">
               <i class="hgi-stroke hgi-bubble-chat-user"></i>
-              <span class="fullname"> 고양이별</span>
+              <span class="fullname"> 연합우주</span>
             </a>
           </div>
           <div class="menu-item">
