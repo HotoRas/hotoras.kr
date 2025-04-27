@@ -291,4 +291,23 @@ a.post-list {
 .post-content th {
   border-bottom: 2px solid var(--accent);
 }
+
+.post-content blockquote {
+  width: 90%;
+  position: relative;
+  border-left: 3px solid var(--accent);
+  padding-left: 10px;
+
+  & p {
+    position: relative;
+    padding-left: 30px;
+  }
+
+  & cite {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--accent-light);
+    text-align: right;
+  }
+}
 </style>
