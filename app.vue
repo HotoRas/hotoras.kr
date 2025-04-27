@@ -292,7 +292,7 @@ a.post-list {
   border-bottom: 2px solid var(--accent);
 }
 
-.post-content blockquote {
+blockquote {
   width: 90%;
   position: relative;
   border-left: 3px solid var(--accent);
