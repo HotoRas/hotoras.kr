@@ -301,7 +301,7 @@ code {
 pre {
   border: 2px solid #9d9d9d;
   border-radius: 6px;
-  background: #eee
+  background: #eee;
   padding: 2px 8px;
   & code {
     background: bottom;
