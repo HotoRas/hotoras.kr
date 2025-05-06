@@ -141,11 +141,7 @@ img {
   justify-content: space-between;
   overflow: hidden;
   box-shadow: 5px 5px 5px #00000011;
-}
-
-#top-menu img {
-  height: 3em;
-  width: 3em;
+  & img { height: 3em; width: 3em; }
 }
 
 .mid-menu {
@@ -155,39 +151,27 @@ img {
 
 .logo-item {
   height: 3em;
-}
-
-.logo-item:hover {
-  opacity: 0.6;
+  &:hover { opacity: 0.6; }
 }
 
 .menu-item {
   height: 3em;
   padding: 0.25em 1em;
-}
 
-.menu-item>a {
-  color: #fff;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  height: 2.5em;
-}
+  &>a {
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    height: 2.5em;
+  }
 
-.menu-item i {
-  font-size: 1.5em;
-}
-
-.menu-item .fullname {
-  display: none;
-}
-
-.menu-item:hover {
-  background: #ffddcc;
-}
-
-.menu-item:hover .fullname {
-  display: inline;
+  & i { font-size: 1.5em; }
+  & .fullname { display: none; }
+  &:hover {
+    background: #ffddcc;
+    & .fullname { display: inline; }
+  }
 }
 
 #container {
@@ -223,14 +207,14 @@ img {
   gap: 10px;
   padding: 10px;
   font-size: 16px;
-}
 
-.box-cont-grid img {
-  width: 100% !important;
-  max-width: unset !important;
-  aspect-ratio: 1 / 1 !important;
-  object-fit: cover;
-  object-position: center;
+  & img {
+    width: 100% !important;
+    max-width: unset !important;
+    aspect-ratio: 1 / 1 !important;
+    object-fit: cover;
+    object-position: center;    
+  }
 }
 
 /*categorylist*/
@@ -240,10 +224,8 @@ img {
   background-color: var(--accent);
   padding: 0 4px;
   font-size: 16px;
-}
 
-.category-list a {
-  color: #fff !important;
+  & a { color: #fff !important; }
 }
 
 /*postlist*/
@@ -297,17 +279,35 @@ blockquote {
   position: relative;
   border-left: 3px solid var(--accent);
   padding-left: 10px;
-
   & p {
     position: relative;
     padding-left: 30px;
   }
-
   & cite {
     display: block;
     font-size: 0.8rem;
     color: var(--accent-light);
     text-align: right;
+  }
+}
+
+code {
+  border: 1px solid gray;
+  border-radius: 4px;
+  background: #eaeaea;
+  padding: 0px 3px;
+}
+
+pre {
+  border: 2px solid #9d9d9d;
+  border-radius: 6px;
+  background: #eee
+  padding: 2px 8px;
+  & code {
+    background: bottom;
+    border: unset;
+    border-radius: unset;
+    padding: unset;
   }
 }
 </style>
