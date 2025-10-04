@@ -23,4 +23,4 @@ pip install beautifulsoup4 Mastodon.py youtube-dl2 pytz
 얜 없어도 되지만 영상 미러링을 하려는 경우 반드시 필요합니다.
 
 ## 다음 단계
-[실행 전 설정하기](./setup-twoot.md)
+[실행 전 설정하기](./setup-twoot)

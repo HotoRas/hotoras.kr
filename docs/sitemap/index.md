@@ -17,11 +17,11 @@
 [BMS 명령어 모음](../BMS/Commands/)
 - [원본 일본어](../BMS/Commands/cmdsJP.html)
 - [원본 영어 (구글 번역기)](../BMS/Commands/cmds.html)
-- [번역본 영어](../BMS/Commands/cmds-en.md)
-- [번역본 한국어](../BMS/Commands/cmds-ko.md)
+- [번역본 영어](../BMS/Commands/cmds-en)
+- [번역본 한국어](../BMS/Commands/cmds-ko)
 
 ## 잡소리
 [이상한 짓거리](../dumbthings/)
 [아마추어무선](../ham-radio/)
 [정보처리기능사](../info-proc-nca/)
-[닌텐도 스위치에 대한 잡소리](../others/nintendoswitch.md)
+[닌텐도 스위치에 대한 잡소리](../others/nintendoswitch)

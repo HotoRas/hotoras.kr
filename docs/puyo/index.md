@@ -12,14 +12,14 @@
 
 ## 세가뿌요
 ### 스토리 모드
-- [뿌요뿌요 피버](./fever/story.md)
-- [뿌요뿌요 피버츄](./fever/story2.md)
-- [뿌요뿌요!](./15th/story/index.md)
-- [뿌요뿌요 7](./7even/story.md)
-- [뿌요뿌요!!](./20th/story/index.md)
-- [뿌요뿌요 테트리스](./puyoteto/story.md)
+- [뿌요뿌요 피버](./fever/story)
+- [뿌요뿌요 피버츄](./fever/story2)
+- [뿌요뿌요!](./15th/story/)
+- [뿌요뿌요 7](./7even/story)
+- [뿌요뿌요!!](./20th/story/index)
+- [뿌요뿌요 테트리스](./puyoteto/story)
 - [뿌요뿌요 크로니클](.)
-- [뿌요뿌요 테트리스 2](./puyoteto/storyex.md)
+- [뿌요뿌요 테트리스 2](./puyoteto/storyex)
 
 ### 토코톤
 TODO

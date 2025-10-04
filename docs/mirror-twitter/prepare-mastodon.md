@@ -27,4 +27,4 @@ misskey는 `설정 > 프로필`에서 프로필 정보를 수정하실 수 있�
 공개 범위와 다르게 시간을 두고 수정해도 반영되니, 편할 때 수정하는 것도 방법.
 
 ## 다음 단계
-[프로그램 설치](./install-requirements.md)
+[프로그램 설치](./install-requirements)

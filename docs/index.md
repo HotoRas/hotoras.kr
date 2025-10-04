@@ -1,6 +1,7 @@
 # 호토 라즈의 GitHub 홈페이지
 ## 소개
-2024년 기준 대학교 1학년까지 다니고 군대 간 호토 라즈입니다. ~~마이마이 하고 싶다~~
+아케이드 리듬게임 '마이마이'를 주력으로 하는 소프트웨어학과 재학생 호토라즈입니다.  
+~~지금은 휴학이긴 한데 뭐 어때~~
 
 [포크한 레포 목록](./forklookup/) | [레포 목록 보기](https://github.com/HotoRas?tab=repositories)
 
@@ -34,10 +35,7 @@ https://patreon.com/HotoRas
 
 연합우주 (탈중앙형 SNS 환경)
 - [@ras@serafuku.moe](https://serafuku.moe/@ras "ほとラズ (@ras) | 세라복.모에") `Misskey`
-- [@ras@nekoplanet.xyz](https://nekoplanet.xyz/@ras "라즈ㆍほとラズ (@ras) | 고양이별") `Misskey` `기존 본계정`
 - [@ras@hoto.moe](https://hoto.moe/@ras "ほと　ラズ (@ras) | hotomoe") `Misskey` `리듬게임 계정`
-- [@ras@daydream.ink](https://daydream.ink/@ras "ラズ @ Missing Island (@ras@daydream.ink) - Missing Island") `Mastodon`
-- [@hoto_ras@stella.place](https://stella.place/@hoto_ras "호토 라즈 (부계정) (@hoto_ras) | Stella") `Misskey-Cherrypick` `현황 업데이트 계정`
 - [@hotoras@hoto.moe](https://hoto.moe/@hotoras "hotoras (@hotoras) | hotomoe") `Misskey` `뒷계정`
 - [@ras@planet.moe](https://planet.moe/@ras "ほと　ラズ @연합우주의 행성으로 (@ras@planet.moe) - 플래닛") `Mastodon` `거의 안 씀`
 
@@ -46,4 +44,4 @@ https://patreon.com/HotoRas
 
 Element (탈중앙형 채팅): [@ras:serafuku.moe](https://matrix.to/#/@ras:serafuku.moe "matrix-web:@ras:serafuku.moe")
 
-YouTube 채널: [YouTube@hoto_ras](https://youtube.com/@hoto_ras "youtube-handle:@hoto_ras")
+YouTube 채널: [YouTube@hoto_ras](https://youtube.com/@hoto_ras "YouTube: ほとラズ")

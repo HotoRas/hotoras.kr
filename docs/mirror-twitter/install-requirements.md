@@ -29,4 +29,4 @@ pip는 설치되어 있지 않을 확률이 높습니다.
 `git` 패키지도 깔아줍시다. 바로 쓸 거에요.
 
 ## 다음 단계
-[twoot 클론하기](./clone-twoot.md)
+[twoot 클론하기](./clone-twoot)

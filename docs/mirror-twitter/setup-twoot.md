@@ -15,10 +15,10 @@ cp default.toml filename.toml
 ### 필수 설정 내용
 ```toml
 [config]
-# 트위터 계정 아이디 (https://x.com/user_id에서 user_id)
+# 트위터 계정 아이디 (`https://x.com/user_id`에서 user_id)
 twitter_account = "" # "user_id"
 
-# 마스토돈 서버 주소 (https://example.com에서 example.com)
+# 마스토돈 서버 주소 (`https://example.com`에서 example.com)
 mastodon_instance = "" # "example.com"
 
 # 마스토돈 로그인 아이디 (이메일)
@@ -78,4 +78,4 @@ tweet_max_age = 60
 ```
 
 ## 다음 단계
-[실행 및 자동화](./launch-and-automate.md)
+[실행 및 자동화](./launch-and-automate)
