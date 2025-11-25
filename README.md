@@ -1,25 +1,54 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HotoRas&show_icons=true&theme=radical)
+# homepage
 
-![TopLanguage](https://github-readme-stats.vercel.app/api/top-langs/?username=HotoRas&langs_count=8&layout=compact&theme=radical")  
-This won't say I'm fluent on specific languages:  
-Most of them is **forked** and what I typed is too little compared to them.
+This template should help get you started developing with Vue 3 in Vite.
 
-Check out details on [here (korean)](https://www.hotoras.kr).
+## Recommended IDE Setup
 
-## homepage built on nuxt 3
+[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-powered by nuxtjs powered by vuejs powered by nodejs
+## Recommended Browser Setup
 
-original source code by [@jyhyun1008](https://github.com/jyhyun1008) and some nuxtjs examples
+- Chromium-based browsers (Chrome, Edge, Brave, etc.):
+  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
+  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
+- Firefox:
+  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-## 빌드 및 테스트
+## Type Support for `.vue` Imports in TS
 
-설치: `npm i`
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-빌드: `npm run build`
+## Customize configuration
 
-테스트: `npm run dev`
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-정적 페이지 생성: `npm run generate`
+## Project Setup
 
-배포는 정적 페이지 생성하고 하면 됨
+```sh
+pnpm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+pnpm dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+pnpm build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+pnpm test:unit
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+pnpm lint
+```
