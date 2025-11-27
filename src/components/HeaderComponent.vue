@@ -4,15 +4,15 @@ import { toggleClick } from '@/scripts/EventHandler';
 <template>
 <header id="site-header" class="site-header">
     <nav class="navi">
-        <RouterLink to="/"><img src="/logo.png" alt="hotoras">HotoRas</RouterLink>
+        <RouterLink to="/" title="hotoras.kr" alt="go to homepage"><img src="/logo.png" alt="hotoras icon version 4">HotoRas</RouterLink>
         <ul class="navi-list">
-            <li><RouterLink to="/portfolio">Portfolio</RouterLink></li>
-            <li><RouterLink to="/about">About</RouterLink></li>
-            <li><RouterLink to="/contact">Contact</RouterLink></li>
+            <li><RouterLink to="/portfolio" title="Portfolio">Portfolio</RouterLink></li>
+            <li><RouterLink to="/about" title="About Me">About</RouterLink></li>
+            <li><RouterLink to="/contact" title="Contacts">Contact</RouterLink></li>
             <li class="others" @click="toggleClick">
                 Others
                 <ul>
-                    <li><RouterLink to="/otoge">Music Games</RouterLink></li>
+                    <li><RouterLink to="/otoge" title="Music Games">Music Games</RouterLink></li>
                 </ul>
             </li>
         </ul>
