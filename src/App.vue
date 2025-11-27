@@ -7,7 +7,9 @@ import HeaderComponent from './components/HeaderComponent.vue';
 </script>
 <template>
   <HeaderComponent />
-  <RouterView />
+  <div id="vue-router">
+    <RouterView />
+  </div>
   <h1>You did it!</h1>
   <p>
     Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
@@ -42,14 +44,33 @@ import HeaderComponent from './components/HeaderComponent.vue';
 <style>
 :root {
   /* Color settings should support dark mode */
-  --background: white #333333;
-  --text: black #e7e7e7;
-  --accent: #ff5252 #ffacac;
+  --background: light-dark(white, #333333);
+  --text: light-dark(black, #e7e7e7);
+  --accent: light-dark(#ffb6b6, #b45252);
 
   /* Font settings */
   --font-main: 'Pretendard Variable', sans-serif;
   /* compose monospace */
   --font-monospace: 'SarasaMonoCL-Regular', monospace;
+
+  --header-height: 4em;
+}
+
+#vue-router {
+  align-items: center;
+  background: var(--background);
+  color: var(--text);
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: calc(var(--header-height) + 10px);
+  width: 1080px; /* 1120px width with margin at max */
+  min-width: 600px; /* 640px width with margin at min */
+}
+@media (max-width:1100px) {
+  #vue-router {
+    width: calc(100vw - 40px);
+  }
 }
 
 h1,h2,h3 {
