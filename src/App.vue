@@ -7,7 +7,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
 </script>
 <template>
   <HeaderComponent />
-  <div id="vue-router">
+  <div id="toc">
     <RouterView />
   </div>
   <h1>You did it!</h1>
@@ -56,20 +56,30 @@ import HeaderComponent from './components/HeaderComponent.vue';
   --header-height: 4em;
 }
 
-#vue-router {
+#app {
+  width: 1120px; /* 1120px width with margin at max */
+  min-width: 640px; /* 640px width with margin at min */
+  /* display: flex; */
+  flex-direction:column;
   align-items: center;
+}
+
+#toc {
+  max-width: calc(100vw - 40px);
+  flex-wrap: wrap;
+  text-wrap: wrap !important;
+  display: block;
+  position: inherit; left: 0; right: 0;
   background: var(--background);
   color: var(--text);
 
   margin-left: 20px;
   margin-right: 20px;
   margin-top: calc(var(--header-height) + 10px);
-  width: 1080px; /* 1120px width with margin at max */
-  min-width: 600px; /* 640px width with margin at min */
 }
 @media (max-width:1100px) {
-  #vue-router {
-    width: calc(100vw - 40px);
+  #toc {
+    width:initial;
   }
 }
 
