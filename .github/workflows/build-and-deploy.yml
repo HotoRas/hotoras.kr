@@ -32,7 +32,8 @@ jobs:
 
       - name: Build Vue
         run: pnpm i
-        run: pnpm build
+        
+      - run: pnpm build
 
       - name: Upload Artifact
         uses: actions/upload-artifact@5
