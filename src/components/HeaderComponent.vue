@@ -1,17 +1,4 @@
-<script setup lang="ts">
-for (const el of document.getElementsByClassName('others-details')) {
-    el.addEventListener('mouseover', (e: Event) => {
-        const elem = (e.target as HTMLElement);
-        if (elem.getAttribute('open')) return;
-        elem.setAttribute('open','hover');
-    });
-    el.addEventListener('mouseout', (e: Event) => {
-        const elem = (e.target as HTMLElement);
-        if (elem.getAttribute('open') === '') return;
-        elem.removeAttribute('open');
-    })
-}
-</script>
+<script setup lang="ts"></script>
 <template>
 <header id="site-header" class="site-header">
     <nav class="navi">
