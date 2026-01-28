@@ -10,6 +10,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
   <div id="toc">
     <RouterView />
   </div>
+<!--
   <h1>You did it!</h1>
   <p>
     Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
@@ -39,6 +40,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
       다람쥐 헌 쳇바퀴에 타고파. ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣㅐㅔㅒㅖ
     </p>
   </div>
+-->
 </template>
 
 <style>
