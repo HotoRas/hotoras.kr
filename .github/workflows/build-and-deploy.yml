@@ -36,7 +36,7 @@ jobs:
       - run: pnpm build
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@5
+        uses: actions/upload-artifact@v6
         with:
           path: ./dist
   
