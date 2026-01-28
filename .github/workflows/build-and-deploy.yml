@@ -38,7 +38,7 @@ jobs:
       - run: pnpm build
 
       - name: Deploy to Branch
-        uses: chihqiang/gh-pages-action@v0.1
+        uses: chihqiang/gh-pages-action@0.1
         with:
           publish_dir: ./dist
           commit_message: github pages
