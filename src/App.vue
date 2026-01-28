@@ -4,12 +4,14 @@ import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 
 import './components/HeaderComponent.vue'
 import HeaderComponent from './components/HeaderComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 </script>
 <template>
   <HeaderComponent />
-  <div id="toc">
+  <div id="content-view">
     <RouterView />
   </div>
+  <FooterComponent />
 <!--
   <h1>You did it!</h1>
   <p>
@@ -66,7 +68,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
   align-items: center;
 }
 
-#toc {
+#content-view {
   max-width: calc(100vw - 40px);
   flex-wrap: wrap;
   text-wrap: wrap !important;
@@ -78,9 +80,11 @@ import HeaderComponent from './components/HeaderComponent.vue';
   margin-left: 20px;
   margin-right: 20px;
   margin-top: calc(var(--header-height) + 10px);
+
+  margin-bottom: 50px;
 }
 @media (max-width:1100px) {
-  #toc {
+  #content-view {
     width:initial;
   }
 }
