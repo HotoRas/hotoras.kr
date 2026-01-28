@@ -38,7 +38,6 @@ jobs:
       - run: pnpm build
 
       - name: Deploy to Branch
-        uses: chihqiang/gh-pages-action@0.1
+        uses: qoomon/actions--publish-to-github-pages@v1
         with:
-          publish_dir: ./dist
-          commit_message: github pages
+          GITHUB_PAGES_REPLACE: true
