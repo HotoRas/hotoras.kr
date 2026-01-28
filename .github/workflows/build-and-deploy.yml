@@ -27,7 +27,7 @@ jobs:
           node-version: "24.11"
 
       - run: corepack enable
-      - run: corepack use pnpm
+      - run: npm i -g pnpm
 
       - name: Setup pages
         uses: actions/configure-pages@v5
