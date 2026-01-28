@@ -37,6 +37,9 @@ jobs:
         
       - run: pnpm build
 
+      - name: fix file permissions
+        run: chmod -R a+rx ./dist
+
       - name: Upload Artifact
         uses: actions/upload-artifact@v5
         with:
