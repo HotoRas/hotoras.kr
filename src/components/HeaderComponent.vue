@@ -1,7 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-<header id="site-header" class="site-header">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <RouterLink class="navbar-brand" to="/" title="hotoras.kr">
                 <img src="/logo.png" alt="hotoras icon version 4" width=30 height=24 class="d-inline-block align-text-top">HotoRas
@@ -29,26 +28,21 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <span class="navbar-text">Outer links</span>
+                        <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href=#>Outer links</span>
                         <ul class="dropdown-menu">
-                            <li><a href="https://github.com/HotoRas" class="dropdown-item" title="HotoRas GitHub">GitHub</a></li>
-                            <li><a href="https://x.com/hotoras" class="dropdown-item" title="HotoRas Twitter">X <small>formally Twitter</small></a></li>
-                            <li><a href="https://serafuku.moe/@ras" class="dropdown-item" title="Fediverse @ras@serafuku.moe">Fediverse</a></li>
+                            <li><a href="https://github.com/HotoRas" class="dropdown-item" title="HotoRas GitHub" target="_blank">GitHub</a></li>
+                            <li><a href="https://x.com/hotoras" class="dropdown-item" title="HotoRas Twitter" target="_blank">X <small>formally Twitter</small></a></li>
+                            <li><a href="https://serafuku.moe/@ras" class="dropdown-item" title="Fediverse @ras@serafuku.moe" target="_blank">Fediverse</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-</header>
 </template>
 <style scoped>
 small {
     font-size: 0.8em;
-}
-#site-header {
-    position: fixed; top: 0;
-    z-index: 30;
 }
 a, a:active {
     color: var(--text);
