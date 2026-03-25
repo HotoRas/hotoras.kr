@@ -46,6 +46,8 @@ import FooterComponent from './components/FooterComponent.vue';
 </template>
 
 <style>
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 :root {
   /* Color settings should support dark mode */
   --background: light-dark(white, #333333);
