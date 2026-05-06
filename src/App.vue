@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import 'sarasa-mono-web/index.css';
 import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
-import './components/HeaderComponent.vue'
+import './components/HeaderComponent.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 </script>
@@ -12,7 +13,7 @@ import FooterComponent from './components/FooterComponent.vue';
     <RouterView />
   </div>
   <FooterComponent />
-<!--
+  <!--
   <h1>You did it!</h1>
   <p>
     Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
@@ -63,10 +64,12 @@ import FooterComponent from './components/FooterComponent.vue';
 }
 
 #app {
-  width: 1120px; /* 1120px width with margin at max */
-  min-width: 640px; /* 640px width with margin at min */
+  width: 1120px;
+  /* 1120px width with margin at max */
+  min-width: 640px;
+  /* 640px width with margin at min */
   /* display: flex; */
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -75,7 +78,9 @@ import FooterComponent from './components/FooterComponent.vue';
   flex-wrap: wrap;
   text-wrap: wrap !important;
   display: block;
-  position: inherit; left: 0; right: 0;
+  position: inherit;
+  left: 0;
+  right: 0;
   background: var(--background);
   color: var(--text);
 
@@ -85,25 +90,34 @@ import FooterComponent from './components/FooterComponent.vue';
 
   margin-bottom: 50px;
 }
+
 @media (max-width:1100px) {
   #content-view {
-    width:initial;
+    width: initial;
   }
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-main);
   font-weight: 700;
 }
-h4,h5,h6 {
+
+h4,
+h5,
+h6 {
   font-family: var(--font-main);
   font-weight: 500;
 }
+
 body {
   font-family: var(--font-main);
   font-weight: 400;
 }
-.source, code {
+
+.source,
+code {
   font-family: var(--font-monospace);
   font-weight: 400;
 }
