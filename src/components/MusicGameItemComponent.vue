@@ -14,7 +14,8 @@ const props = defineProps<{
         <img class="otoge-thumbnail" v-if="props.img" :src="props.img" :alt="props.game" />
         <small v-if="props.desc">{{ props.desc }}</small>
         <div class="otoge-inner" v-if="props.friendcode">친구 코드:
-          <a :href="props.friendmagnet ?? ./#">{{ props.friendcode }}</a>
+            <a v-if="props.friendmagnet" :href="props.friendmagnet">{{ props.friendcode }}</a>
+            <span v-else>{{ props.friendcode }}</span>
         </div>
     </div>
 </template>
