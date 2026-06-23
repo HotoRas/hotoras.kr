@@ -1,19 +1,20 @@
 <script lang="ts" setup>
 const props = defineProps<{
-    title: string,
+    game: string,
     url: string,
     img?: string,
     desc?: string,
+    friendcode?: string,
+    friendmagnet?: string,
 }>();
 </script>
 <template>
-    <div class="portfolio portfolio-wrapper">
-        <h3><a :href="props.url">{{ props.title }}</a></h3>
-        <img class="portfolio-thumbnail" v-if="props.img" :src="props.img" :alt="props.title" />
+    <div class="ogoge otoge-wrapper">
+        <h3><a :href="props.url">{{ props.game }}</a></h3>
+        <img class="otoge-thumbnail" v-if="props.img" :src="props.img" :alt="props.game" />
         <small v-if="props.desc">{{ props.desc }}</small>
-        <div class="portfolio-inner">
-            <slot />
-        </div>
+        <div class="otoge-inner" v-if="props.friendcode">친구 코드: <a href="{{ props.friendmagnet ?? ./# }}">{{
+            props.friendcode }}</a></div>
     </div>
 </template>
 <style lang="css" scoped>
