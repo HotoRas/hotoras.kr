@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <RouterLink class="navbar-brand" to="/" title="hotoras.kr">
                 <img src="/logo.png" alt="hotoras icon version 4" width=30 class="d-inline-block align-text-top">HotoRas
