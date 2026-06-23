@@ -97,6 +97,10 @@ import FooterComponent from './components/FooterComponent.vue';
   }
 }
 
+nav {
+  background-color: #ffd4d4;
+}
+
 h1,
 h2,
 h3 {

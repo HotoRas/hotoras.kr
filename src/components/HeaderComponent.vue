@@ -43,6 +43,7 @@
                                     title="Fediverse @ras@serafuku.moe" target="_blank">Fediverse</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item nav-link" disabled>Thank you!</li>
                 </ul>
             </div>
         </div>
