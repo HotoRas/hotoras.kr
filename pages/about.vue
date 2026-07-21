@@ -3,5 +3,5 @@ import AboutView from '~/src/Views/AboutView.vue';
 </script>
 
 <template>
-  <AboutView />
+    <AboutView />
 </template>

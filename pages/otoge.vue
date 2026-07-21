@@ -3,5 +3,5 @@ import MusicGamesView from '~/src/Views/MusicGamesView.vue';
 </script>
 
 <template>
-  <MusicGamesView />
+    <MusicGamesView />
 </template>

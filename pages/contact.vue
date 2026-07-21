@@ -3,5 +3,5 @@ import ContactView from '~/src/Views/ContactView.vue';
 </script>
 
 <template>
-  <ContactView />
+    <ContactView />
 </template>

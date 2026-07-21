@@ -3,5 +3,5 @@ import PortfolioView from '~/src/Views/PortfolioView.vue';
 </script>
 
 <template>
-  <PortfolioView />
+    <PortfolioView />
 </template>

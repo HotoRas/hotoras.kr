@@ -3,5 +3,5 @@ import MainView from '~/src/Views/MainView.vue';
 </script>
 
 <template>
-  <MainView />
+    <MainView />
 </template>
