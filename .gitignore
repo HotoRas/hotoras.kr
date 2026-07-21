@@ -14,6 +14,10 @@ dist-ssr
 coverage
 *.local
 dist-old
+.output
+.nuxt
+.firebase
+.nitro
 
 # Editor directories and files
 .vscode/*

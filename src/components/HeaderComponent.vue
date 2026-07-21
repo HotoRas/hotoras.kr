@@ -2,32 +2,32 @@
 <template>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <RouterLink class="navbar-brand" to="/" title="hotoras.kr">
+            <NuxtLink class="navbar-brand" to="/" title="hotoras.kr">
                 <img src="/logo.png" alt="hotoras icon version 4" width=30 class="d-inline-block align-text-top">HotoRas
-            </RouterLink>
+            </NuxtLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navi"><span
                     class="navbar-toggler-icon"></span></button>
             <div id="navbarNav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <RouterLink class="nav-link" to="/portfolio" title="Portfolio">
+                        <NuxtLink class="nav-link" to="/portfolio" title="Portfolio">
                             Portfolio
-                        </RouterLink>
+                        </NuxtLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link" to="/about" title="About Me">About</RouterLink>
+                        <NuxtLink class="nav-link" to="/about" title="About Me">About</NuxtLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link" to="/contact" title="Contact">Contact</RouterLink>
+                        <NuxtLink class="nav-link" to="/contact" title="Contact">Contact</NuxtLink>
                     </li>
                     <li class="nav-item dropdown">
                         <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false" href="#">Others</span>
                         <ul class="dropdown-menu">
                             <li>
-                                <RouterLink class="dropdown-item" to="/otoge" title="Music Games">Music Games
-                                </RouterLink>
+                                <NuxtLink class="dropdown-item" to="/otoge" title="Music Games">Music Games
+                                </NuxtLink>
                             </li>
                         </ul>
                     </li>

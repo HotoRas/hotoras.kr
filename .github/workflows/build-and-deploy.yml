@@ -1,4 +1,4 @@
-name: Build and Deploy Vue.JS
+name: Build and Deploy Nuxt
 
 on:
   push:
@@ -24,19 +24,28 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: "24.11"
+          cache: "pnpm"
 
       - run: corepack enable
-#      - run: npm i -g pnpm
 
-      - name: Setup pages
-        uses: actions/configure-pages@v5
-
-      - name: Build Vue
-        run: pnpm i
-        
-      - run: pnpm build
-
-      - name: Deploy to Branch
-        uses: qoomon/actions--publish-to-github-pages@v1
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
-          GITHUB_PAGES_REPLACE: true
+          version: 11.15.1
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build Nuxt site
+        run: pnpm generate
+
+      - name: Copy custom domain
+        run: cp public/CNAME .output/public/CNAME
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./.output/public
+          publish_branch: gh-pages
+          force_orphan: true
