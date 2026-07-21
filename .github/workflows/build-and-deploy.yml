@@ -39,6 +39,9 @@ jobs:
 
       - name: Copy custom domain
         run: cp public/CNAME .output/public/CNAME
+      
+      - name: No jekyll
+        run: touch .output/public/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
