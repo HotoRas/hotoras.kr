@@ -5,21 +5,21 @@ import PortfolioMemberComponent from '../components/PortfolioMemberComponent.vue
     <div class="content portfolio-wrapper">
         <h1 id="toc">포트폴리오</h1>
         <h2 id="projects">프로젝트</h2>
-        <!--
-        <PortfolioMemberComponent title="고양이별 Misskey 인스턴스 개발" 
+        <PortfolioMemberComponent title="고양이별 Misskey 인스턴스 개발" url="https://github.com/HotoRas/misskey/tree/neko"
             desc="(2024.04 ~ 2025.02)">
             <p>고양이별 Misskey 인스턴스 개발 및 유지보수를 맡았습니다.</p>
             <div>
                 Child Projects:
                 <div>
-                    - mfm.js 수정: 사용자에 온점(<code>.</code>) 허용
+                    - <a href="https://www.npmjs.com/package/@nekoplanet/mfm-js">
+                        mfm.js 수정: 사용자에 온점(<code>.</code>) 허용
+                    </a>
                 </div>
                 <div>
                     - 고양이별 은하수 교단 홈페이지 제작
                 </div>
             </div>
         </PortfolioMemberComponent>
--->
         <h2 id="templates">템플릿</h2>
         <PortfolioMemberComponent title="Papago Python3 예제 최신화"
             url="https://github.com/HotoRas/naver-translation-localapp.git">
