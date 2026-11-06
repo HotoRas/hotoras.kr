@@ -2,6 +2,10 @@
 import MusicGameItemComponent from '../components/MusicGameItemComponent.vue';
 </script>
 <template>
+    <div class="content otoge-announcement temporal">
+        <h2 class="otoge-announcement-heading">일부 속성/디자인이 정상적으로 로드되지 않을 수 있습니다.</h2>
+        <span>이하의 색상이 기본 색상 (분홍 계열)으로 표시된다면, 사이트 내 다른 페이지를 우선 방문한 후 그 페이지에서 여기로 다시 접속해주세요.</span>
+    </div>
     <div class="content otoge-wrapper" id="otoge-toc">
         <h2 class="otoge-brandtitle">게키츄마이</h2>
         <div class="content-inner sega" id="gekichumai">
