@@ -3,7 +3,7 @@ import QnaComponent from '../components/QnaComponent.vue';
 </script>
 <template>
     <h2>한국에서 리눅스를 메인으로 쓰는 사람에 대한 Q&amp;A</h2>
-    <span>
+    <span class="information-qna">
         한국에서 리눅스를 메인으로 쓰는 사람인 저에게, 질문을 주시면 답변을 드리고 있습니다.<br>
         어느 정도 답변이 쌓일 때마다 여기에 업로드 중입니다.<br><br>
         <a href="https://serafuku.moe/notes/atiby52wj2">질문하기</a>
@@ -35,7 +35,8 @@ import QnaComponent from '../components/QnaComponent.vue';
         </QnaComponent>
         <QnaComponent title="우분투 쓰면 안 됨?" tag="distro">
             Ubuntu는 캐노니컬이라는 곳에서 배포하고 있는 리눅스 배포판인데요,<br>
-            (짧은 답변) 거기 요즘 좀 이상해요
+            (짧은 답변) 거기 요즘 좀 이상해요.
+            <br>
             <span>
                 (긴 답변)
                 <ul>
@@ -77,8 +78,21 @@ import QnaComponent from '../components/QnaComponent.vue';
 </template>
 <style scoped>
 .content {
+    padding-top: 35px;
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+
+    & code {
+        border-radius: 4px;
+        padding: 0.05rem 0.2rem;
+        background-color: #88888833;
+    }
+
+    & pre {
+        border-radius: 6px;
+        padding: 0.1rem 0.3rem;
+        background-color: #88888844;
+    }
 }
 </style>

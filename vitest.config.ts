@@ -1,10 +1,17 @@
 import { fileURLToPath } from 'node:url'
 import { mergeConfig, defineConfig, configDefaults } from 'vitest/config'
-import viteConfig from './vite.config'
+import nuxtConfig from './nuxt.config'
+import vite from '@vitejs/plugin-vue';
 
 export default mergeConfig(
-  viteConfig,
+  nuxtConfig.vite!,
   defineConfig({
+    plugins: [vite()],
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('./src', import.meta.url))
+      },
+    },
     test: {
       environment: 'jsdom',
       exclude: [...configDefaults.exclude, 'e2e/**'],

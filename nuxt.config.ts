@@ -1,9 +1,18 @@
 import { defineNuxtConfig } from 'nuxt/config'
+import { fileURLToPath, URL } from 'node:url'
+
+import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineNuxtConfig({
     compatibilityDate: '2026-07-21',
     ssr: true,
     devtools: { enabled: false },
+    alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
+    vite: {
+        plugins: [
+            vueDevTools(),
+        ],
+    },
     app: {
         head: {
             title: 'HotoRas',

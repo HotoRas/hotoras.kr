@@ -1,53 +1,58 @@
 <script setup lang="ts"></script>
 <template>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+    <nav class="navbar md:navbar-expand fixed-top" data-bs-theme=light>
         <div class="container-fluid">
             <NuxtLink class="navbar-brand" to="/" title="hotoras.kr">
                 <img src="/logo.png" alt="hotoras icon version 4" width=30 class="d-inline-block align-text-top">HotoRas
             </NuxtLink>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navi"><span
-                    class="navbar-toggler-icon"></span></button>
-            <div id="navbarNav" class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <NuxtLink class="nav-link" to="/portfolio" title="Portfolio">
-                            Portfolio
-                        </NuxtLink>
-                    </li>
-                    <li class="nav-item">
-                        <NuxtLink class="nav-link" to="/about" title="About Me">About</NuxtLink>
-                    </li>
-                    <li class="nav-item">
-                        <NuxtLink class="nav-link" to="/contact" title="Contact">Contact</NuxtLink>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" href="#">Others</span>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/otoge" title="Music Games">Music Games
-                                </NuxtLink>
-                                <NuxtLink class="dropdown-item" to="/linuxInKorea" title="Using Linux in Korea">Using
-                                    Linux<br>in Korea</NuxtLink>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" href=#>Outer links</span>
-                        <ul class="dropdown-menu">
-                            <li><a href="https://github.com/HotoRas" class="dropdown-item" title="HotoRas GitHub"
-                                    target="_blank">GitHub</a></li>
-                            <li><a href="https://x.com/hotoras" class="dropdown-item" title="HotoRas Twitter"
-                                    target="_blank">X <small>formally Twitter</small></a></li>
-                            <li><a href="https://serafuku.moe/@ras" class="dropdown-item"
-                                    title="Fediverse @ras@serafuku.moe" target="_blank">Fediverse</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item nav-link" disabled>Thank you!</li>
-                </ul>
-            </div>
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <dialog id="navbarNav" class="drawer drawer-end " tabindex="-1" aria-labelledby="navbarDrawerLabel">
+                <div class="drawer-header">
+                    <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="drawer" aria-label="Close"></button>
+                </div>
+                <div class="drawer-body mb-2 md:mb-0">
+                    <ul class="nav navbar-nav me-auto">
+                        <li class="nav-item">
+                            <NuxtLink class="nav-link" to="/portfolio" title="Portfolio">
+                                Portfolio
+                            </NuxtLink>
+                        </li>
+                        <li class="nav-item">
+                            <NuxtLink class="nav-link" to="/about" title="About Me">About</NuxtLink>
+                        </li>
+                        <li class="nav-item">
+                            <NuxtLink class="nav-link" to="/contact" title="Contact">Contact</NuxtLink>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" type="button" data-bs-toggle="menu"
+                                aria-expanded="false">Others</button>
+                            <div class="menu">
+                                <NuxtLink class="menu-item" to="/otoge" title="Music Games">
+                                    Music Games</NuxtLink>
+                                <NuxtLink class="menu-item" to="/linuxInKorea" title="Using Linux in Korea">
+                                    Using Linux in Korea</NuxtLink>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+                                Outer links</button>
+                            <div class="menu">
+                                <a href="https://github.com/HotoRas" class="menu-item" title="HotoRas GitHub"
+                                    target="_blank">GitHub</a>
+                                <a href="https://x.com/hotoras" class="menu-item" title="HotoRas Twitter"
+                                    target="_blank">X <small>formally Twitter</small></a>
+                                <a href="https://serafuku.moe/@ras" class="menu-item"
+                                    title="Fediverse @ras@serafuku.moe" target="_blank">Fediverse</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </dialog>
         </div>
     </nav>
 </template>
