@@ -23,25 +23,25 @@ const props = defineProps<{
 </template>
 <style lang="css" scoped>
 .otoge {
-    --base-color: #ffb6b6;
-
-    background-color: color-mix(in srgb, var(--base-color) 15%, transparent);
-    border-radius: 16px;
-    padding: 1.25rem 1.5rem;
-    border: 1px solid color-mix(in srgb, var(--base-color) 30%, transparent);
-    color: #333333;
-    box-shadow: 0 8px 20px -4px color-mix(in srgb, var(--base-color) 35%, transparent);
-
-    flex: 1 1 100%;
-    box-sizing: border-box;
+    --color: var(--base-color);
 
     &[data-brand="sega"] {
-        --base-color: #0060a8;
+        --color: var(--base-color-sega) !important;
     }
 
     &[data-brand="konami"] {
-        --base-color: #e60012;
+        --color: var(--base-color-konami) !important;
     }
+
+    background-color: color-mix(in srgb, var(--color) 15%, transparent);
+    border-radius: 16px;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid color-mix(in srgb, var(--color) 30%, transparent);
+    color: #333333;
+    box-shadow: 0 8px 20px -4px color-mix(in srgb, var(--color) 35%, transparent);
+
+    flex: 1 1 100%;
+    box-sizing: border-box;
 }
 
 @media(min-width: 1016px) {
@@ -53,20 +53,5 @@ const props = defineProps<{
 
 .otoge-wrapper {
     margin-bottom: 25px;
-}
-
-.portfolio-wrapper {
-    margin-left: 20px;
-    margin-right: 20px;
-
-    & .portfolio-inner {
-        margin-left: 10px;
-    }
-}
-
-img.portfolio-thumbnail {
-    width: 80%;
-    min-width: 600px;
-    height: auto;
 }
 </style>

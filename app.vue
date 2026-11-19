@@ -23,7 +23,10 @@ onMounted(() => {
 :root {
     --background: light-dark(white, #333333);
     --text: light-dark(black, #e7e7e7);
-    --accent: light-dark(#ffb6b6, #b45252);
+    --base-color: #ffb6b6;
+    --base-color-sega: #0060a8;
+    --base-color-konami: #e60012;
+    --accent: light-dark(var(--base-color), #b45252);
     --font-main: 'Pretendard Variable', sans-serif;
     --font-monospace: 'SarasaMonoCL-Regular', monospace;
     --header-height: 4em;

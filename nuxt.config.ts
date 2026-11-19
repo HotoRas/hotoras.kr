@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     nitro: {
         preset: 'static',
         prerender: {
-            routes: ['/', '/portfolio', '/about', '/contact', '/otoge']
+            routes: ['/', '/portfolio', '/about', '/contact', '/otoge', '/linuxInKorea']
         }
     }
 })

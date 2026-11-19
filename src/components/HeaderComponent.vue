@@ -28,6 +28,8 @@
                             <li>
                                 <NuxtLink class="dropdown-item" to="/otoge" title="Music Games">Music Games
                                 </NuxtLink>
+                                <NuxtLink class="dropdown-item" to="/linuxInKorea" title="Using Linux in Korea">Using
+                                    Linux<br>in Korea</NuxtLink>
                             </li>
                         </ul>
                     </li>
