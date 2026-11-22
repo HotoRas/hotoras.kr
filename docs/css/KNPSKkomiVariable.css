@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'KNPS Kkomi Pen Mono Variable';
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/dj-lumiere/kkomi-pen-mono@v1.2.1/fonts/variable/KNPSKkomiPenMono-VF.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'KNPS Kkomi Pen Mono Variable';
+    font-style: italic;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/dj-lumiere/kkomi-pen-mono@v1.2.1/fonts/variable/KNPSKkomiPenMono-Italic-VF.woff2') format('woff2');
+}

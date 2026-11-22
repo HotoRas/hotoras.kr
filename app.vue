@@ -20,6 +20,14 @@ onMounted(() => {
 </template>
 
 <style>
+@font-face {
+    font-family: 'KNPS Kkomi Pen Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/dj-lumiere/kkomi-pen-mono@v1.2.1/fonts/woff2/KNPSKkomiPenMono-Regular.woff2') format('woff2');
+}
+
 :root {
     --background: light-dark(white, #333333);
     --text: light-dark(black, #e7e7e7);
@@ -28,7 +36,7 @@ onMounted(() => {
     --base-color-konami: #e60012;
     --accent: light-dark(var(--base-color), #b45252);
     --font-main: 'Pretendard Variable', sans-serif;
-    --font-monospace: 'SarasaMonoCL-Regular', monospace;
+    --font-monospace: 'KNPS Kkomi Pen Mono', monospace;
     --header-height: 4em;
 }
 
