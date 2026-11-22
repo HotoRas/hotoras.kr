@@ -1,0 +1,1 @@
+import{c as e,f as t,o as n,p as r,t as i}from"#entry";var a={},o={class:`content about`};function s(t,n){return r(),e(`div`,o,`TODO about HotoRas`)}var c=i(a,[[`render`,s]]),l=t({__name:`about`,setup(e){return(e,t)=>(r(),n(c))}});export{l as default};
